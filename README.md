@@ -56,9 +56,8 @@ python3 ssconf.py
 >
 > 1. 由于引用的大部分规则是[gfwlist](https://github.com/gfwlist/gfwlist)和[china_ip_list](https://github.com/17mon/china_ip_list) , 所以在以后的过程中使用有问题的话, 除非是template中的模板文件, 否则还请大家多多提交pull request至这两个repo, 以维护我们爱国圈的健康成长
 > 2. 为什么没有加广告过滤: 广告过滤规则大多比较繁琐并且有时效性, 也不怎么稳定, 所以我是不加REJECT规则的, 实在想要的话, 可以去参考[ss.conf-for-surge](https://github.com/R0uter/ss.conf-for-surge)这个项目的代码修改下即可
-> 3. 不想要gfwlist怎么办?  参考代码中方法`genShadowrocketGFWAndChinaIPConf()`和`genSurgeGFWAndChinaIPConf()` 中的注释部分, 按照提示修改即可. 但是五千多条的IP白名单却是不能不要的, 这种情况下FINAL也得需要设置为PROXY. 至于精简IP白名单的话, 有识之士可以去修改[china_ip_list](https://github.com/17mon/china_ip_list) 
-> 4. steam用户请看template\surge_gfwlist&whiteIP_conf 的312-314行,  或者是 template\shadowrocket_gfwlist&whiteIP_conf的287-289行, 上steam爱不爱国取决于你们当前的网络环境
-> 5. 一般的规则很多都在GEOIP里面了而已,看不见, 我只是用了套另外的CNIP判断方法而已, 一万条真的一点都不多啊 ~~~~~
+> 3. 不想要gfwlist怎么办?  参考代码中方法`genXXXXXX()` 中的注释部分, 按照提示修改即可. 但是五千多条的IP白名单却是不能不要的, 这种情况下FINAL也得需要设置为PROXY. 至于精简IP白名单的话, 有识之士可以去修改[china_ip_list](https://github.com/17mon/china_ip_list) 
+> 4. 一般的规则很多都在GEOIP里面了而已,看不见, 我只是用了套另外的CNIP判断方法而已, 一万条真的一点都不多啊 ~~~~~
 
 
 
