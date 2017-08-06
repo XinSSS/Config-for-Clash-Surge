@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2017-08-05 01:41:47
+# updated on 2017-08-06 21:36:30
 
 DOMAIN-SUFFIX,2dbook.com,Proxy
 DOMAIN-SUFFIX,4tern.com,Proxy
