@@ -39,7 +39,7 @@ Surge: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/mast
 
 Shadowrocket: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/shadowrocket_gfwlist%26whiteIP.conf
 
-Shadowrocket: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/quan_gfwlist%26whiteIP.conf
+Quantumult: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/quan_gfwlist%26whiteIP.conf
 
 也可以自行通过python脚本自动根据最新的GFWList和china_ip_list生成最新的配置文件, 注意生成文件之前可以先行修改`template`目录中的`surge_gfwlist&whiteIP_conf`配置你的服务器.
 
