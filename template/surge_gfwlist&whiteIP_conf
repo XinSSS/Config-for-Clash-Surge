@@ -14,7 +14,7 @@ dns-server = 119.29.29.29,223.5.5.5,8.8.8.8,208.67.222.222
 [Proxy Group]
 #苹果相关通信, 默认选择 DIRECT
 🍎PROXY = select, DIRECT, 🇺🇸US1, 🇭🇰HK1, 🇯🇵JP1, 🇸🇬SG1
-#直连规则(像是国内得常见网站等等)代理服务器组, 默认也是DIRECT,
+#直连规则(像是国内的常见网站等等)代理服务器组, 默认也是DIRECT,
 nProxy = select, DIRECT, 🇭🇰HK1
 #根据延迟自动选择最优
 @Auto = url-test, 🇭🇰HK1, 🇸🇬SG1, 🇯🇵JP1, url = http://www.gstatic.com/generate_204
