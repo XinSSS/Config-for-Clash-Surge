@@ -1,5 +1,5 @@
 # Conf-for-Surge-Shadowrocket
-Surge Shadowrocket conf
+Surge Shadowrocket Quantumult conf
 
 ## **万条规则让你爽到爆**
 
@@ -23,6 +23,8 @@ Surge Shadowrocket conf
 
 ##### 使用ShadowRocket的情况的下, 则可以不需要修改任何文件直接导入即可使用
 
+##### 使用Quantumult的情况的下, 请在Favorite中添加TCP FILTER, Replace后请注意, `🍎PROXY` 为苹果服务器的连接规则, `Proxy`为一般情况下的代理规则, `nProxy`为直连规则, `FinalProxy` 则请看如下提示.
+
 > 由于已经导入了比较全面的CN IP白名单 + GFWList黑名单, 所以你最后可以根据自己的情况去设置FINAL规则究竟是PROXY还是DIRECT, 就是说, 当你访问没有被墙的国外域名时, 你是想直连呢还是想走代理?
 
 ------
@@ -37,7 +39,7 @@ Surge: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/mast
 
 Shadowrocket: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/shadowrocket_gfwlist%26whiteIP.conf
 
-
+Shadowrocket: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/quan_gfwlist%26whiteIP.conf
 
 也可以自行通过python脚本自动根据最新的GFWList和china_ip_list生成最新的配置文件, 注意生成文件之前可以先行修改`template`目录中的`surge_gfwlist&whiteIP_conf`配置你的服务器.
 
