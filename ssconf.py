@@ -158,6 +158,24 @@ def genShadowrocketGFWAndChinaIPConf():
     confs1.write(file_content)
     confs1.close()
 
+def genQuantumultGFWAndChinaIPConf():
+    f = codecs.open('template/quan_gfwlist&whiteIP_conf', 'r', 'utf-8')
+    gfwlist = codecs.open('list/gfwlist.txt', 'r', 'utf-8')
+    iplist = codecs.open('list/suchinaIPlist.txt', 'r', 'utf-8')
+    file_content = f.read()
+    iplist_buffer = iplist.read()
+    gfwlist_buffer = gfwlist.read()
+    gfwlist.close()
+    iplist.close()
+    f.close()
+
+    # 如果不想要全面的GFWList, 请把下面这行代码中的gfwlist_buffer.replace('DOMAIN-SUFFIX,', 'HOST-SUFFIX,')替换为 '' 即可
+    file_content = file_content.replace('__GFWLIST__', gfwlist_buffer.replace('DOMAIN-SUFFIX,', 'HOST-SUFFIX,'))
+    file_content = file_content.replace('__CHINAIP__', iplist_buffer)
+
+    confs = codecs.open('configFileHere/quan_gfwlist&whiteIP.conf', 'w', 'utf-8')
+    confs.write(file_content)
+    confs.close()
 
 def main():
     print('Getting GFW list...')
@@ -166,9 +184,10 @@ def main():
     getSurgeChinaIPList()
     getShadowrocketChinaIPList()
 
-    print('Generate config file:surge_gfwlist&whiteIP.conf shadowrocket_gfwlist&whiteIP.conf ')
+    print('Generate config file:surge_gfwlist&whiteIP.conf shadowrocket_gfwlist&whiteIP.conf quan_gfwlist&whiteIP.conf')
     genSurgeGFWAndChinaIPConf()
     genShadowrocketGFWAndChinaIPConf()
+    genQuantumultGFWAndChinaIPConf()
 
     print('All done!')
     print('Now you need edit config file to add your server infomation.')
