@@ -17,20 +17,11 @@ Surge Shadowrocket conf
 
 ### 使用之前你需要更改哪些文件:
 
+使用Surge的情况的下, 仅需要去`configFileHere/surge_gfwlist&whiteIP.conf` 添加你的Proxy和配置ProxyGroup.
 
-一般情况下, 仅需要修改`template`目录下的文件即可
+##### 请注意 !!! 修改Surge的ProxyGroup时, 请仔细阅读注释, 勿删除(可修改)已经和规则相关联的ProxyGroup: `🍎PROXY` `nProxy` `FinalProxy` 
 
-使用Surge的情况的下,这里需要你去修改` surge_gfwlist&whiteIP_conf `这个文件, 在这里配置你的Proxy和ProxyGroup.
-
-#### 请注意 !!! 
-
-Surge的配置文件中,苹果服务器相关的ProxyGroup是`🍎PROXY`, 此组默认是direct直连. 
-其他直连规则的ProxyGroup是`nProxy`, 默认也是direct直连. 
-因此在配置你自己的服务器时, 请注意这两组和`Proxy`组, 不要删除, 因为已经和规则关联. 
-
-
-
-***使用ShadowRocket的情况的下, 则可以不需要修改任何文件***
+##### 使用ShadowRocket的情况的下, 则可以不需要修改任何文件直接导入即可使用
 
 > 由于已经导入了比较全面的CN IP白名单 + GFWList黑名单, 所以你最后可以根据自己的情况去设置FINAL规则究竟是PROXY还是DIRECT, 就是说, 当你访问没有被墙的国外域名时, 你是想直连呢还是想走代理?
 
@@ -38,7 +29,17 @@ Surge的配置文件中,苹果服务器相关的ProxyGroup是`🍎PROXY`, 此组
 
 
 
-### 如何更新&生成配置文件:
+### 如何使用&更新&生成配置文件:
+
+你可以直接复制配置文件URL:
+
+Surge: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/surge_gfwlist%26whiteIP.conf
+
+Shadowrocket: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/shadowrocket_gfwlist%26whiteIP.conf
+
+
+
+也可以自行通过python脚本自动根据最新的GFWList和china_ip_list生成最新的配置文件, 注意生成文件之前可以先行修改`template`目录中的`surge_gfwlist&whiteIP_conf`配置你的服务器.
 
 ```python
 #在此过程中, 你可能需要用到 pip install ....
