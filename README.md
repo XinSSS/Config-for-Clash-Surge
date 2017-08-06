@@ -19,7 +19,7 @@ Surge Shadowrocket conf
 
 使用Surge的情况的下, 仅需要去`configFileHere/surge_gfwlist&whiteIP.conf` 添加你的Proxy和配置ProxyGroup.
 
-##### 请注意 !!! 修改Surge的ProxyGroup时, 请仔细阅读注释, 勿删除(可修改)已经和规则相关联的ProxyGroup: `🍎PROXY` `nProxy` `FinalProxy` 
+##### 请注意 !!! 修改Surge的ProxyGroup时, 请仔细阅读注释, 勿删除(可修改)已经和规则相关联的ProxyGroup: `🍎PROXY` `Proxy` `nProxy` `FinalProxy` 
 
 ##### 使用ShadowRocket的情况的下, 则可以不需要修改任何文件直接导入即可使用
 
