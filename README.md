@@ -20,9 +20,9 @@ Surge Shadowrocket Quantumult conf
 ##### 使用ShadowRocket的情况的下, 则可以不需要修改任何文件直接导入即可使用
 ---
 
-使用Surge的情况的下, 仅需要去`configFileHere/surge_gfwlist&whiteIP.conf` 添加你的Proxy和配置ProxyGroup.
+使用Surge的情况的下, 需要在 `surge_gfwlist&whiteIP.conf` 添加你的Proxy和配置ProxyGroup.
 
-##### 请注意 !!! 修改Surge的ProxyGroup时, 请仔细阅读注释, 勿删除(可修改)已经和规则相关联的ProxyGroup: `🍎PROXY` `Proxy` `nProxy` `FinalProxy` 
+##### 请注意 !!! 修改Surge的ProxyGroup时, 请仔细阅读注释, 勿删除(可修改)已经和规则相关联的ProxyGroup: `🍎PROXY` `Proxy` `nProxy` `FinalProxy` , 解释下同Quantumult
 
 ##### 使用Quantumult的情况的下, 请在Favorite中添加TCP FILTER, Replace后请注意, `🍎PROXY` 为苹果服务器的连接规则, `Proxy`为一般情况下的代理规则, `nProxy`为直连规则, `FinalProxy` 则请看如下提示.
 
