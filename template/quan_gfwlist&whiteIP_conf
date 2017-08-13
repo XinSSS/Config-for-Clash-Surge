@@ -59,6 +59,7 @@ USER-AGENT,Moke*,nProxy
 USER-AGENT,osee2unifiedRelease*,nProxy
 USER-AGENT,QQ*,nProxy
 USER-AGENT,Spark*,nProxy
+USER-AGENT,TeamViewer*,nProxy
 USER-AGENT,TIM*,nProxy
 USER-AGENT,WeChat*,nProxy
 # Spark
@@ -155,6 +156,7 @@ HOST-SUFFIX,lecloud.com,nProxy
 HOST-SUFFIX,lemicp.com,nProxy
 HOST-SUFFIX,letv.com,nProxy
 HOST-SUFFIX,letvcloud.com,nProxy
+HOST-SUFFIX,live.com,nProxy
 HOST-SUFFIX,lucifr.com,nProxy
 HOST-SUFFIX,luoo.net,nProxy
 HOST-SUFFIX,lxdns.com,nProxy
@@ -221,7 +223,6 @@ HOST-SUFFIX,weico.cc,nProxy
 HOST-SUFFIX,weiphone.com,nProxy
 HOST-SUFFIX,weiphone.net,nProxy
 HOST-SUFFIX,windowsupdate.com,nProxy
-HOST-SUFFIX,workflow.is,nProxy
 HOST-SUFFIX,workflowy.com,nProxy
 HOST-SUFFIX,xdrig.com,nProxy
 HOST-SUFFIX,xiami.com,nProxy
