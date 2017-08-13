@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: SDvoDAVgoZi9a06Ugg+u9A
+! Checksum: bOnrPYubKXIbOK9ZWrH/7Q
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Thu, 03 Aug 2017 23:28:09 -0400
+! Last Modified: Sun, 13 Aug 2017 00:10:01 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -34,6 +34,7 @@
 !--||barracuda.com
 ||bash-hackers.org
 ||beeg.com
+||global.bing.com
 ||bloombergview.com
 ||boysmaster.com
 ||carfax.com
@@ -48,6 +49,7 @@
 ||dawangidc.com
 ||deezer.com
 ||desipro.de
+||dingchin.com.tw
 ||dish.com
 |http://img.dlsite.jp/
 ||dm530.net
@@ -1306,6 +1308,7 @@ busytrade.com
 .buzzhand.net
 .buzzorange.com
 ||buzzorange.com
+||bvpn.com
 bwsj.hk
 ||bx.tl
 
@@ -1857,6 +1860,8 @@ dongtaiwang.com
 .dotplane.com
 ||dotplane.com
 ||dotsub.com
+.dotvpn.com
+||dotvpn.com
 .doub.io
 ||doub.io
 ||dougscripts.com
@@ -2217,6 +2222,8 @@ findmespot.com
 ||findyoutube.com
 .fingerdaily.com
 finler.net
+.firearmsworld.net
+|http://firearmsworld.net
 .fireofliberty.org
 ||fireofliberty.org
 .firetweet.io
@@ -2444,6 +2451,7 @@ www.ftchinese.com/story/001067479
 .ftchinese.com/story/001068483
 .ftchinese.com/story/001069373
 .ftchinese.com/story/001069516
+.ftchinese.com/story/001069517
 .ftchinese.com/story/001070307
 .ftchinese.com/story/001070809
 .ftchinese.com/story/001070990
@@ -2545,6 +2553,7 @@ geocities.jp
 ||geohot.com
 ||geometrictools.com
 .gerefoundation.org
+||getastrill.com
 .getchu.com
 .getcloak.com
 ||getcloak.com
@@ -2582,7 +2591,6 @@ gigporno.ru
 |http://softwaredownload.gitbooks.io
 
 !---GitHub---
-.github.com
 |https://gist.github.com
 http://cthlo.github.io/hktv
 ||haoel.github.io
@@ -3700,6 +3708,7 @@ abitno.linpie.com/use-ipv6-to-fuck-gfw
 linuxtoy.org/archives/installing-west-chamber-on-ubuntu
 .lionsroar.com
 .lipuman.com
+||liquidvpn.com
 ||greatfire.us7.list-manage.com
 ||listentoyoutube.com
 listorious.com
@@ -4076,6 +4085,8 @@ namgyalmonastery.org
 .naol.ca
 .naol.cc
 uighur.narod.ru
+.nat.moe
+||nat.moe
 cyberghost.natado.com
 ||national-lottery.co.uk
 news.nationalgeographic.com/news/2014/06/140603-tiananmen-square
@@ -4105,6 +4116,7 @@ bolin.netfirms.com
 netsneak.com
 .network54.com
 networkedblogs.com
+.networktunnel.net
 neverforget8964.org
 new-3lunch.net
 .new-akiba.com
@@ -4271,6 +4283,8 @@ www2.ohchr.org/english/bodies/cat/docs/ngos/II_China_41.pdf
 .oikos.com.tw/v4
 .oiktv.com
 oizoblog.com
+.ok.ru
+||ok.ru
 .okayfreedom.com
 ||okayfreedom.com
 okk.tw
@@ -4367,6 +4381,7 @@ paljorpublications.com
 .paltalk.com
 ||pangci.net
 ||panacom.co.jp
+||pandapow.co
 .pandapow.net
 .pandavpn-jp.com
 .panluan.net
@@ -4643,6 +4658,7 @@ blog.qooza.hk/dafengqixi
 ||qtrac.eu
 .quannengshen.org
 |http://quannengshen.org
+quantumbooter.net
 ||quitccp.net
 .quitccp.net
 ||quitccp.org
@@ -4705,6 +4721,7 @@ rcinet.ca
 .recovery.org.tw
 |http://online.recoveryversion.org
 ||recoveryversion.com.tw
+||red-lang.org
 .redchinacn.net
 |http://redchinacn.net
 redchinacn.org
@@ -5382,6 +5399,7 @@ tibet.fr
 tibet.nu
 .tibet.org
 ||tibet.org
+.tibet.sk
 tibet.org.tw
 .tibet.to
 .tibet-envoy.eu
@@ -5471,6 +5489,8 @@ tibetsites.com
 tibettimes.net
 ||tibetwrites.org
 .ticket.com.tw
+.tigervpn.com
+||tigervpn.com
 .timdir.com
 |http://timdir.com
 .time.com
@@ -5594,6 +5614,8 @@ bbs.tuitui.info
 .tunein.com
 |http://tunein.com
 ||tunnelbear.com
+.tunnelr.com
+||tunnelr.com
 .tuo8.blue
 ||tuo8.blue
 .tuo8.cc
@@ -5693,6 +5715,7 @@ tweetree.com
 ||tweettunnel.com
 ||tweetwally.com
 tweetymail.com
+||twelve.today
 ||twftp.org
 twibase.com
 .twibble.de
@@ -5839,6 +5862,7 @@ ultravpn.fr
 ultraxs.com
 umich.edu/~falun
 ||unblock.cn.com
+.unblocker.yt
 unblock-us.com
 ||unblock-us.com
 .unblockdmm.com
@@ -6000,6 +6024,7 @@ vocn.tv
 .voxer.com
 ||voxer.com
 .voy.com
+||vpn.ac
 .vpn4all.com
 ||vpn4all.com
 .vpnaccount.org
@@ -6030,6 +6055,8 @@ vpnhq.com
 ||vpninja.net
 .vpnintouch.com
 ||vpnintouch.net
+vpnjack.com
+||vpnjack.com
 .vpnpick.com
 ||vpnpick.com
 ||vpnpop.com
@@ -6041,6 +6068,8 @@ vpnhq.com
 ||vpnsecure.me
 .vpnshazam.com
 ||vpnshazam.com
+.vpnshieldapp.com
+||vpnshieldapp.com
 .vpnsp.com
 .vpntraffic.com
 .vpntunnel.com
@@ -6239,6 +6268,8 @@ zh-yue.wikipedia.org
 ||vegas.williamhill.com
 ||willw.net
 ||windowsphoneme.com
+.windscribe.com
+||windscribe.com
 winning11.com
 winwhispers.info
 ||wiredbytes.com
@@ -6513,8 +6544,9 @@ yx51.net
 !--------------------ZZ-------------------------
 zacebook.com
 .zalmos.com
+||zalmos.com
 ||zannel.com
-.zaobao.com
+!--.zaobao.com
 .zaobao.com.sg
 ||zaobao.com.sg
 .zaozon.com
@@ -6523,6 +6555,9 @@ zacebook.com
 .zello.com
 ||zello.com
 .zengjinyan.org
+.zenmate.com
+||zenmate.com
+||zenmate.com.ru
 ||zeutch.com
 !--www.zfreet.com/post/usejump-browns.html
 .zfreet.com
@@ -6537,7 +6572,7 @@ zhengwunet.org
 zhenlibu.info
 ||zhenlibu.info
 .zhenlibu1984.com
-|http://zhenlibu1984.com
+||zhenlibu1984.com
 |http://zhenxiang.biz
 .zhinengluyou.com
 zhongguo.ca
@@ -6573,6 +6608,7 @@ zomobo.net
 ||zootool.com
 .zoozle.net
 writer.zoho.com
+||zpn.im
 .zshare.net/download
 .zsrhao.com
 .zuo.la
@@ -6607,6 +6643,7 @@ zhengjian
 .gov.tw
 ||tacc.cwb.gov.tw
 immigration.gov.tw
+||mjib.gov.tw
 ||nsc.gov.tw
 ||ntbna.gov.tw
 ||ntsna.gov.tw

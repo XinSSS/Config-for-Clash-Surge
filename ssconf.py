@@ -130,7 +130,7 @@ def genSurgeGFWAndChinaIPConf():
     iplist.close()
     f.close()
 
-    #如果不想要全面的GFWList, 请把下面这行代码中的gfwlist_buffer替换为 '' 即可
+    # 如果不想要全面的GFWList, 请把下面这行代码中的gfwlist_buffer替换为 '' 即可
     file_content = file_content.replace('__GFWLIST__', gfwlist_buffer)
     file_content = file_content.replace('__CHINAIP__', iplist_buffer)
 
