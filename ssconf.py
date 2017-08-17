@@ -130,13 +130,18 @@ def genSurgeGFWAndChinaIPConf():
     iplist.close()
     f.close()
 
-    # 如果不想要全面的GFWList, 请把下面这行代码中的gfwlist_buffer替换为 '' 即可
-    file_content = file_content.replace('__GFWLIST__', gfwlist_buffer)
-    file_content = file_content.replace('__CHINAIP__', iplist_buffer)
+    GEOIPList = 'GEOIP,CN,nProxy'
 
-    confs = codecs.open('configFileHere/surge_gfwlist&whiteIP.conf', 'w', 'utf-8')
+    file_content = file_content.replace('__GFWLIST__', gfwlist_buffer)
+    file_content = file_content.replace('__CHINAIP__', GEOIPList)
+    confs = codecs.open('configFileHere/surge_gfwlist&GEOIP.conf', 'w', 'utf-8')
     confs.write(file_content)
     confs.close()
+
+    file_content = file_content.replace(GEOIPList, iplist_buffer)
+    confw = codecs.open('configFileHere/surge_gfwlist&whiteIP.conf', 'w', 'utf-8')
+    confw.write(file_content)
+    confw.close()
 
 
 def genShadowrocketGFWAndChinaIPConf():
@@ -150,13 +155,18 @@ def genShadowrocketGFWAndChinaIPConf():
     iplist.close()
     f.close()
 
-    # 如果不想要全面的GFWList, 请把下面这行代码中的gfwlist_buffer.replace('Proxy', 'PROXY')替换为 '' 即可
-    file_content = file_content.replace('__GFWLIST__', gfwlist_buffer.replace('Proxy', 'PROXY'))
-    file_content = file_content.replace('__CHINAIP__', iplist_buffer)
+    GEOIPList = 'GEOIP,CN,DIRECT'
 
-    confs1 = codecs.open('configFileHere/shadowrocket_gfwlist&whiteIP.conf', 'w', 'utf-8')
-    confs1.write(file_content)
-    confs1.close()
+    file_content = file_content.replace('__GFWLIST__', gfwlist_buffer.replace('Proxy', 'PROXY'))
+    file_content = file_content.replace('__CHINAIP__', GEOIPList)
+    confs = codecs.open('configFileHere/shadowrocket_gfwlist&GEOIP.conf', 'w', 'utf-8')
+    confs.write(file_content)
+    confs.close()
+
+    file_content = file_content.replace(GEOIPList, iplist_buffer)
+    confw = codecs.open('configFileHere/shadowrocket_gfwlist&whiteIP.conf', 'w', 'utf-8')
+    confw.write(file_content)
+    confw.close()
 
 def genQuantumultGFWAndChinaIPConf():
     f = codecs.open('template/quan_gfwlist&whiteIP_conf', 'r', 'utf-8')
@@ -169,13 +179,18 @@ def genQuantumultGFWAndChinaIPConf():
     iplist.close()
     f.close()
 
-    # 如果不想要全面的GFWList, 请把下面这行代码中的gfwlist_buffer.replace('DOMAIN-SUFFIX,', 'HOST-SUFFIX,')替换为 '' 即可
-    file_content = file_content.replace('__GFWLIST__', gfwlist_buffer.replace('DOMAIN-SUFFIX,', 'HOST-SUFFIX,'))
-    file_content = file_content.replace('__CHINAIP__', iplist_buffer)
+    GEOIPList = 'GEOIP,CN,nProxy'
 
-    confs = codecs.open('configFileHere/quan_gfwlist&whiteIP.conf', 'w', 'utf-8')
+    file_content = file_content.replace('__GFWLIST__', gfwlist_buffer.replace('DOMAIN-SUFFIX,', 'HOST-SUFFIX,'))
+    file_content = file_content.replace('__CHINAIP__', GEOIPList)
+    confs = codecs.open('configFileHere/quan_gfwlist&GEOIP.conf', 'w', 'utf-8')
     confs.write(file_content)
     confs.close()
+
+    file_content = file_content.replace(GEOIPList, iplist_buffer)
+    confw = codecs.open('configFileHere/quan_gfwlist&whiteIP.conf', 'w', 'utf-8')
+    confw.write(file_content)
+    confw.close()
 
 def main():
     print('Getting GFW list...')

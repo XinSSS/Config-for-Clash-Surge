@@ -42,6 +42,16 @@ Shadowrocket: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrock
 
 Quantumult: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/quan_gfwlist%26whiteIP.conf
 
+**使用GEOIP的配置文件URL如下(简化为五千条规则配置, 🙁):**
+
+Surge: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/surge_gfwlist%26GEOIP.conf
+
+Shadowrocket: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/shadowrocket_gfwlist%26GEOIP.conf
+
+Quantumult: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/quan_gfwlist%26GEOIP.conf
+
+
+
 也可以自行通过python脚本自动根据GFWList和china_ip_list的github生成最新的配置文件, **Surge请注意**:生成文件之前可以先行修改`template`目录中的`surge_gfwlist&whiteIP_conf`配置你的服务器.
 
 ```python

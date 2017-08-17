@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: bOnrPYubKXIbOK9ZWrH/7Q
+! Checksum: 5YnPTrbQu4x3WaV77jQ3SQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sun, 13 Aug 2017 00:10:01 -0400
+! Last Modified: Tue, 15 Aug 2017 03:17:03 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -75,6 +75,7 @@ share.dmhy.org
 ||gettyimages.com
 ||getuploader.com
 |https://github.com/programthink/zhao
+|https://raw.githubusercontent.com/programthink/zhao
 ||glass8.eu
 ||glype.com
 ||go141.com
@@ -1467,7 +1468,8 @@ chinaaid.org
 chinaaid.net
 chinacomments.org
 ||chinacomments.org
-chinachange.org
+.chinachange.org
+||chinachange.org
 chinachannel.hk
 ||chinachannel.hk
 .chinacitynews.be
@@ -2567,6 +2569,7 @@ geocities.jp
 .getjetso.com/forum
 getiton.com
 .getsocialscope.com
+||getsync.com
 gfbv.de
 .gfgold.com.hk
 .gfsale.com
@@ -3618,9 +3621,12 @@ kun.im
 kusocity.com
 ||kwcg.ca
 kwongwah.com.my
+.kxsw.life
+||kxsw.life
 .kyofun.com
 kyohk.net
 ||kyoyue.com
+.kyzyhello.com
 .kzeng.info
 ||kzeng.info
 
@@ -4469,8 +4475,17 @@ picturesocial.com
 ||pinimg.com
 .pinkrod.com
 ||pinoy-n.com
+||pinterest.at
+||pinterest.co.kr
+||pinterest.co.uk
 .pinterest.com
 ||pinterest.com
+||pinterest.de
+||pinterest.dk
+||pinterest.fr
+||pinterest.jp
+||pinterest.nl
+||pinterest.se
 .piposay.com
 piraattilahti.org
 .piring.com
@@ -4738,6 +4753,7 @@ renminbao.com
 ||renyurenquan.org
 |http://certificate.revocationcheck.com
 subacme.rerouted.org
+||resilio.com
 .reuters.com
 ||reuters.com
 ||reutersmedia.net
@@ -6088,7 +6104,6 @@ vraiesagesse.net
 ||vuku.cc
 
 !--------------------WW-------------------------
-||w.org
 lists.w3.org/archives/public
 !--||w3schools.com
 ||waffle1999.com
