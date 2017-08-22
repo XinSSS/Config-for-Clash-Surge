@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2017-08-17 12:07:48
+# updated on 2017-08-22 13:43:31
 
 DOMAIN-SUFFIX,2dbook.com,Proxy
 DOMAIN-SUFFIX,4tern.com,Proxy
@@ -148,6 +148,7 @@ DOMAIN-SUFFIX,sm-miracle.com,Proxy
 DOMAIN-SUFFIX,spotify.com,Proxy
 DOMAIN-SUFFIX,springboardplatform.com,Proxy
 DOMAIN-SUFFIX,sprite.org,Proxy
+DOMAIN-SUFFIX,superokayama.com,Proxy
 DOMAIN-SUFFIX,superpages.com,Proxy
 DOMAIN-SUFFIX,swagbucks.com,Proxy
 DOMAIN-SUFFIX,switch1.jp,Proxy
@@ -3070,6 +3071,7 @@ DOMAIN-SUFFIX,nylon-angel.com,Proxy
 DOMAIN-SUFFIX,nylonstockingsonline.com,Proxy
 DOMAIN-SUFFIX,a1.nyt.com,Proxy
 DOMAIN-SUFFIX,int.nyt.com,Proxy
+DOMAIN-SUFFIX,s1.nyt.com,Proxy
 DOMAIN-SUFFIX,static01.nyt.com,Proxy
 DOMAIN-SUFFIX,typeface.nyt.com,Proxy
 DOMAIN-SUFFIX,nytchina.com,Proxy
@@ -3740,6 +3742,7 @@ DOMAIN-SUFFIX,sohfrance.org,Proxy
 DOMAIN-SUFFIX,chinese.soifind.com,Proxy
 DOMAIN-SUFFIX,sokamonline.com,Proxy
 DOMAIN-SUFFIX,solidaritetibet.org,Proxy
+DOMAIN-SUFFIX,solidfiles.com,Proxy
 DOMAIN-SUFFIX,somee.com,Proxy
 DOMAIN-SUFFIX,songjianjun.com,Proxy
 DOMAIN-SUFFIX,sonicbbs.cc,Proxy
@@ -4784,6 +4787,7 @@ DOMAIN-SUFFIX,xa.yimg.com,Proxy
 DOMAIN-SUFFIX,yingsuoss.com,Proxy
 DOMAIN-SUFFIX,yipub.com,Proxy
 DOMAIN-SUFFIX,yinlei.org,Proxy
+DOMAIN-SUFFIX,yizhihongxing.com,Proxy
 DOMAIN-SUFFIX,yobt.com,Proxy
 DOMAIN-SUFFIX,yogichen.org,Proxy
 DOMAIN-SUFFIX,yong.hu,Proxy
