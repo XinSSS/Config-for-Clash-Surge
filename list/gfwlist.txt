@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2017-09-04 15:43:26
+# updated on 2017-09-11 10:14:25
 
 DOMAIN-SUFFIX,2dbook.com,Proxy
 DOMAIN-SUFFIX,4tern.com,Proxy
@@ -180,6 +180,7 @@ DOMAIN-SUFFIX,zim.vn,Proxy
 DOMAIN-SUFFIX,zozotown.com,Proxy
 DOMAIN-SUFFIX,xn--4gq171p.com,Proxy
 DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,Proxy
+DOMAIN-SUFFIX,s3.amazonaws.com,Proxy
 DOMAIN-SUFFIX,china-mmm.jp.net,Proxy
 DOMAIN-SUFFIX,lsxszzg.com,Proxy
 DOMAIN-SUFFIX,china-mmm.net,Proxy
@@ -1857,8 +1858,8 @@ DOMAIN-SUFFIX,frontlinedefenders.org,Proxy
 DOMAIN-SUFFIX,frootvpn.com,Proxy
 DOMAIN-SUFFIX,fscked.org,Proxy
 DOMAIN-SUFFIX,fsurf.com,Proxy
-DOMAIN-SUFFIX,ftchinese.com,Proxy
 DOMAIN-SUFFIX,www.ftchinese.com,Proxy
+DOMAIN-SUFFIX,ftchinese.com,Proxy
 DOMAIN-SUFFIX,ftv.com.tw,Proxy
 DOMAIN-SUFFIX,fucd.com,Proxy
 DOMAIN-SUFFIX,fuckcnnic.net,Proxy
@@ -1952,6 +1953,7 @@ DOMAIN-SUFFIX,ggssl.com,Proxy
 DOMAIN-SUFFIX,ghost.org,Proxy
 DOMAIN-SUFFIX,ghostpath.com,Proxy
 DOMAIN-SUFFIX,ghut.org,Proxy
+DOMAIN-SUFFIX,giantessnight.com,Proxy
 DOMAIN-SUFFIX,gifree.com,Proxy
 DOMAIN-SUFFIX,giga-web.jp,Proxy
 DOMAIN-SUFFIX,tw.gigacircle.com,Proxy
@@ -2319,6 +2321,7 @@ DOMAIN-SUFFIX,warbler.iconfactory.net,Proxy
 DOMAIN-SUFFIX,iconpaper.org,Proxy
 DOMAIN-SUFFIX,icu-project.org,Proxy
 DOMAIN-SUFFIX,w.idaiwan.com,Proxy
+DOMAIN-SUFFIX,iddddg.com,Proxy
 DOMAIN-SUFFIX,idemocracy.asia,Proxy
 DOMAIN-SUFFIX,identi.ca,Proxy
 DOMAIN-SUFFIX,idiomconnection.com,Proxy
@@ -3061,6 +3064,7 @@ DOMAIN-SUFFIX,gotdns.ch,Proxy
 DOMAIN-SUFFIX,maildns.xyz,Proxy
 DOMAIN-SUFFIX,no-ip.org,Proxy
 DOMAIN-SUFFIX,opendn.xyz,Proxy
+DOMAIN-SUFFIX,servehttp.com,Proxy
 DOMAIN-SUFFIX,sytes.net,Proxy
 DOMAIN-SUFFIX,whodns.xyz,Proxy
 DOMAIN-SUFFIX,zapto.org,Proxy
@@ -3741,6 +3745,7 @@ DOMAIN-SUFFIX,bbs.skykiwi.com,Proxy
 DOMAIN-SUFFIX,www.skype.com,Proxy
 DOMAIN-SUFFIX,skyvegas.com,Proxy
 DOMAIN-SUFFIX,xskywalker.com,Proxy
+DOMAIN-SUFFIX,skyxvpn.com,Proxy
 DOMAIN-SUFFIX,m.slandr.net,Proxy
 DOMAIN-SUFFIX,slaytizle.com,Proxy
 DOMAIN-SUFFIX,sleazydream.com,Proxy
@@ -4359,6 +4364,7 @@ DOMAIN-SUFFIX,ucdc1998.org,Proxy
 DOMAIN-SUFFIX,uchicago.edu,Proxy
 DOMAIN-SUFFIX,uderzo.it,Proxy
 DOMAIN-SUFFIX,udn.com,Proxy
+DOMAIN-SUFFIX,udn.com.tw,Proxy
 DOMAIN-SUFFIX,udnbkk.com,Proxy
 DOMAIN-SUFFIX,uforadio.com.tw,Proxy
 DOMAIN-SUFFIX,ufreevpn.com,Proxy

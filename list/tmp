@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: zdXTyVm/UvDBFfGyTR6NCA
+! Checksum: WCMjznlrIlZA+lwp1p+aWQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 02 Sep 2017 04:12:46 -0400
+! Last Modified: Sat, 09 Sep 2017 03:01:52 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -226,6 +226,7 @@ share.dmhy.org
 !-----------------DNS Poisoning-----------------
 !---Amazon---
 !-||cdn-images.mailchimp.com
+|https://*.s3.amazonaws.com
 
 !----------------Frauds & Scams-----------------
 china-mmm.jp.net
@@ -2401,6 +2402,9 @@ hk.frienddy.com/hk
 ||frootvpn.com
 ||fscked.org
 .fsurf.com
+
+!!---FTChinese---
+|https://www.ftchinese.com
 .ftchinese.com/channel/video
 .ftchinese.com/story/00102753
 .ftchinese.com/story/001026807
@@ -2493,8 +2497,10 @@ www.ftchinese.com/story/001067479
 .ftchinese.com/story/001071042
 .ftchinese.com/story/001071106
 .ftchinese.com/story/001071181
+ftchinese.com/story/001071200
 .ftchinese.com/story/001071208
 .ftchinese.com/story/001071238
+.ftchinese.com/story/001072895
 .ftchinese.com/story/001073408
 .ftchinese.com/video/1437
 .ftchinese.com/video/1882
@@ -2616,6 +2622,8 @@ gfw.org.ua
 .ghostpath.com
 ||ghostpath.com
 ||ghut.org
+.giantessnight.com
+|http://giantessnight.com
 .gifree.com
 ||giga-web.jp
 tw.gigacircle.com
@@ -3299,6 +3307,7 @@ blogs.icerocket.com/tag
 !-- Google Pages
 ||icu-project.org
 w.idaiwan.com/forum
+||iddddg.com
 idemocracy.asia
 .identi.ca
 ||identi.ca
@@ -3672,6 +3681,7 @@ kwongwah.com.my
 kyohk.net
 ||kyoyue.com
 .kyzyhello.com
+||kyzyhello.com
 .kzeng.info
 ||kzeng.info
 
@@ -3974,6 +3984,7 @@ minghui-school.org
 mingjingnews.com
 ||mingjingtimes.com
 .mingpao.com
+||mingpao.com
 .mingpaocanada.com
 .mingpaomonthly.com
 |http://mingpaomonthly.com
@@ -4242,6 +4253,7 @@ nlfreevpn.com
 .maildns.xyz
 .no-ip.org
 .opendn.xyz
+.servehttp.com
 sytes.net
 .whodns.xyz
 .zapto.org
@@ -5099,6 +5111,7 @@ bbs.skykiwi.com
 ||skyvegas.com
 .xskywalker.com
 ||xskywalker.com
+||skyxvpn.com
 m.slandr.net
 .slaytizle.com
 .sleazydream.com
@@ -5924,6 +5937,7 @@ twurl.nl
 ||uderzo.it
 .udn.com
 ||udn.com
+||udn.com.tw
 udnbkk.com/bbs
 ||uforadio.com.tw
 ufreevpn.com
