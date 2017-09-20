@@ -33,6 +33,7 @@ PROCESS-NAME,Spotify,Proxy
 PROCESS-NAME,Telegram,Proxy
 PROCESS-NAME,Tweetbot,Proxy
 PROCESS-NAME,WhatsApp,Proxy
+PROCESS-NAME,trustd,DIRECT
 
 # Apple
 DOMAIN-SUFFIX,appsto.re,🍎PROXY
