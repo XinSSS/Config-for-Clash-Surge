@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: WCMjznlrIlZA+lwp1p+aWQ
+! Checksum: gSkzCTUI4mNOuB3+LYO/aw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 09 Sep 2017 03:01:52 -0400
+! Last Modified: Mon, 18 Sep 2017 03:23:01 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -221,12 +221,15 @@ share.dmhy.org
 
 !----------------------IDN----------------------
 ||xn--4gq171p.com
+||xn--i2ru8q2qg.com
 ||xn--p8j9a0d9c9a.xn--q9jyb4c
 
 !-----------------DNS Poisoning-----------------
 !---Amazon---
 !-||cdn-images.mailchimp.com
 |https://*.s3.amazonaws.com
+||agro.hk
+||pixiv.net
 
 !----------------Frauds & Scams-----------------
 china-mmm.jp.net
@@ -663,7 +666,6 @@ blogspot.com
 
 !!---KickASS---
 !--OFFICIAL URL list at: https://kastatus.com
-.kat.cr
 
 !!---NaughtyAmerica---
 ||naughtyamerica.com
@@ -682,6 +684,101 @@ blogspot.com
 @@|http://static.v2ex.com
 @@|http://workspace.v2ex.com
 @@|http://www.v2ex.com
+
+!!---Taiwan---
+||gov.taipei
+.gov.tw
+||archives.gov.tw
+||tacc.cwb.gov.tw
+||immigration.gov.tw
+||itaiwan.gov.tw
+||mjib.gov.tw
+||nsc.gov.tw
+||ntbna.gov.tw
+||ntsna.gov.tw
+taipei.gov.tw
+||thb.gov.tw
+
+@@||aftygh.gov.tw
+@@||aide.gov.tw
+@@||tpde.aide.gov.tw
+@@||arte.gov.tw
+@@||chukuang.gov.tw
+@@||cwb.gov.tw
+@@||cycab.gov.tw
+@@||dbnsa.gov.tw
+@@||df.gov.tw
+@@||eastcoast-nsa.gov.tw
+@@||erv-nsa.gov.tw
+@@||grb.gov.tw
+@@||gysd.nyc.gov.tw
+@@||hchcc.gov.tw
+@@||hsinchu-cc.gov.tw
+@@||iner.gov.tw
+@@||klsio.gov.tw
+@@||kmseh.gov.tw
+@@||lungtanhr.gov.tw
+@@||maolin-nsa.gov.tw
+@@||matsu-news.gov.tw
+@@||matsu-nsa.gov.tw
+@@||matsucc.gov.tw
+@@||moe.gov.tw
+@@||mvdis.gov.tw
+@@||nankan.gov.tw
+@@||ncree.gov.tw
+@@||necoast-nsa.gov.tw
+@@||siraya-nsa.gov.tw
+@@||cromotc.nat.gov.tw
+@@||tax.nat.gov.tw
+@@||necoast-nsa.gov.tw
+@@||ner.gov.tw
+@@||nmmba.gov.tw
+@@||nmp.gov.tw
+@@||nmvttc.gov.tw
+@@||northguan-nsa.gov.tw
+@@||npm.gov.tw
+@@||nstm.gov.tw
+@@||ntdmh.gov.tw
+@@||ntl.gov.tw
+@@||ntsec.gov.tw
+@@||ntuh.gov.tw
+@@||nvri.gov.tw
+@@||penghu-nsa.gov.tw
+@@||post.gov.tw
+@@||siraya-nsa.gov.tw
+@@||stdtime.gov.tw
+@@||sunmoonlake.gov.tw
+@@||taitung-house.gov.tw
+@@||taoyuan.gov.tw
+@@||tphcc.gov.tw
+@@||trimt-nsa.gov.tw
+@@||vghtpe.gov.tw
+@@||vghks.gov.tw
+@@||vghtc.gov.tw
+@@||wanfang.gov.tw
+@@||yatsen.gov.tw
+@@||yda.gov.tw
+
+!--@@||4pppc.gov.tw
+!--@@||921.gov.tw
+!--@@||dmtip.gov.tw
+!--@@||etraining.gov.tw
+!--@@||gsn-cert.nat.gov.tw
+!--@@||nici.nat.gov.tw
+!--@@||hcc.gov.tw
+!--@@||hengchuen.gov.tw
+!--@@||khcc.gov.tw
+!--@@||khms.gov.tw
+!--@@||kk.gov.tw
+!--@@||klccab.gov.tw
+!--@@||klra.gov.tw
+!--@@||nmh.gov.tw
+!--@@||nmtl.gov.tw
+!--@@||pabp.gov.tw
+!--@@||pet.gov.tw
+!--@@||tchb.gov.tw
+!--@@||tcsac.gov.tw
+!--@@||tncsec.gov.tw
 
 !------------------Numerics---------------------
 .030buy.com
@@ -1181,6 +1278,8 @@ bipic.net
 .bitshare.com
 ||bitshare.com
 bitsnoop.com
+.bitvise.com
+||bitvise.com
 bizhat.com
 ||bl-doujinsouko.com
 .bjnewlife.org
@@ -1357,6 +1456,7 @@ cn.calameo.com
 .calgarychinese.com
 .calgarychinese.net
 |http://blog.calibre-ebook.com
+|http://google.calstate.edu
 falun.caltech.edu
 .its.caltech.edu/~falun/
 .cam4.com
@@ -1367,6 +1467,7 @@ falun.caltech.edu
 ||cams.com
 .cams.org.sg
 canadameet.com
+.canalporno.com
 |http://bbs.cantonese.asia/
 !--http://www.cantonese.asia/action-bbs.html
 .canyu.org
@@ -2448,6 +2549,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001057533
 .ftchinese.com/story/001058295
 .ftchinese.com/story/001058344
+.ftchinese.com/story/001058421
 .ftchinese.com/story/001058458
 .ftchinese.com/story/001058468
 .ftchinese.com/story/001058561
@@ -2502,6 +2604,7 @@ ftchinese.com/story/001071200
 .ftchinese.com/story/001071238
 .ftchinese.com/story/001072895
 .ftchinese.com/story/001073408
+.ftchinese.com/story/001074110
 .ftchinese.com/video/1437
 .ftchinese.com/video/1882
 .ftchinese.com/comments
@@ -5281,6 +5384,7 @@ tw.streetvoice.com
 ||studentsforafreetibet.org
 ||stumbleupon.com
 stupidvideos.com
+.successfn.com
 panamapapers.sueddeutsche.de
 .sugarsync.com
 ||sugarsync.com
@@ -6052,6 +6156,8 @@ vansky.com
 .velkaepocha.sk
 .venbbs.com
 .venchina.com
+.venetianmacao.com
+||venetianmacao.com
 veoh.com
 mysite.verizon.net
 vermonttibet.org
@@ -6569,6 +6675,7 @@ yangjianli.com
 .ydy.com
 .yeahteentube.com
 ||yeahteentube.com
+||yecl.net
 ||yeelou.com
 yeeyi.com
 yegle.net
@@ -6579,7 +6686,8 @@ yegle.net
 ||yesasia.com.hk
 .yes-news.com
 |http://yes-news.com
-||yecl.net
+.yespornplease.com
+||yespornplease.com
 !--yfrog.com
 ||yhcw.net
 .yibada.com
@@ -6739,101 +6847,6 @@ q%3DTriangle
 ultrareach
 ultrasurf
 zhengjian
-
-!-------------------TW Govs---------------------
-.gov.tw
-||tacc.cwb.gov.tw
-immigration.gov.tw
-||mjib.gov.tw
-||nsc.gov.tw
-||ntbna.gov.tw
-||ntsna.gov.tw
-taipei.gov.tw
-@@||tax.nat.gov.tw
-@@||moe.gov.tw
-!--@@||cwb.gov.tw
-@@||npm.gov.tw
-@@||yatsen.gov.tw
-@@||mvdis.gov.tw
-@@||stdtime.gov.tw
-@@||nmmba.gov.tw
-@@||ntdmh.gov.tw
-@@||grb.gov.tw
-@@||tpde.aide.gov.tw
-@@||matsu-news.gov.tw
-@@||dapu-house.gov.tw
-@@||vghtc.gov.tw
-@@||aide.gov.tw
-@@||hchcc.gov.tw
-@@||ntuh.gov.tw
-@@||nhri.gov.tw
-@@||nstm.gov.tw
-@@||ntsec.gov.tw
-@@||ner.gov.tw
-@@||nmtl.gov.tw
-@@||ntl.gov.tw
-@@||pet.gov.tw
-@@||khcc.gov.tw
-@@||nmmba.gov.tw
-@@||khms.gov.tw
-@@||wanfang.gov.tw
-@@||nict.gov.tw
-@@||arte.gov.tw
-@@||nmh.gov.tw
-@@||nmp.gov.tw
-@@||tphcc.gov.tw
-@@||iner.gov.tw
-@@||tncsec.gov.tw
-@@||nspo.gov.tw
-@@||aide.gov.tw
-@@||ncree.gov.tw
-@@||vghks.gov.tw
-@@||tchb.gov.tw
-@@||pabp.gov.tw
-@@||itrc.gov.tw
-@@||df.gov.tw
-@@||womenbusiness.nyc.gov.tw
-@@||gsn-cert.nat.gov.tw
-@@||kk.gov.tw
-@@||thbstc.gov.tw
-@@||comnews.gio.gov.tw
-@@||comnews.gio.gov.tw
-@@||klccab.gov.tw
-@@||yvtc.gov.tw
-@@||aftygh.gov.tw
-@@||klra.gov.tw
-@@||lungtanhr.gov.tw
-@@||taoyuan.gov.tw
-@@||hcc.gov.tw
-@@||nvri.gov.tw
-@@||nmvttc.gov.tw
-@@||kmh.gov.tw
-@@||patehr.gov.tw
-@@||nerch.gov.tw
-@@||kmseh.gov.tw
-@@||nertt.gov.tw
-@@||cycab.gov.tw
-@@||chukuang.gov.tw
-@@||gysd.nyc.gov.tw
-@@||cp-house.gov.tw
-@@||vghtpe.gov.tw
-@@||etraining.gov.tw
-@@||stag.gov.tw
-@@||bdhr.gov.tw
-@@||tcsac.gov.tw
-@@||imagesblog.gio.gov.tw
-@@||arte.gov.tw
-@@||dmtip.gov.tw
-@@||chccc.gov.tw
-@@||hengchuen.gov.tw
-@@||hsinchu-cc.gov.tw
-@@||921.gov.tw
-@@||ncdr.nat.gov.tw
-@@||4pppc.gov.tw
-@@||klsio.gov.tw
-@@||nici.nat.gov.tw
-@@||cromotc.nat.gov.tw
-@@||taitung-house.gov.tw
 !#############Supplemental List End#############
 
 !################Whitelist Start################
