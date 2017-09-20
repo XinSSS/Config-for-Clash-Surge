@@ -67,4 +67,4 @@ python3 ssconf.py
 >
 > 1. 由于引用的大部分规则是[gfwlist](https://github.com/gfwlist/gfwlist)和[china_ip_list](https://github.com/17mon/china_ip_list) , 所以在以后的过程中使用有问题的话, 除非是template中的模板文件, 否则还请大家多多提交pull request至这两个repo, 以维护我们爱国圈的健康成长
 > 2. 为什么没有加广告过滤: 广告过滤规则大多比较繁琐并且有时效性, 也不怎么稳定, 所以我是不加REJECT规则的, 实在想要的话, 可以去参考[ss.conf-for-surge](https://github.com/R0uter/ss.conf-for-surge)这个项目的代码修改下即可
-> 3. 不想要gfwlist怎么办?  这不科学...除非使用这样的GEOIP,CN,DIRECT  FINAL,PROXY
+> 3. 不想要gfwlist怎么办?  使用GEOIP的版本即可
