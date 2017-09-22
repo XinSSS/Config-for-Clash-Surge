@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: gSkzCTUI4mNOuB3+LYO/aw
+! Checksum: PJ2pvpNU0nagaXjn7UUtJg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Mon, 18 Sep 2017 03:23:01 -0400
+! Last Modified: Thu, 21 Sep 2017 07:51:19 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -176,6 +176,7 @@ share.dmhy.org
 ||slacker.com
 ||sm-miracle.com
 ||spotify.com
+||spreadshirt.es
 ||springboardplatform.com
 ||sprite.org
 @@|http://store.sprite.org
@@ -221,6 +222,7 @@ share.dmhy.org
 
 !----------------------IDN----------------------
 ||xn--4gq171p.com
+||xn--czq75pvv1aj5c.org
 ||xn--i2ru8q2qg.com
 ||xn--p8j9a0d9c9a.xn--q9jyb4c
 
@@ -240,6 +242,7 @@ china-mmm.sa.com
 
 !---------------------Groups--------------------
 !!---Afraid FreeDNS---
+.allowed.org
 .now.im
 
 !!---Amazon---
@@ -537,7 +540,7 @@ blogspot.com
 .google.ba
 .google.be
 .google.bg
-.google.cat
+.google.ca
 .google.cd
 .google.ci
 .google.co.id
@@ -779,6 +782,8 @@ taipei.gov.tw
 !--@@||tchb.gov.tw
 !--@@||tcsac.gov.tw
 !--@@||tncsec.gov.tw
+
+||kinmen.org.tw
 
 !------------------Numerics---------------------
 .030buy.com
@@ -2522,6 +2527,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001042100
 .ftchinese.com/story/001042252
 .ftchinese.com/story/001042272
+.ftchinese.com/story/001043534
 .ftchinese.com/story/001044776
 .ftchinese.com/story/001045755
 .ftchinese.com/story/001046118
@@ -2540,6 +2546,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001055299
 .ftchinese.com/story/001055551
 .ftchinese.com/story/001055559
+.ftchinese.com/story/001056131
 .ftchinese.com/story/001056529
 .ftchinese.com/story/001056554
 .ftchinese.com/story/001056567
@@ -3175,7 +3182,6 @@ hentaitube.tv
 ||cl.ly
 @@||f.cl.ly
 ||getsmartlinks.com
-||git-scm.com
 
 heqinglian.net
 ||heungkongdiscuss.com
@@ -3954,7 +3960,7 @@ lvhai.org
 |http://lyfhk.net
 
 !--------------------MM-------------------------
-.m-team.cc
+http://*.m-team.cc
 !--m-team.cc/forum
 .macrovpn.com
 macts.com.tw
@@ -4400,6 +4406,7 @@ ntdtv.ru
 ntdtvla.com
 .ntrfun.com
 ||cbs.ntu.edu.tw
+||media.nu.nl
 .nubiles.net
 ||nuexpo.com
 .nukistream.com
@@ -4689,6 +4696,7 @@ pobieramy.top
 zh.pokerstrategy.com
 politicalchina.org
 politicalconsultation.org
+||poloniex.com
 .polymerhk.com
 |http://polymerhk.com
 .popo.tw
@@ -6285,6 +6293,7 @@ vpnjack.com
 .vpser.net
 @@||vpser.net
 vraiesagesse.net
+.vrmtr.com
 ||vtunnel.com
 ||vuku.cc
 
@@ -6638,6 +6647,7 @@ page.bid.yahoo.com
 tw.bid.yahoo.com
 |https://tw.bid.yahoo.com
 blogs.yahoo.co.jp
+||search.yahoo.co.jp
 buy.yahoo.com.tw/gdsale
 hk.yahoo.com
 hk.knowledge.yahoo.com
@@ -6859,8 +6869,20 @@ zhengjian
 !--ISP cache works sometimes, verified at drpeng + gehua.
 @@||dl.google.com
 @@||kh.google.com
+@@||khm.google.com
+@@||khm0.google.com
+@@||khm1.google.com
+@@||khm2.google.com
+@@||khm3.google.com
+@@||khmdb.google.com
 @@||tools.google.com
 @@||fonts.googleapis.com
+@@||khm.googleapis.com
+@@||khm0.googleapis.com
+@@||khm1.googleapis.com
+@@||khm2.googleapis.com
+@@||khm3.googleapis.com
+@@||khmdb.googleapis.com
 @@||storage.googleapis.com
 @@||cn.gravatar.com
 @@||connectivitycheck.gstatic.com

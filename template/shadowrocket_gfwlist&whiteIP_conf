@@ -393,6 +393,9 @@ __CHINAIP__
 FINAL,PROXY
 
 [URL Rewrite]
+# Google_CN
+^https?://(www.)?g.cn https://www.google.com 302
+^https?://(www.)?google.cn https://www.google.com 302
 
 [Host]
 localhost = 127.0.0.1
