@@ -199,7 +199,7 @@ def main():
     getSurgeChinaIPList()
     getShadowrocketChinaIPList()
 
-    print('Generate config file:surge_gfwlist&whiteIP.conf shadowrocket_gfwlist&whiteIP.conf quan_gfwlist&whiteIP.conf')
+    print('Generate config file:surge shadowrocket quantumult conf files success')
     genSurgeGFWAndChinaIPConf()
     genShadowrocketGFWAndChinaIPConf()
     genQuantumultGFWAndChinaIPConf()

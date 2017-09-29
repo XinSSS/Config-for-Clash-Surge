@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2017-09-22 13:34:45
+# updated on 2017-09-29 14:13:00
 
 DOMAIN-SUFFIX,2dbook.com,Proxy
 DOMAIN-SUFFIX,4tern.com,Proxy
@@ -185,6 +185,7 @@ DOMAIN-SUFFIX,xn--i2ru8q2qg.com,Proxy
 DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,Proxy
 DOMAIN-SUFFIX,s3.amazonaws.com,Proxy
 DOMAIN-SUFFIX,agro.hk,Proxy
+DOMAIN-SUFFIX,line-scdn.net,Proxy
 DOMAIN-SUFFIX,pixiv.net,Proxy
 DOMAIN-SUFFIX,china-mmm.jp.net,Proxy
 DOMAIN-SUFFIX,lsxszzg.com,Proxy
@@ -573,16 +574,35 @@ DOMAIN-SUFFIX,naughtyamerica.com,Proxy
 DOMAIN-SUFFIX,v2ex.com,Proxy
 DOMAIN-SUFFIX,gov.taipei,Proxy
 DOMAIN-SUFFIX,gov.tw,Proxy
+DOMAIN-SUFFIX,aiss.anws.gov.tw,Proxy
 DOMAIN-SUFFIX,archives.gov.tw,Proxy
 DOMAIN-SUFFIX,tacc.cwb.gov.tw,Proxy
+DOMAIN-SUFFIX,data.gov.tw,Proxy
+DOMAIN-SUFFIX,epa.gov.tw,Proxy
+DOMAIN-SUFFIX,fa.gov.tw,Proxy
+DOMAIN-SUFFIX,fda.gov.tw,Proxy
+DOMAIN-SUFFIX,hpa.gov.tw,Proxy
 DOMAIN-SUFFIX,immigration.gov.tw,Proxy
 DOMAIN-SUFFIX,itaiwan.gov.tw,Proxy
 DOMAIN-SUFFIX,mjib.gov.tw,Proxy
+DOMAIN-SUFFIX,moeaic.gov.tw,Proxy
+DOMAIN-SUFFIX,mol.gov.tw,Proxy
+DOMAIN-SUFFIX,mvdis.gov.tw,Proxy
+DOMAIN-SUFFIX,nat.gov.tw,Proxy
+DOMAIN-SUFFIX,nhi.gov.tw,Proxy
+DOMAIN-SUFFIX,npa.gov.tw,Proxy
 DOMAIN-SUFFIX,nsc.gov.tw,Proxy
+DOMAIN-SUFFIX,ntbk.gov.tw,Proxy
 DOMAIN-SUFFIX,ntbna.gov.tw,Proxy
+DOMAIN-SUFFIX,ntbt.gov.tw,Proxy
 DOMAIN-SUFFIX,ntsna.gov.tw,Proxy
+DOMAIN-SUFFIX,pcc.gov.tw,Proxy
+DOMAIN-SUFFIX,stat.gov.tw,Proxy
 DOMAIN-SUFFIX,taipei.gov.tw,Proxy
+DOMAIN-SUFFIX,taiwanjobs.gov.tw,Proxy
 DOMAIN-SUFFIX,thb.gov.tw,Proxy
+DOMAIN-SUFFIX,tipo.gov.tw,Proxy
+DOMAIN-SUFFIX,wda.gov.tw,Proxy
 DOMAIN-SUFFIX,kinmen.org.tw,Proxy
 DOMAIN-SUFFIX,030buy.com,Proxy
 DOMAIN-SUFFIX,0rz.tw,Proxy
@@ -1584,6 +1604,7 @@ DOMAIN-SUFFIX,eevpn.com,Proxy
 DOMAIN-SUFFIX,efcc.org.hk,Proxy
 DOMAIN-SUFFIX,efukt.com,Proxy
 DOMAIN-SUFFIX,eic-av.com,Proxy
+DOMAIN-SUFFIX,eireinikotaerukai.com,Proxy
 DOMAIN-SUFFIX,eisbb.com,Proxy
 DOMAIN-SUFFIX,eksisozluk.com,Proxy
 DOMAIN-SUFFIX,electionsmeter.com,Proxy
@@ -2604,6 +2625,7 @@ DOMAIN-SUFFIX,kinghost.com,Proxy
 DOMAIN-SUFFIX,kingstone.com.tw,Proxy
 DOMAIN-SUFFIX,kink.com,Proxy
 DOMAIN-SUFFIX,killwall.com,Proxy
+DOMAIN-SUFFIX,kinmen.travel,Proxy
 DOMAIN-SUFFIX,kir.jp,Proxy
 DOMAIN-SUFFIX,kissbbao.cn,Proxy
 DOMAIN-SUFFIX,kiwi.kz,Proxy
@@ -3012,6 +3034,7 @@ DOMAIN-SUFFIX,navyfamily.navy.mil,Proxy
 DOMAIN-SUFFIX,navyreserve.navy.mil,Proxy
 DOMAIN-SUFFIX,nko.navy.mil,Proxy
 DOMAIN-SUFFIX,usno.navy.mil,Proxy
+DOMAIN-SUFFIX,naweeklytimes.com,Proxy
 DOMAIN-SUFFIX,nbtvpn.com,Proxy
 DOMAIN-SUFFIX,nccwatch.org.tw,Proxy
 DOMAIN-SUFFIX,nch.com.tw,Proxy
@@ -4850,7 +4873,6 @@ DOMAIN-SUFFIX,yam.org.tw,Proxy
 DOMAIN-SUFFIX,yanghengjun.com,Proxy
 DOMAIN-SUFFIX,yangjianli.com,Proxy
 DOMAIN-SUFFIX,yasni.co.uk,Proxy
-DOMAIN-SUFFIX,yasukuni.or.jp,Proxy
 DOMAIN-SUFFIX,yayabay.com,Proxy
 DOMAIN-SUFFIX,ydy.com,Proxy
 DOMAIN-SUFFIX,yeahteentube.com,Proxy
