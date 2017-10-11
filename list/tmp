@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: iNMRkBtLP3/xK4yE2GzZOA
+! Checksum: CgTYAfJigwlrPFkCaDgBpA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sun, 08 Oct 2017 23:22:32 -0400
+! Last Modified: Tue, 10 Oct 2017 10:02:09 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -187,12 +187,9 @@ share.dmhy.org
 ||superpages.com
 ||swagbucks.com
 ||switch1.jp
-||t.me
 ||tapanwap.com
 ||target.com
 @@||intl.target.com
-||updates.tdesktop.com
-||telegram.me
 ||thebodyshop-usa.com
 ||tma.co.jp
 ||tracfone.com
@@ -679,6 +676,15 @@ blogspot.com
 
 !!---NaughtyAmerica---
 ||naughtyamerica.com
+
+!!---Telegram---
+!!!---Domain---
+||t.me
+||updates.tdesktop.com
+||telegram.dog
+||telegram.me
+||telegram.org
+.telegramdownload.com
 
 !!---V2EX---
 .v2ex.com
@@ -2573,12 +2579,14 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001049360
 .ftchinese.com/story/001051372
 .ftchinese.com/story/001052965
+.ftchinese.com/story/001053150
 .ftchinese.com/story/001053526
 .ftchinese.com/story/001054103
 .ftchinese.com/story/001054168
 .ftchinese.com/story/001054526
 .ftchinese.com/story/001054644
 .ftchinese.com/story/001055299
+.ftchinese.com/story/001055480
 .ftchinese.com/story/001055551
 .ftchinese.com/story/001055559
 .ftchinese.com/story/001056131
@@ -2655,13 +2663,19 @@ ftchinese.com/story/001071200
 .ftchinese.com/story/001073408
 .ftchinese.com/story/001073537
 .ftchinese.com/story/001073672
+.ftchinese.com/story/001073906
 .ftchinese.com/story/001074089
 .ftchinese.com/story/001074110
+.ftchinese.com/story/001074128
 .ftchinese.com/story/001074157
+.ftchinese.com/story/001074246
+.ftchinese.com/story/001074307
 .ftchinese.com/story/001074423
+.ftchinese.com/story/001074454
 .ftchinese.com/story/001074467
 .ftchinese.com/story/001074493
 .ftchinese.com/story/001074550
+.ftchinese.com/story/001074562
 .ftchinese.com/video/1437
 .ftchinese.com/video/1882
 .ftchinese.com/comments
@@ -4250,6 +4264,7 @@ multiupload.com
 ||my-private-network.co.uk
 forum.my903.com
 .myactimes.com/actimes
+||myanniu.com
 .myaudiocast.com
 ||myaudiocast.com
 .myav.com.tw/bbs
@@ -5411,6 +5426,7 @@ usinfo.state.gov
 ||startpage.com
 ||static-economist.com
 ||stc.com.sa
+steamcommunity.com/profiles/76561198062771609
 steamcommunity.com/groups/LibetTibet
 steamcommunity.com/groups/zhonggong
 steamcommunity.com/id/CJT_Jackton
@@ -5588,9 +5604,6 @@ teamamericany.com
 .teeniefuck.net
 teensinasia.com
 .telecomspace.com
-||telegram.dog
-||telegram.org
-.telegramdownload.com
 ||telegraph.co.uk
 .tenacy.com
 ||tenzinpalmo.com
