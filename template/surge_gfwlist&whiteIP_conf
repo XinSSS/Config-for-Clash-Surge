@@ -39,7 +39,6 @@ PROCESS-NAME,WeChat,nProxy
 
 # Apple
 PROCESS-NAME,trustd,🍎PROXY
-#URL-REGEX,apple.com/cn,🍎PROXY
 DOMAIN,appleid.apple.com,🍎PROXY
 DOMAIN,appleiphonecell.com,🍎PROXY
 DOMAIN,captive.apple.com,🍎PROXY
