@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: CgTYAfJigwlrPFkCaDgBpA
+! Checksum: V+a70sp49CSwQDxywFG81g
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Tue, 10 Oct 2017 10:02:09 -0400
+! Last Modified: Mon, 16 Oct 2017 04:52:33 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
@@ -75,7 +75,7 @@ share.dmhy.org
 ||g-area.org
 ||gettyimages.com
 ||getuploader.com
-|https://github.com/programthink/zhao
+!--|https://github.com/programthink/zhao
 |https://raw.githubusercontent.com/programthink/zhao
 ||glass8.eu
 ||glype.com
@@ -100,6 +100,7 @@ share.dmhy.org
 |http://imgmega.com/*.png.html
 |http://imgur.com/upload
 |https://imgur.com/upload
+||imlive.com
 ||javhub.net
 ||javhuge.com
 .javlibrary.com
@@ -188,8 +189,8 @@ share.dmhy.org
 ||swagbucks.com
 ||switch1.jp
 ||tapanwap.com
-||target.com
-@@||intl.target.com
+!--||target.com
+!--@@||intl.target.com
 ||thebodyshop-usa.com
 ||tma.co.jp
 ||tracfone.com
@@ -234,8 +235,11 @@ share.dmhy.org
 !-||cdn-images.mailchimp.com
 |https://*.s3.amazonaws.com
 ||agro.hk
+||boomssr.com
 ||line-scdn.net
+||jiji.com
 ||pixiv.net
+||i.lithium.com
 
 !----------------Frauds & Scams-----------------
 china-mmm.jp.net
@@ -253,6 +257,15 @@ china-mmm.sa.com
 .amazon.com/Dalai-Lama
 s3-ap-northeast-1.amazonaws.com
 
+!!---AOL---
+||aolchannels.aol.com
+video.aol.ca/video-detail
+video.aol.co.uk/video-detail
+video.aol.com
+||video.aol.com
+||search.aol.com
+www.aolnews.com
+
 !!---AvMoo---
 .avmo.pw
 !--|http://avmo.pw
@@ -267,6 +280,21 @@ s3-ap-northeast-1.amazonaws.com
 |http://javtag.com
 .javzoo.com
 |http://javzoo.com
+.tellme.pw
+
+!!---BBC---
+.bbc.co.uk/chinese
+.bbc.co.uk/news/world-asia-china
+.bbc.co.uk/tv
+.bbc.co.uk/zhongwen
+.bbc.com/ukchina
+.bbc.com/zhongwen
+.bbc.com%2Fzhongwen
+news.bbc.co.uk/onthisday*newsid_2496000/2496277
+newsforums.bbc.co.uk
+.bbcchinese.com
+||bbcchinese.com
+|http://bbc.in
 
 !!---ChangeIP---
 .1dumb.com
@@ -469,11 +497,13 @@ d3c33hcgiwev3.cloudfront.net
 .freeddns.org
 
 !!---Facebook---
+cdninstagram.com
+||cdninstagram.com
 ||facebook.br
 .facebook.com
 ||facebook.com
 !--/^https?:\/\/[^\/]+facebook\.com/
-@@||*v6.facebook.com
+@@||v6.facebook.com
 ||facebook.design
 ||connect.facebook.net
 ||facebook.hu
@@ -482,17 +512,24 @@ d3c33hcgiwev3.cloudfront.net
 ||facebook.se
 ||fb.com
 ||fb.me
+||fbcdn.net
+||fbsbx.com
+.instagram.com
+||instagram.com
 ||m.me
 ||messenger.com
 ||oculus.com
 ||oculuscdn.com
 ||rocksdb.org
+@@||ip6.static.sl-reverse.com
+||thefacebook.com
 ||whatsapp.net
 
 !!---Google---
 !###https://www.google.com/supported_domains###
 !...GFWList doesn't intend to support typosquatting...
 ||1e100.net
+||466453.com
 ||abc.xyz
 ||admob.com
 ||adsense.com
@@ -504,10 +541,12 @@ d3c33hcgiwev3.cloudfront.net
 .appspot.com
 ||appspot.com
 ||blog.google
+||blogblog.com
 blogspot.com
 /^https?:\/\/[^\/]+blogspot\.(.*)/
 .blogspot.hk
 .blogspot.jp
+!--||capitalg.com
 ||certificate-transparency.org
 ||chrome.com
 ||chromecast.com
@@ -517,6 +556,7 @@ blogspot.com
 ||chromium.org
 ||com.google
 ||creativelab5.com
+||crrev.com
 ||data-vocabulary.org
 ||debug.com
 ||deepmind.com
@@ -524,6 +564,7 @@ blogspot.com
 ||design.google
 ||digisfera.com
 ||domains.google
+||duck.com
 ||environment.google
 ||feedburner.com
 ||g.co
@@ -597,10 +638,12 @@ blogspot.com
 ||googleartproject.com
 ||googleblog.com
 ||googlebot.com
-||googlecapital.com
+!--||googlecapital.com
+||googlechinawebmaster.com
 ||googlecode.com
 ||googlecommerce.com
 ||googledomains.com
+||googlearth.com
 ||googleearth.com
 ||googledrive.com
 ||googlegroups.com
@@ -609,8 +652,11 @@ blogspot.com
 ||googleinsidesearch.com
 ||googlelabs.com
 ||googlemail.com
+||googlemashups.com
+||googlepagecreator.com
 ||googleplay.com
 ||googleplus.com
+||googlescholar.com
 ||googlesource.com
 ||googlesyndication.com
 !--||googletagmanager.com
@@ -621,6 +667,7 @@ blogspot.com
 ||googlezip.net
 ||groups.google.cn
 ||gstatic.com
+!--||gv.com
 ||gvt0.com
 ||gvt1.com
 @@||redirector.gvt1.com
@@ -654,12 +701,14 @@ blogspot.com
 ||tensorflow.org
 ||thinkwithgoogle.com
 ||tiltbrush.com
+||urchin.com
 !--||www.google
 ||waveprotocol.org
 ||waymo.com
 ||webmproject.org
 ||webrtc.org
 ||whatbrowser.org
+||widevine.com
 ||withgoogle.com
 ||xn--ngstr-lra8j.com
 ||youtu.be
@@ -668,6 +717,7 @@ blogspot.com
 ||youtube-nocookie.com
 ||youtubeeducation.com
 ||youtubegaming.com
+||yt.be
 ||ytimg.com
 ||zynamics.com
 
@@ -676,6 +726,30 @@ blogspot.com
 
 !!---NaughtyAmerica---
 ||naughtyamerica.com
+
+!!---NYTimes---
+!--||d1f1eryiqyjs0r.cloudfront.net
+!--||d3lar09xbwlsge.cloudfront.net
+!--||d3q1qj9jzsu8nw.cloudfront.net
+!--||dc8xl0ndzn2cb.cloudfront.net
+!--||a1.nyt.com
+!--||int.nyt.com
+!--||s1.nyt.com
+static01.nyt.com
+!--||static01.nyt.com
+!--||typeface.nyt.com
+||nyt.com
+nytchina.com
+nytcn.me
+||nytcn.me
+||nytco.com
+|http://nyti.ms/
+.nytimes.com
+||nytimes.com
+||nytimg.com
+userapi.nytlog.com
+cn.nytstyle.com
+||nytstyle.com
 
 !!---Telegram---
 !!!---Domain---
@@ -814,8 +888,39 @@ blogspot.com
 !--@@||tchb.gov.tw
 !--@@||tcsac.gov.tw
 !--@@||tncsec.gov.tw
-
 ||kinmen.org.tw
+
+!!---Yahoo---
+||data.flurry.com
+page.bid.yahoo.com
+tw.bid.yahoo.com
+|https://tw.bid.yahoo.com
+blogs.yahoo.co.jp
+||search.yahoo.co.jp
+buy.yahoo.com.tw/gdsale
+hk.yahoo.com
+hk.knowledge.yahoo.com
+hk.myblog.yahoo.com
+news.yahoo.com/china-blocks-bbc
+||hk.news.yahoo.com
+hk.rd.yahoo.com
+hk.search.yahoo.com/search
+hk.video.news.yahoo.com/video
+meme.yahoo.com
+!--tw.yahoo.com
+tw.answers.yahoo.com
+|https://tw.answers.yahoo.com
+||tw.knowledge.yahoo.com
+||tw.mall.yahoo.com
+tw.yahoo.com
+||tw.mobi.yahoo.com
+tw.myblog.yahoo.com
+||tw.news.yahoo.com
+pulse.yahoo.com
+upcoming.yahoo.com
+video.yahoo.com
+||yahoo.com.hk
+||duckduckgo-owned-server.yahoo.net
 
 !------------------Numerics---------------------
 .030buy.com
@@ -1001,6 +1106,9 @@ aiweiwei.com
 
 !!---Akamai---
 |https://fbcdn*.akamaihd.net/
+!--||fbexternal-a.akamaihd.net
+!--||fbstatic-a.akamaihd.net
+!--|https://igcdn*.akamaihd.net
 a248.e.akamai.net
 ||a248.e.akamai.net
 voa-11.akacast.akamaistream.net
@@ -1098,13 +1206,6 @@ antichristendom.com
 |http://aofriend.com
 .aofriend.com.au
 .aojiao.org
-||aolchannels.aol.com
-video.aol.ca/video-detail
-video.aol.co.uk/video-detail
-video.aol.com
-||video.aol.com
-||search.aol.com
-www.aolnews.com
 ||aomiwang.com
 video.ap.org
 .apetube.com
@@ -1167,6 +1268,7 @@ atgfw.org
 .atlaspost.com
 ||atlaspost.com
 ||atdmt.com
+.atlanta168.com/forum
 .atnext.com
 ||atnext.com
 ice.audionow.com
@@ -1227,18 +1329,6 @@ bayvoice.net
 dajusha.baywords.com
 ||bbchat.tv
 ||bb-chat.tv
-.bbc.co.uk/chinese
-.bbc.co.uk/news/world-asia-china
-.bbc.co.uk/tv
-.bbc.co.uk/zhongwen
-.bbc.com/ukchina
-.bbc.com/zhongwen
-.bbc.com%2Fzhongwen
-news.bbc.co.uk/onthisday*newsid_2496000/2496277
-newsforums.bbc.co.uk
-.bbcchinese.com
-||bbcchinese.com
-|http://bbc.in
 .bbg.gov
 .bbkz.com/forum
 .bbnradio.org
@@ -1274,7 +1364,9 @@ beric.me
 .bestforchina.org
 ||bestforchina.org
 .bestgore.com
+.bestpornstardb.com
 ||bestvpn.com
+.bestvpnanalysis.com
 .bestvpnserver.com
 .bestvpnservice.com
 .bestvpnusa.com
@@ -1306,6 +1398,7 @@ bigfools.com
 .bigsound.org
 |http://billypan.com/wiki
 ||billywr.com
+.binux.me
 bipic.net
 .bit.do
 |http://bit.do
@@ -1340,7 +1433,6 @@ blinw.com
 ||blog.de
 .blog.jp
 |http://blog.jp
-||blogblog.com
 .blogcatalog.com
 ||blogcatalog.com
 ||blogcity.me
@@ -1569,8 +1661,6 @@ ccue.com
 ||cdig.info
 cdjp.org
 ||cdjp.org
-cdninstagram.com
-||cdninstagram.com
 .cdnews.com.tw
 cdp1989.org
 cdp1998.org
@@ -1712,7 +1802,6 @@ cnnews.chosun.com/client/news/viw.asp?cate=C01&mcate
 christianstudy.com
 ||christianstudy.com
 christusrex.org/www1/sdc
-||chromeadblock.com
 .chubold.com
 chubun.com
 chuizi.net
@@ -2323,7 +2412,6 @@ fapdu.com
 faproxy.com
 !--.farxian.com
 .fawanghuihui.org
-||fbcdn.net
 fanqiangyakexi.net
 fail.hk
 ||famunion.com
@@ -2352,7 +2440,7 @@ favstar.fm
 ||favstar.fm
 faydao.com/weblog
 ||fbsbx.com
-fc2.com
+.fc2.com
 .fc2china.com
 .fc2cn.com
 ||fc2cn.com
@@ -2552,11 +2640,14 @@ hk.frienddy.com/hk
 .ftchinese.com/channel/video
 .ftchinese.com/story/00102753
 .ftchinese.com/story/001026807
+.ftchinese.com/story/001030341
 .ftchinese.com/story/001030502
+.ftchinese.com/story/001031317
 .ftchinese.com/story/001032692
 .ftchinese.com/story/001034926
 .ftchinese.com/story/001034927
 .ftchinese.com/story/001034928
+.ftchinese.com/story/001035972
 .ftchinese.com/story/001037090
 .ftchinese.com/story/001037091
 .ftchinese.com/story/001038220
@@ -2571,10 +2662,22 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001044776
 .ftchinese.com/story/001045755
 .ftchinese.com/story/001046118
+.ftchinese.com/story/001046132
+.ftchinese.com/story/001046822
+.ftchinese.com/story/001046866
+.ftchinese.com/story/001047180
+.ftchinese.com/story/001047206
+.ftchinese.com/story/001047304
 .ftchinese.com/story/001047317
 .ftchinese.com/story/001047345
+.ftchinese.com/story/001047358
 .ftchinese.com/story/001047375
+.ftchinese.com/story/001047381
+.ftchinese.com/story/001047413
+.ftchinese.com/story/001047491
 .ftchinese.com/story/001047545
+.ftchinese.com/story/001047568
+.ftchinese.com/story/001047627
 .ftchinese.com/story/001048710
 .ftchinese.com/story/001049360
 .ftchinese.com/story/001051372
@@ -2629,6 +2732,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001063692
 .ftchinese.com/story/001063826
 .ftchinese.com/story/001065287
+.ftchinese.com/story/001065541
 .ftchinese.com/story/001066465
 .ftchinese.com/story/001066959
 .ftchinese.com/story/001067435
@@ -2643,6 +2747,7 @@ www.ftchinese.com/story/001067479
 .ftchinese.com/story/001069373
 .ftchinese.com/story/001069516
 .ftchinese.com/story/001069517
+.ftchinese.com/story/001069861
 .ftchinese.com/story/001070307
 .ftchinese.com/story/001070809
 .ftchinese.com/story/001070990
@@ -2659,7 +2764,9 @@ ftchinese.com/story/001071200
 .ftchinese.com/story/001072993
 .ftchinese.com/story/001073043
 .ftchinese.com/story/001073103
+.ftchinese.com/story/001073157
 .ftchinese.com/story/001073246
+.ftchinese.com/story/001073307
 .ftchinese.com/story/001073408
 .ftchinese.com/story/001073537
 .ftchinese.com/story/001073672
@@ -2670,12 +2777,15 @@ ftchinese.com/story/001071200
 .ftchinese.com/story/001074157
 .ftchinese.com/story/001074246
 .ftchinese.com/story/001074307
+.ftchinese.com/story/001074347
 .ftchinese.com/story/001074423
 .ftchinese.com/story/001074454
 .ftchinese.com/story/001074467
 .ftchinese.com/story/001074493
 .ftchinese.com/story/001074550
 .ftchinese.com/story/001074562
+.ftchinese.com/story/001074653
+.ftchinese.com/tag/%E5%8D%81%E5%85%AB%E5%B1%8A%E4%B8%89%E4%B8%AD%E5%85%A8%E4%BC%9A
 .ftchinese.com/video/1437
 .ftchinese.com/video/1882
 .ftchinese.com/comments
@@ -3159,6 +3269,8 @@ greatfirewallofchina.org
 |http://guaguass.org
 guishan.org
 ||guishan.org
+.gumroad.com
+||gumroad.com
 ||gunsamerica.com
 guruonline.hk
 |http://gvlib.com
@@ -3569,8 +3681,6 @@ website.informer.com
 .insecam.org
 |http://insecam.org
 ||insidevoa.com
-.instagram.com
-||instagram.com
 .institut-tibetain.org
 ||interfaceaddiction.com
 ||internationalrivers.org
@@ -3678,6 +3788,7 @@ jamaat.org
 .javakiba.org
 |http://javakiba.org
 .javbus.com
+||javbus.com
 ||javfor.me
 .javhd.com
 .javhip.com
@@ -3735,6 +3846,7 @@ weiboscope.jmsc.hku.hk
 .journalchretien.net
 ||journalofdemocracy.org
 .joymiihub.com
+.joyourself.com
 jpopforum.net
 .jubushoushen.com
 ||jubushoushen.com
@@ -3919,6 +4031,8 @@ blog.lester850.info
 .letou.com
 letscorp.net
 ||letscorp.net
+!↓↓69.16.175.42
+||cdn.assets.lfpcontent.com
 .lhakar.org
 |http://lhakar.org
 .lhasocialwork.org
@@ -3932,6 +4046,8 @@ letscorp.net
 blogs.libraryinformationtechnology.com/jxyz
 .lidecheng.com/blog/fucking-gfw
 .lighten.org.tw
+.lightnovel.cn
+@@|https://www.lightnovel.cn
 limiao.net
 linkuswell.com
 abitno.linpie.com/use-ipv6-to-fuck-gfw
@@ -4197,8 +4313,8 @@ mixpod.com
 ||mmaaxx.com
 .mmmca.com
 ||mobatek.net
-|http://mobile01.com
 .mobile01.com
+|http://mobile01.com
 ||mobileways.de
 .mobypicture.com
 |http://moby.to
@@ -4356,6 +4472,7 @@ nccwatch.org.tw
 .ned.org
 ||nekoslovakia.net
 ||nepusoku.com
+||net-fits.pro
 !--bbsnew.netbig.com
 bbs.netbig.com
 .netbirds.com
@@ -4492,28 +4609,11 @@ nuzcom.com
 |http://nvtongzhisheng.org
 .nwtca.org
 ||nyaa.eu
-||nyaa.se
+||nyaa.si
 .nydus.ca
 nylon-angel.com
 nylonstockingsonline.com
 !--nysingtao.com
-||a1.nyt.com
-||int.nyt.com
-||s1.nyt.com
-static01.nyt.com
-||static01.nyt.com
-||typeface.nyt.com
-nytchina.com
-nytcn.me
-||nytcn.me
-||nytco.com
-|http://nyti.ms/
-.nytimes.com
-||nytimes.com
-||nytimg.com
-userapi.nytlog.com
-cn.nytstyle.com
-||nytstyle.com
 .nzchinese.com
 ||nzchinese.net.nz
 
@@ -4581,6 +4681,7 @@ my.opera.com/dahema
 www.orchidbbs.com
 .organcare.org.tw
 organharvestinvestigation.net
+.orgasm.com
 .orgfree.com
 ||orient-doll.com
 orientaldaily.com.my
@@ -4655,6 +4756,7 @@ pastebin.com
 pbs.org/wgbh/pages/frontline/gate
 pbs.org/wgbh/pages/frontline/tankman
 pbs.org/wgbh/pages/frontline/tibet
+video.pbs.org
 
 !--Pbwiki
 pbwiki.com
@@ -4715,6 +4817,7 @@ philly.com
 .picidae.net
 ||img*.picturedip.com
 picturesocial.com
+||pin-cong.com
 .pin6.com
 ||pin6.com
 .ping.fm
@@ -4817,6 +4920,7 @@ postadult.com
 ||cdn.printfriendly.com
 .pritunl.com
 provpnaccounts.com
+||provpnaccounts.com
 .proxfree.com
 ||proxfree.com
 proxyanonimo.es
@@ -5186,6 +5290,7 @@ shadow.ma
 .shadowsocks.asia
 ||www.shadowsocks.com
 .shadowsocks.com
+||shadowsocks.com.hk
 .shadowsocks.org
 ||shadowsocks.org
 ||shadowsocks-r.com
@@ -5813,6 +5918,8 @@ tonyyan.net
 toonel.net
 top81.ws
 .topnews.in
+.toppornsites.com
+|http://toppornsites.com
 .torguard.net
 ||torguard.net
 ||top.tv
@@ -5936,7 +6043,9 @@ tuitwit.com
 !--@@||media.tumblr.com
 !--@@||static.tumblr.com
 !--@@||www.tumblr.com
-|http://blog.soylent.com/
+|http://cosmic.monar.ch
+||slutmoonbeam.com
+|http://blog.soylent.com
 
 .tv.com
 |http://tv.com
@@ -5996,6 +6105,8 @@ tweetree.com
 ||tweetwally.com
 tweetymail.com
 ||twelve.today
+.tweez.net
+|http://tweez.net
 ||twftp.org
 twibase.com
 .twibble.de
@@ -6176,6 +6287,7 @@ uploaded.net/file
 |http://uploaded.net/file
 |http://uploaded.to/file
 .uploadstation.com/file
+.upmedia.mg
 .upornia.com
 |http://upornia.com
 ||uproxy.org
@@ -6326,7 +6438,6 @@ vpnbook.com
 vpnfire.com
 .vpnforgame.net
 ||vpnforgame.net
-||vpnunlimitedapp.com
 ||vpngate.jp
 .vpngate.net
 ||vpngate.net
@@ -6334,6 +6445,8 @@ vpnfire.com
 vpnhq.com
 .vpnmaster.com
 ||vpnmaster.com
+.vpnmentor.com
+||vpnmentor.com
 .vpninja.net
 ||vpninja.net
 .vpnintouch.com
@@ -6359,6 +6472,7 @@ vpnjack.com
 ||vpntunnel.com
 .vpnuk.info
 ||vpnuk.info
+||vpnunlimitedapp.com
 .vpnvip.com
 ||vpnvip.com
 .vpnworldwide.com
@@ -6527,11 +6641,11 @@ wikilivres.info/wiki/%E9%9B%B6%E5%85%AB%E5%AE%AA%E7%AB%A0
 !------8------
 !--||wikivoyage.org
 !--@@||m.wikivoyage.org
-|http://zh.wikivoyage.org
+!--|http://zh.wikivoyage.org
 !------9------
 !--||wiktionary.org
 !--@@||m.wiktionary.org
-|http://zh.wiktionary.org
+!--|http://zh.wiktionary.org
 !-----10------
 !--||wikimediafoundation.org
 !--@@||m.wikimediafoundation.org
@@ -6600,6 +6714,7 @@ worldjournal.com
 ||chenshan20042005.wordpress.com
 ||hka8964.wordpress.com
 ||hkanews.wordpress.com
+||hqsbonline.wordpress.com
 ||jobnewera.wordpress.com
 ||sujiatun.wordpress.com
 ||wp.com
@@ -6721,35 +6836,6 @@ xyy69.com
 xyy69.info
 
 !--------------------YY-------------------------
-page.bid.yahoo.com
-tw.bid.yahoo.com
-|https://tw.bid.yahoo.com
-blogs.yahoo.co.jp
-||search.yahoo.co.jp
-buy.yahoo.com.tw/gdsale
-hk.yahoo.com
-hk.knowledge.yahoo.com
-hk.myblog.yahoo.com
-news.yahoo.com/china-blocks-bbc
-||hk.news.yahoo.com
-hk.rd.yahoo.com
-hk.search.yahoo.com/search
-hk.video.news.yahoo.com/video
-meme.yahoo.com
-!--tw.yahoo.com
-tw.answers.yahoo.com
-|https://tw.answers.yahoo.com
-||tw.knowledge.yahoo.com
-||tw.mall.yahoo.com
-tw.yahoo.com
-||tw.mobi.yahoo.com
-tw.myblog.yahoo.com
-||tw.news.yahoo.com
-pulse.yahoo.com
-upcoming.yahoo.com
-video.yahoo.com
-||yahoo.com.hk
-||duckduckgo-owned-server.yahoo.net
 ||yakbutterblues.com
 yam.com
 ||yam.com
@@ -6855,6 +6941,7 @@ zacebook.com
 .zenmate.com
 ||zenmate.com
 ||zenmate.com.ru
+||zeronet.io
 ||zeutch.com
 !--www.zfreet.com/post/usejump-browns.html
 .zfreet.com
@@ -6966,6 +7053,7 @@ zhengjian
 @@||csi.gstatic.com
 @@||fonts.gstatic.com
 @@||haosou.com
+@@||ip.cn
 @@||jd.com
 @@||jike.com
 @@|http://translate.google.cn
