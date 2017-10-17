@@ -7,7 +7,6 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 
 [Rule]
 # Apple
-DOMAIN-SUFFIX,appsto.re,DIRECT
 DOMAIN,appleid.apple.com,DIRECT
 DOMAIN,appleiphonecell.com,DIRECT
 DOMAIN,captive.apple.com,DIRECT
@@ -27,6 +26,7 @@ DOMAIN,swdist.apple.com,DIRECT
 DOMAIN,swdownload.apple.com,DIRECT
 DOMAIN,swquery.apple.com,DIRECT
 DOMAIN,swscan.apple.com,DIRECT
+DOMAIN-SUFFIX,appsto.re,DIRECT
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
 DOMAIN-SUFFIX,apple.co,DIRECT
@@ -43,6 +43,36 @@ DOMAIN-SUFFIX,me.com,DIRECT
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
 DOMAIN-SUFFIX,push.apple.com,DIRECT
 DOMAIN-SUFFIX,siri.apple.com,DIRECT
+#UA Apple
+USER-AGENT,AppStore*,DIRECT
+USER-AGENT,com.apple.appstored*,DIRECT
+USER-AGENT,com.apple.Mobile*,DIRECT
+USER-AGENT,com.apple.geod*,DIRECT
+USER-AGENT,com.apple.Maps*,DIRECT
+USER-AGENT,com.apple.trustd/*,DIRECT
+USER-AGENT,FindMyFriends*,DIRECT
+USER-AGENT,FMDClient*,DIRECT
+USER-AGENT,FMFD*,DIRECT
+USER-AGENT,fmflocatord*,DIRECT
+USER-AGENT,geod*,DIRECT
+USER-AGENT,i?unes*,DIRECT
+USER-AGENT,locationd*,DIRECT
+USER-AGENT,MacAppStore*,DIRECT
+USER-AGENT,Maps*,DIRECT
+USER-AGENT,MobileAsset*,DIRECT
+USER-AGENT,Watch*,DIRECT
+USER-AGENT,$%7BPRODUCT*,DIRECT
+USER-AGENT,Music*,DIRECT
+USER-AGENT,?arsecd*,DIRECT
+USER-AGENT,securityd*,DIRECT
+USER-AGENT,server-bag*,DIRECT
+USER-AGENT,Settings*,DIRECT
+USER-AGENT,Software%20Update*,DIRECT
+USER-AGENT,SyncedDefaults*,DIRECT
+USER-AGENT,passd*,DIRECT
+USER-AGENT,swcd*,DIRECT
+USER-AGENT,trustd*,DIRECT
+
 
 # direct
 # thx  https://github.com/lhie1/Surge
@@ -53,6 +83,8 @@ DOMAIN-SUFFIX,google.cn,DIRECT
 DOMAIN-SUFFIX,cn,DIRECT
 # UA
 USER-AGENT,Argo*,PROXY
+USER-AGENT,*Telegram*,PROXY
+USER-AGENT,Instagram*,PROXY
 USER-AGENT,Speedtest*,PROXY
 USER-AGENT,%E5%8D%B3%E5%88%BB*,DIRECT
 USER-AGENT,*Vainglory*,DIRECT
@@ -67,6 +99,9 @@ USER-AGENT,QQ*,DIRECT
 USER-AGENT,TeamViewer*,DIRECT
 USER-AGENT,TIM*,DIRECT
 USER-AGENT,WeChat*,DIRECT
+USER-AGENT,%E5%9C%B0%E5%9B%BE*,DIRECT
+USER-AGENT,%E8%AE%BE%E7%BD%AE*,DIRECT
+
 # Spark
 DOMAIN-SUFFIX,api.amplitude.com,DIRECT
 DOMAIN-SUFFIX,app.smartmailcloud.com,DIRECT
@@ -95,6 +130,7 @@ DOMAIN-SUFFIX,alipay.com,DIRECT
 DOMAIN-SUFFIX,alipayobjects.com,DIRECT
 DOMAIN-SUFFIX,aliyun.com,DIRECT
 DOMAIN-SUFFIX,amap.com,DIRECT
+DOMAIN-SUFFIX,apache.org,DIRECT
 DOMAIN-SUFFIX,appstore.com,DIRECT
 DOMAIN-SUFFIX,autonavi.com,DIRECT
 DOMAIN-SUFFIX,bababian.com,DIRECT
@@ -102,6 +138,7 @@ DOMAIN-SUFFIX,baidu.com,DIRECT
 DOMAIN-SUFFIX,battle.net,DIRECT
 DOMAIN-SUFFIX,bdimg.com,DIRECT
 DOMAIN-SUFFIX,bdstatic.com,DIRECT
+DOMAIN-SUFFIX,beatsbydre.com,DIRECT
 DOMAIN-SUFFIX,bilibili.com,DIRECT
 DOMAIN-SUFFIX,bing.com,DIRECT
 DOMAIN-SUFFIX,blizzard.com,DIRECT
@@ -120,14 +157,19 @@ DOMAIN-SUFFIX,culturedcode.com,DIRECT
 DOMAIN-SUFFIX,didialift.com,DIRECT
 DOMAIN-SUFFIX,douban.com,DIRECT
 DOMAIN-SUFFIX,doubanio.com,DIRECT
+DOMAIN-SUFFIX,douyu.com,DIRECT
+DOMAIN-SUFFIX,douyutv.com,DIRECT
+DOMAIN-SUFFIX,douyu.tv,DIRECT
 DOMAIN-SUFFIX,duokan.com,DIRECT
 DOMAIN-SUFFIX,duoshuo.com,DIRECT
 DOMAIN-SUFFIX,dytt8.net,DIRECT
 DOMAIN-SUFFIX,easou.com,DIRECT
 DOMAIN-SUFFIX,ecitic.com,DIRECT
 DOMAIN-SUFFIX,ecitic.net,DIRECT
+DOMAIN-SUFFIX,eclipse.org,DIRECT
 DOMAIN-SUFFIX,eudic.net,DIRECT
 DOMAIN-SUFFIX,ewqcxz.com,DIRECT
+DOMAIN-SUFFIX,exmail.qq.com,DIRECT
 DOMAIN-SUFFIX,feng.com,DIRECT
 DOMAIN-SUFFIX,fir.im,DIRECT
 DOMAIN-SUFFIX,frdic.com,DIRECT
@@ -151,6 +193,7 @@ DOMAIN-SUFFIX,iqiyi.com,DIRECT
 DOMAIN-SUFFIX,ithome.com,DIRECT
 DOMAIN-SUFFIX,ixdzs.com,DIRECT
 DOMAIN-SUFFIX,jd.com,DIRECT
+DOMAIN-SUFFIX,jd.hk,DIRECT
 DOMAIN-SUFFIX,jianshu.com,DIRECT
 DOMAIN-SUFFIX,jianshu.io,DIRECT
 DOMAIN-SUFFIX,jianshuapi.com,DIRECT
@@ -161,9 +204,13 @@ DOMAIN-SUFFIX,lecloud.com,DIRECT
 DOMAIN-SUFFIX,lemicp.com,DIRECT
 DOMAIN-SUFFIX,letv.com,DIRECT
 DOMAIN-SUFFIX,letvcloud.com,DIRECT
+DOMAIN-SUFFIX,live.com,DIRECT
+DOMAIN-SUFFIX,lizhi.io,DIRECT
+DOMAIN-SUFFIX,localizecdn.com,DIRECT
 DOMAIN-SUFFIX,lucifr.com,DIRECT
 DOMAIN-SUFFIX,luoo.net,DIRECT
 DOMAIN-SUFFIX,lxdns.com,DIRECT
+DOMAIN-SUFFIX,maven.org,DIRECT
 DOMAIN-SUFFIX,mi.com,DIRECT
 DOMAIN-SUFFIX,miaopai.com,DIRECT
 DOMAIN-SUFFIX,miui.com,DIRECT
@@ -171,12 +218,16 @@ DOMAIN-SUFFIX,miwifi.com,DIRECT
 DOMAIN-SUFFIX,mmstat.com,DIRECT
 DOMAIN-SUFFIX,mob.com,DIRECT
 DOMAIN-SUFFIX,moke.com,DIRECT
+DOMAIN-SUFFIX,mxhichina.com,DIRECT
 DOMAIN-SUFFIX,myqcloud.com,DIRECT
 DOMAIN-SUFFIX,myunlu.com,DIRECT
 DOMAIN-SUFFIX,netease.com,DIRECT
+DOMAIN-SUFFIX,nssurge.com,DIRECT
 DOMAIN-SUFFIX,nuomi.com,DIRECT
 DOMAIN-SUFFIX,ourdvs.com,DIRECT
 DOMAIN-SUFFIX,overcast.fm,DIRECT
+DOMAIN-SUFFIX,paypal.com,DIRECT
+DOMAIN-SUFFIX,pgyer.com,DIRECT
 DOMAIN-SUFFIX,pstatp.com,DIRECT
 DOMAIN-SUFFIX,qbox.me,DIRECT
 DOMAIN-SUFFIX,qcloud.com,DIRECT
@@ -211,15 +262,24 @@ DOMAIN-SUFFIX,soso.com,DIRECT
 DOMAIN-SUFFIX,sspai.com,DIRECT
 DOMAIN-SUFFIX,startssl.com,DIRECT
 DOMAIN-SUFFIX,suning.com,DIRECT
+DOMAIN-SUFFIX,symcd.com,DIRECT
 DOMAIN-SUFFIX,taobao.com,DIRECT
+DOMAIN-SUFFIX,teamviewer.com,DIRECT
 DOMAIN-SUFFIX,tenpay.com,DIRECT
 DOMAIN-SUFFIX,tietuku.com,DIRECT
 DOMAIN-SUFFIX,tmall.com,DIRECT
+DOMAIN-SUFFIX,trello.com,DIRECT
+DOMAIN-SUFFIX,trellocdn.com,DIRECT
+DOMAIN-SUFFIX,ttmeiju.com,DIRECT
 DOMAIN-SUFFIX,tudou.com,DIRECT
 DOMAIN-SUFFIX,udache.com,DIRECT
+DOMAIN-SUFFIX,umengcloud.com,DIRECT
 DOMAIN-SUFFIX,upaiyun.com,DIRECT
 DOMAIN-SUFFIX,upyun.com,DIRECT
 DOMAIN-SUFFIX,uxengine.net,DIRECT
+DOMAIN-SUFFIX,v2ex.co,DIRECT
+DOMAIN-SUFFIX,v2ex.com,DIRECT
+DOMAIN-SUFFIX,vultr.com,DIRECT
 DOMAIN-SUFFIX,wandoujia.com,DIRECT
 DOMAIN-SUFFIX,weather.com,DIRECT
 DOMAIN-SUFFIX,weibo.com,DIRECT
@@ -228,6 +288,7 @@ DOMAIN-SUFFIX,weiphone.com,DIRECT
 DOMAIN-SUFFIX,weiphone.net,DIRECT
 DOMAIN-SUFFIX,windowsupdate.com,DIRECT
 DOMAIN-SUFFIX,workflowy.com,DIRECT
+DOMAIN-SUFFIX,xclient.info,DIRECT
 DOMAIN-SUFFIX,xdrig.com,DIRECT
 DOMAIN-SUFFIX,xiami.com,DIRECT
 DOMAIN-SUFFIX,xiami.net,DIRECT
@@ -238,7 +299,6 @@ DOMAIN-SUFFIX,xiaomicp.com,DIRECT
 DOMAIN-SUFFIX,ximalaya.com,DIRECT
 DOMAIN-SUFFIX,xitek.com,DIRECT
 DOMAIN-SUFFIX,xmcdn.com,DIRECT
-DOMAIN-SUFFIX,xn--h5qz41fzgdxxl.com,DIRECT
 DOMAIN-SUFFIX,xslb.net,DIRECT
 DOMAIN-SUFFIX,xunlei.com,DIRECT
 DOMAIN-SUFFIX,yach.me,DIRECT
@@ -256,32 +316,71 @@ DOMAIN-SUFFIX,zhihu.com,DIRECT
 DOMAIN-SUFFIX,zhimg.com,DIRECT
 DOMAIN-SUFFIX,zimuzu.tv,DIRECT
 
-# Force some domains which are fucked by GFW while resolving DNS,or don't respect the system Proxy
-#看情况决定是否启用下面那一条规则
-#DOMAIN-KEYWORD,aka,PROXY,force-remote-dns
+# Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
 DOMAIN-KEYWORD,appledaily,PROXY,force-remote-dns
 DOMAIN-KEYWORD,blogspot,PROXY,force-remote-dns
 DOMAIN-KEYWORD,dropbox,PROXY,force-remote-dns
 DOMAIN-KEYWORD,google,PROXY,force-remote-dns
 DOMAIN-KEYWORD,spotify,PROXY,force-remote-dns
 DOMAIN-KEYWORD,telegram,PROXY,force-remote-dns
+DOMAIN-KEYWORD,whatsapp,PROXY,force-remote-dns
+DOMAIN-SUFFIX,1e100.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,2mdn.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,abc.xyz,PROXY,force-remote-dns
+DOMAIN-SUFFIX,akamai.net,PROXY,force-remote-dns
 DOMAIN-SUFFIX,appspot.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,autodraw.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,bandwagonhost.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,blogblog.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,cdninstagram.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,chromeexperiments.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,creativelab5.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,crittercism.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,culturalspot.org,PROXY,force-remote-dns
+DOMAIN-SUFFIX,dartlang.org,PROXY,force-remote-dns
 DOMAIN-SUFFIX,facebook.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,facebook.design,PROXY,force-remote-dns
+DOMAIN-SUFFIX,facebook.net,PROXY,force-remote-dns
 DOMAIN-SUFFIX,fb.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,fb.me,PROXY,force-remote-dns
 DOMAIN-SUFFIX,fbcdn.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,fbsbx.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,gcr.io,PROXY,force-remote-dns
 DOMAIN-SUFFIX,gmail.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,googleapis.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,gosetsuden.jp,PROXY,force-remote-dns
+DOMAIN-SUFFIX,gvt1.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,gwtproject.org,PROXY,force-remote-dns
+DOMAIN-SUFFIX,heroku.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,html5rocks.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,humblebundle.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,instagram.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,keyhole.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,kobo.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,kobobooks.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,madewithcode.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,material.io,PROXY,force-remote-dns
+DOMAIN-SUFFIX,messenger.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,nianticlabs.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,pinimg.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,pixiv.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,pubnub.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,scdn.co,PROXY,force-remote-dns
 DOMAIN-SUFFIX,t.co,PROXY,force-remote-dns
+DOMAIN-SUFFIX,telegram.me,PROXY,force-remote-dns
+DOMAIN-SUFFIX,tensorflow.org,PROXY,force-remote-dns
+DOMAIN-SUFFIX,thefacebook.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,toggleable.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,torproject.org,PROXY,force-remote-dns
 DOMAIN-SUFFIX,twimg.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,twitpic.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,twitter.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,unfiltered.news,PROXY,force-remote-dns
+DOMAIN-SUFFIX,waveprotocol.org,PROXY,force-remote-dns
+DOMAIN-SUFFIX,webmproject.org,PROXY,force-remote-dns
+DOMAIN-SUFFIX,webrtc.org,PROXY,force-remote-dns
 DOMAIN-SUFFIX,youtube.com,PROXY,force-remote-dns
-DOMAIN-SUFFIX,youtube-nocookie.com,PROXY
+DOMAIN-SUFFIX,youtube-nocookie.com,PROXY,force-remote-dns
 
 # steam用户根据各自情况修改此规则
 DOMAIN-SUFFIX,steampowered.com,DIRECT
@@ -359,15 +458,8 @@ IP-CIDR,203.174.77.0/24,PROXY,no-resolve
 
 # Telegram
 IP-CIDR,109.239.140.0/24,PROXY,no-resolve
-IP-CIDR,149.154.160.0/22,PROXY,no-resolve
-IP-CIDR,149.154.164.0/22,PROXY,no-resolve
-IP-CIDR,149.154.168.0/22,PROXY,no-resolve
-IP-CIDR,149.154.172.0/22,PROXY,no-resolve
-IP-CIDR,91.108.4.0/22,PROXY,no-resolve
-IP-CIDR,91.108.56.0/22,PROXY,no-resolve
-#IP-CIDR6,2001:67c:4e8::/48,REJECT,no-resolve
-#IP-CIDR6,2001:b28:f23d::/48,REJECT,no-resolve
-#IP-CIDR6,2001:b28:f23f::/48,REJECT,no-resolve
+IP-CIDR,149.154.160.0/20,PROXY,no-resolve
+IP-CIDR,91.108.4.0/16,PROXY,no-resolve
 
 # Kakao Talk
 IP-CIDR,1.201.0.0/24,PROXY,no-resolve

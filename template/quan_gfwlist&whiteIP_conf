@@ -1,7 +1,5 @@
 [TCP]
 # Apple
-HOST-SUFFIX,appsto.re,🍎PROXY
-URL-REGEX,apple.com/cn,🍎PROXY
 HOST,appleid.apple.com,🍎PROXY
 HOST,appleiphonecell.com,🍎PROXY
 HOST,captive.apple.com,🍎PROXY
@@ -21,6 +19,7 @@ HOST,swdist.apple.com,🍎PROXY
 HOST,swdownload.apple.com,🍎PROXY
 HOST,swquery.apple.com,🍎PROXY
 HOST,swscan.apple.com,🍎PROXY
+HOST-SUFFIX,appsto.re,🍎PROXY
 HOST-SUFFIX,aaplimg.com,🍎PROXY
 HOST-SUFFIX,akadns.net,🍎PROXY
 HOST-SUFFIX,apple.co,🍎PROXY
@@ -37,6 +36,36 @@ HOST-SUFFIX,me.com,🍎PROXY
 HOST-SUFFIX,mzstatic.com,🍎PROXY
 HOST-SUFFIX,push.apple.com,🍎PROXY
 HOST-SUFFIX,siri.apple.com,🍎PROXY
+#UA Apple
+USER-AGENT,AppStore*,🍎PROXY
+USER-AGENT,com.apple.appstored*,🍎PROXY
+USER-AGENT,com.apple.Mobile*,🍎PROXY
+USER-AGENT,com.apple.geod*,🍎PROXY
+USER-AGENT,com.apple.Maps*,🍎PROXY
+USER-AGENT,com.apple.trustd/*,🍎PROXY
+USER-AGENT,FindMyFriends*,🍎PROXY
+USER-AGENT,FMDClient*,🍎PROXY
+USER-AGENT,FMFD*,🍎PROXY
+USER-AGENT,fmflocatord*,🍎PROXY
+USER-AGENT,geod*,🍎PROXY
+USER-AGENT,i?unes*,🍎PROXY
+USER-AGENT,locationd*,🍎PROXY
+USER-AGENT,MacAppStore*,🍎PROXY
+USER-AGENT,Maps*,🍎PROXY
+USER-AGENT,MobileAsset*,🍎PROXY
+USER-AGENT,Watch*,🍎PROXY
+USER-AGENT,$%7BPRODUCT*,🍎PROXY
+USER-AGENT,Music*,🍎PROXY
+USER-AGENT,?arsecd*,🍎PROXY
+USER-AGENT,securityd*,🍎PROXY
+USER-AGENT,server-bag*,🍎PROXY
+USER-AGENT,Settings*,🍎PROXY
+USER-AGENT,Software%20Update*,🍎PROXY
+USER-AGENT,SyncedDefaults*,🍎PROXY
+USER-AGENT,passd*,🍎PROXY
+USER-AGENT,swcd*,🍎PROXY
+USER-AGENT,trustd*,🍎PROXY
+
 
 # direct
 # thx  https://github.com/lhie1/Surge
@@ -47,6 +76,8 @@ HOST-SUFFIX,google.cn,nProxy
 HOST-SUFFIX,cn,nProxy
 # UA
 USER-AGENT,Argo*,Proxy
+USER-AGENT,*Telegram*,Proxy
+USER-AGENT,Instagram*,Proxy
 USER-AGENT,Speedtest*,Proxy
 USER-AGENT,%E5%8D%B3%E5%88%BB*,nProxy
 USER-AGENT,*Vainglory*,nProxy
@@ -61,6 +92,9 @@ USER-AGENT,QQ*,nProxy
 USER-AGENT,TeamViewer*,nProxy
 USER-AGENT,TIM*,nProxy
 USER-AGENT,WeChat*,nProxy
+USER-AGENT,%E5%9C%B0%E5%9B%BE*,nProxy
+USER-AGENT,%E8%AE%BE%E7%BD%AE*,nProxy
+
 # Spark
 HOST-SUFFIX,api.amplitude.com,nProxy
 HOST-SUFFIX,app.smartmailcloud.com,nProxy
@@ -89,6 +123,7 @@ HOST-SUFFIX,alipay.com,nProxy
 HOST-SUFFIX,alipayobjects.com,nProxy
 HOST-SUFFIX,aliyun.com,nProxy
 HOST-SUFFIX,amap.com,nProxy
+HOST-SUFFIX,apache.org,nProxy
 HOST-SUFFIX,appstore.com,nProxy
 HOST-SUFFIX,autonavi.com,nProxy
 HOST-SUFFIX,bababian.com,nProxy
@@ -96,6 +131,7 @@ HOST-SUFFIX,baidu.com,nProxy
 HOST-SUFFIX,battle.net,nProxy
 HOST-SUFFIX,bdimg.com,nProxy
 HOST-SUFFIX,bdstatic.com,nProxy
+HOST-SUFFIX,beatsbydre.com,nProxy
 HOST-SUFFIX,bilibili.com,nProxy
 HOST-SUFFIX,bing.com,nProxy
 HOST-SUFFIX,blizzard.com,nProxy
@@ -114,14 +150,19 @@ HOST-SUFFIX,culturedcode.com,nProxy
 HOST-SUFFIX,didialift.com,nProxy
 HOST-SUFFIX,douban.com,nProxy
 HOST-SUFFIX,doubanio.com,nProxy
+HOST-SUFFIX,douyu.com,nProxy
+HOST-SUFFIX,douyutv.com,nProxy
+HOST-SUFFIX,douyu.tv,nProxy
 HOST-SUFFIX,duokan.com,nProxy
 HOST-SUFFIX,duoshuo.com,nProxy
 HOST-SUFFIX,dytt8.net,nProxy
 HOST-SUFFIX,easou.com,nProxy
 HOST-SUFFIX,ecitic.com,nProxy
 HOST-SUFFIX,ecitic.net,nProxy
+HOST-SUFFIX,eclipse.org,nProxy
 HOST-SUFFIX,eudic.net,nProxy
 HOST-SUFFIX,ewqcxz.com,nProxy
+HOST-SUFFIX,exmail.qq.com,nProxy
 HOST-SUFFIX,feng.com,nProxy
 HOST-SUFFIX,fir.im,nProxy
 HOST-SUFFIX,frdic.com,nProxy
@@ -145,6 +186,7 @@ HOST-SUFFIX,iqiyi.com,nProxy
 HOST-SUFFIX,ithome.com,nProxy
 HOST-SUFFIX,ixdzs.com,nProxy
 HOST-SUFFIX,jd.com,nProxy
+HOST-SUFFIX,jd.hk,nProxy
 HOST-SUFFIX,jianshu.com,nProxy
 HOST-SUFFIX,jianshu.io,nProxy
 HOST-SUFFIX,jianshuapi.com,nProxy
@@ -155,9 +197,13 @@ HOST-SUFFIX,lecloud.com,nProxy
 HOST-SUFFIX,lemicp.com,nProxy
 HOST-SUFFIX,letv.com,nProxy
 HOST-SUFFIX,letvcloud.com,nProxy
+HOST-SUFFIX,live.com,nProxy
+HOST-SUFFIX,lizhi.io,nProxy
+HOST-SUFFIX,localizecdn.com,nProxy
 HOST-SUFFIX,lucifr.com,nProxy
 HOST-SUFFIX,luoo.net,nProxy
 HOST-SUFFIX,lxdns.com,nProxy
+HOST-SUFFIX,maven.org,nProxy
 HOST-SUFFIX,mi.com,nProxy
 HOST-SUFFIX,miaopai.com,nProxy
 HOST-SUFFIX,miui.com,nProxy
@@ -165,12 +211,16 @@ HOST-SUFFIX,miwifi.com,nProxy
 HOST-SUFFIX,mmstat.com,nProxy
 HOST-SUFFIX,mob.com,nProxy
 HOST-SUFFIX,moke.com,nProxy
+HOST-SUFFIX,mxhichina.com,nProxy
 HOST-SUFFIX,myqcloud.com,nProxy
 HOST-SUFFIX,myunlu.com,nProxy
 HOST-SUFFIX,netease.com,nProxy
+HOST-SUFFIX,nssurge.com,nProxy
 HOST-SUFFIX,nuomi.com,nProxy
 HOST-SUFFIX,ourdvs.com,nProxy
 HOST-SUFFIX,overcast.fm,nProxy
+HOST-SUFFIX,paypal.com,nProxy
+HOST-SUFFIX,pgyer.com,nProxy
 HOST-SUFFIX,pstatp.com,nProxy
 HOST-SUFFIX,qbox.me,nProxy
 HOST-SUFFIX,qcloud.com,nProxy
@@ -205,15 +255,24 @@ HOST-SUFFIX,soso.com,nProxy
 HOST-SUFFIX,sspai.com,nProxy
 HOST-SUFFIX,startssl.com,nProxy
 HOST-SUFFIX,suning.com,nProxy
+HOST-SUFFIX,symcd.com,nProxy
 HOST-SUFFIX,taobao.com,nProxy
+HOST-SUFFIX,teamviewer.com,nProxy
 HOST-SUFFIX,tenpay.com,nProxy
 HOST-SUFFIX,tietuku.com,nProxy
 HOST-SUFFIX,tmall.com,nProxy
+HOST-SUFFIX,trello.com,nProxy
+HOST-SUFFIX,trellocdn.com,nProxy
+HOST-SUFFIX,ttmeiju.com,nProxy
 HOST-SUFFIX,tudou.com,nProxy
 HOST-SUFFIX,udache.com,nProxy
+HOST-SUFFIX,umengcloud.com,nProxy
 HOST-SUFFIX,upaiyun.com,nProxy
 HOST-SUFFIX,upyun.com,nProxy
 HOST-SUFFIX,uxengine.net,nProxy
+HOST-SUFFIX,v2ex.co,nProxy
+HOST-SUFFIX,v2ex.com,nProxy
+HOST-SUFFIX,vultr.com,nProxy
 HOST-SUFFIX,wandoujia.com,nProxy
 HOST-SUFFIX,weather.com,nProxy
 HOST-SUFFIX,weibo.com,nProxy
@@ -222,6 +281,7 @@ HOST-SUFFIX,weiphone.com,nProxy
 HOST-SUFFIX,weiphone.net,nProxy
 HOST-SUFFIX,windowsupdate.com,nProxy
 HOST-SUFFIX,workflowy.com,nProxy
+HOST-SUFFIX,xclient.info,nProxy
 HOST-SUFFIX,xdrig.com,nProxy
 HOST-SUFFIX,xiami.com,nProxy
 HOST-SUFFIX,xiami.net,nProxy
@@ -232,7 +292,6 @@ HOST-SUFFIX,xiaomicp.com,nProxy
 HOST-SUFFIX,ximalaya.com,nProxy
 HOST-SUFFIX,xitek.com,nProxy
 HOST-SUFFIX,xmcdn.com,nProxy
-HOST-SUFFIX,xn--h5qz41fzgdxxl.com,nProxy
 HOST-SUFFIX,xslb.net,nProxy
 HOST-SUFFIX,xunlei.com,nProxy
 HOST-SUFFIX,yach.me,nProxy
@@ -250,32 +309,71 @@ HOST-SUFFIX,zhihu.com,nProxy
 HOST-SUFFIX,zhimg.com,nProxy
 HOST-SUFFIX,zimuzu.tv,nProxy
 
-# Force some domains which are fucked by GFW while resolving DNS,or don't respect the system Proxy
-#看情况决定是否启用下面那一条规则
-#HOST-KEYWORD,aka,Proxy,force-remote-dns
+# Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
 HOST-KEYWORD,appledaily,Proxy,force-remote-dns
 HOST-KEYWORD,blogspot,Proxy,force-remote-dns
 HOST-KEYWORD,dropbox,Proxy,force-remote-dns
 HOST-KEYWORD,google,Proxy,force-remote-dns
 HOST-KEYWORD,spotify,Proxy,force-remote-dns
 HOST-KEYWORD,telegram,Proxy,force-remote-dns
+HOST-KEYWORD,whatsapp,Proxy,force-remote-dns
+HOST-SUFFIX,1e100.net,Proxy,force-remote-dns
+HOST-SUFFIX,2mdn.net,Proxy,force-remote-dns
+HOST-SUFFIX,abc.xyz,Proxy,force-remote-dns
+HOST-SUFFIX,akamai.net,Proxy,force-remote-dns
 HOST-SUFFIX,appspot.com,Proxy,force-remote-dns
+HOST-SUFFIX,autodraw.com,Proxy,force-remote-dns
+HOST-SUFFIX,bandwagonhost.com,Proxy,force-remote-dns
+HOST-SUFFIX,blogblog.com,Proxy,force-remote-dns
 HOST-SUFFIX,cdninstagram.com,Proxy,force-remote-dns
+HOST-SUFFIX,chromeexperiments.com,Proxy,force-remote-dns
+HOST-SUFFIX,creativelab5.com,Proxy,force-remote-dns
+HOST-SUFFIX,crittercism.com,Proxy,force-remote-dns
+HOST-SUFFIX,culturalspot.org,Proxy,force-remote-dns
+HOST-SUFFIX,dartlang.org,Proxy,force-remote-dns
 HOST-SUFFIX,facebook.com,Proxy,force-remote-dns
 HOST-SUFFIX,facebook.design,Proxy,force-remote-dns
+HOST-SUFFIX,facebook.net,Proxy,force-remote-dns
 HOST-SUFFIX,fb.com,Proxy,force-remote-dns
 HOST-SUFFIX,fb.me,Proxy,force-remote-dns
 HOST-SUFFIX,fbcdn.net,Proxy,force-remote-dns
+HOST-SUFFIX,fbsbx.com,Proxy,force-remote-dns
+HOST-SUFFIX,gcr.io,Proxy,force-remote-dns
 HOST-SUFFIX,gmail.com,Proxy,force-remote-dns
 HOST-SUFFIX,googleapis.com,Proxy,force-remote-dns
+HOST-SUFFIX,gosetsuden.jp,Proxy,force-remote-dns
+HOST-SUFFIX,gvt1.com,Proxy,force-remote-dns
+HOST-SUFFIX,gwtproject.org,Proxy,force-remote-dns
+HOST-SUFFIX,heroku.com,Proxy,force-remote-dns
+HOST-SUFFIX,html5rocks.com,Proxy,force-remote-dns
+HOST-SUFFIX,humblebundle.com,Proxy,force-remote-dns
 HOST-SUFFIX,instagram.com,Proxy,force-remote-dns
+HOST-SUFFIX,keyhole.com,Proxy,force-remote-dns
+HOST-SUFFIX,kobo.com,Proxy,force-remote-dns
+HOST-SUFFIX,kobobooks.com,Proxy,force-remote-dns
+HOST-SUFFIX,madewithcode.com,Proxy,force-remote-dns
+HOST-SUFFIX,material.io,Proxy,force-remote-dns
+HOST-SUFFIX,messenger.com,Proxy,force-remote-dns
+HOST-SUFFIX,nianticlabs.com,Proxy,force-remote-dns
+HOST-SUFFIX,pinimg.com,Proxy,force-remote-dns
+HOST-SUFFIX,pixiv.net,Proxy,force-remote-dns
+HOST-SUFFIX,pubnub.com,Proxy,force-remote-dns
 HOST-SUFFIX,scdn.co,Proxy,force-remote-dns
 HOST-SUFFIX,t.co,Proxy,force-remote-dns
+HOST-SUFFIX,telegram.me,Proxy,force-remote-dns
+HOST-SUFFIX,tensorflow.org,Proxy,force-remote-dns
+HOST-SUFFIX,thefacebook.com,Proxy,force-remote-dns
+HOST-SUFFIX,toggleable.com,Proxy,force-remote-dns
+HOST-SUFFIX,torproject.org,Proxy,force-remote-dns
 HOST-SUFFIX,twimg.com,Proxy,force-remote-dns
 HOST-SUFFIX,twitpic.com,Proxy,force-remote-dns
 HOST-SUFFIX,twitter.com,Proxy,force-remote-dns
+HOST-SUFFIX,unfiltered.news,Proxy,force-remote-dns
+HOST-SUFFIX,waveprotocol.org,Proxy,force-remote-dns
+HOST-SUFFIX,webmproject.org,Proxy,force-remote-dns
+HOST-SUFFIX,webrtc.org,Proxy,force-remote-dns
 HOST-SUFFIX,youtube.com,Proxy,force-remote-dns
-HOST-SUFFIX,youtube-nocookie.com,Proxy
+HOST-SUFFIX,youtube-nocookie.com,Proxy,force-remote-dns
 
 # steam用户根据各自情况修改此规则
 HOST-SUFFIX,steampowered.com,nProxy
@@ -353,15 +451,8 @@ IP-CIDR,203.174.77.0/24,Proxy,no-resolve
 
 # Telegram
 IP-CIDR,109.239.140.0/24,Proxy,no-resolve
-IP-CIDR,149.154.160.0/22,Proxy,no-resolve
-IP-CIDR,149.154.164.0/22,Proxy,no-resolve
-IP-CIDR,149.154.168.0/22,Proxy,no-resolve
-IP-CIDR,149.154.172.0/22,Proxy,no-resolve
-IP-CIDR,91.108.4.0/22,Proxy,no-resolve
-IP-CIDR,91.108.56.0/22,Proxy,no-resolve
-#IP-CIDR6,2001:67c:4e8::/48,REJECT,no-resolve
-#IP-CIDR6,2001:b28:f23d::/48,REJECT,no-resolve
-#IP-CIDR6,2001:b28:f23f::/48,REJECT,no-resolve
+IP-CIDR,149.154.160.0/20,Proxy,no-resolve
+IP-CIDR,91.108.4.0/16,Proxy,no-resolve
 
 # Kakao Talk
 IP-CIDR,1.201.0.0/24,Proxy,no-resolve
