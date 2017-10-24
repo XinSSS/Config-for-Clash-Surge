@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2017-10-17 14:00:57
+# updated on 2017-10-24 11:19:29
 
 DOMAIN-SUFFIX,2dbook.com,Proxy
 DOMAIN-SUFFIX,4tern.com,Proxy
@@ -188,8 +188,9 @@ DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,Proxy
 DOMAIN-SUFFIX,s3.amazonaws.com,Proxy
 DOMAIN-SUFFIX,agro.hk,Proxy
 DOMAIN-SUFFIX,boomssr.com,Proxy
-DOMAIN-SUFFIX,line-scdn.net,Proxy
 DOMAIN-SUFFIX,jiji.com,Proxy
+DOMAIN-SUFFIX,line-scdn.net,Proxy
+DOMAIN-SUFFIX,cloud.mail.ru,Proxy
 DOMAIN-SUFFIX,pixiv.net,Proxy
 DOMAIN-SUFFIX,i.lithium.com,Proxy
 DOMAIN-SUFFIX,china-mmm.jp.net,Proxy
@@ -784,6 +785,8 @@ DOMAIN-SUFFIX,a5.com.ru,Proxy
 DOMAIN-SUFFIX,aamacau.com,Proxy
 DOMAIN-SUFFIX,abc.com,Proxy
 DOMAIN-SUFFIX,abchinese.com,Proxy
+DOMAIN-SUFFIX,abclite.net,Proxy
+DOMAIN-SUFFIX,www.abclite.net,Proxy
 DOMAIN-SUFFIX,ablwang.com,Proxy
 DOMAIN-SUFFIX,aboluowang.com,Proxy
 DOMAIN-SUFFIX,aboutgfw.com,Proxy
@@ -895,6 +898,7 @@ DOMAIN-SUFFIX,anthonycalzadilla.com,Proxy
 DOMAIN-SUFFIX,anti1984.com,Proxy
 DOMAIN-SUFFIX,antichristendom.com,Proxy
 DOMAIN-SUFFIX,antiwave.net,Proxy
+DOMAIN-SUFFIX,anyporn.com,Proxy
 DOMAIN-SUFFIX,anysex.com,Proxy
 DOMAIN-SUFFIX,aobo.com.au,Proxy
 DOMAIN-SUFFIX,aofriend.com,Proxy
@@ -1203,6 +1207,7 @@ DOMAIN-SUFFIX,cap.org.hk,Proxy
 DOMAIN-SUFFIX,carabinasypistolas.com,Proxy
 DOMAIN-SUFFIX,cardinalkungfoundation.org,Proxy
 DOMAIN-SUFFIX,carmotorshow.com,Proxy
+DOMAIN-SUFFIX,ss.carryzhou.com,Proxy
 DOMAIN-SUFFIX,cartoonmovement.com,Proxy
 DOMAIN-SUFFIX,casadeltibetbcn.org,Proxy
 DOMAIN-SUFFIX,casatibet.org.mx,Proxy
@@ -1593,6 +1598,7 @@ DOMAIN-SUFFIX,dphk.org,Proxy
 DOMAIN-SUFFIX,dpp.org.tw,Proxy
 DOMAIN-SUFFIX,dpr.info,Proxy
 DOMAIN-SUFFIX,dragonsprings.org,Proxy
+DOMAIN-SUFFIX,dreamamateurs.com,Proxy
 DOMAIN-SUFFIX,drepung.org,Proxy
 DOMAIN-SUFFIX,drgan.net,Proxy
 DOMAIN-SUFFIX,drmingxia.org,Proxy
@@ -1658,6 +1664,7 @@ DOMAIN-SUFFIX,ebony-beauty.com,Proxy
 DOMAIN-SUFFIX,ebookbrowse.com,Proxy
 DOMAIN-SUFFIX,ebookee.com,Proxy
 DOMAIN-SUFFIX,ecfa.org.tw,Proxy
+DOMAIN-SUFFIX,ushuarencity.echainhost.com,Proxy
 DOMAIN-SUFFIX,ecimg.tw,Proxy
 DOMAIN-SUFFIX,ecministry.net,Proxy
 DOMAIN-SUFFIX,economist.com,Proxy
@@ -1874,6 +1881,7 @@ DOMAIN-SUFFIX,flickrhivemind.net,Proxy
 DOMAIN-SUFFIX,flickriver.com,Proxy
 DOMAIN-SUFFIX,fling.com,Proxy
 DOMAIN-SUFFIX,flipkart.com,Proxy
+DOMAIN-SUFFIX,flog.tw,Proxy
 DOMAIN-SUFFIX,cn.fmnnow.com,Proxy
 DOMAIN-SUFFIX,fofldfradio.org,Proxy
 DOMAIN-SUFFIX,blog.foolsmountain.com,Proxy
@@ -2175,6 +2183,7 @@ DOMAIN-SUFFIX,gts-vpn.com,Proxy
 DOMAIN-SUFFIX,gu-chu-sum.org,Proxy
 DOMAIN-SUFFIX,guaguass.com,Proxy
 DOMAIN-SUFFIX,guaguass.org,Proxy
+DOMAIN-SUFFIX,guangming.com.my,Proxy
 DOMAIN-SUFFIX,guishan.org,Proxy
 DOMAIN-SUFFIX,gumroad.com,Proxy
 DOMAIN-SUFFIX,gunsamerica.com,Proxy
@@ -2994,6 +3003,7 @@ DOMAIN-SUFFIX,mk5000.com,Proxy
 DOMAIN-SUFFIX,mlcool.com,Proxy
 DOMAIN-SUFFIX,mmaaxx.com,Proxy
 DOMAIN-SUFFIX,mmmca.com,Proxy
+DOMAIN-SUFFIX,mnewstv.com,Proxy
 DOMAIN-SUFFIX,mobatek.net,Proxy
 DOMAIN-SUFFIX,mobile01.com,Proxy
 DOMAIN-SUFFIX,mobileways.de,Proxy
@@ -3149,6 +3159,7 @@ DOMAIN-SUFFIX,newschinacomment.org,Proxy
 DOMAIN-SUFFIX,newscn.org,Proxy
 DOMAIN-SUFFIX,newspeak.cc,Proxy
 DOMAIN-SUFFIX,newsancai.com,Proxy
+DOMAIN-SUFFIX,newsdetox.ca,Proxy
 DOMAIN-SUFFIX,newsdh.com,Proxy
 DOMAIN-SUFFIX,newstamago.com,Proxy
 DOMAIN-SUFFIX,newstapa.org,Proxy
@@ -3346,6 +3357,7 @@ DOMAIN-SUFFIX,panluan.net,Proxy
 DOMAIN-SUFFIX,pao-pao.net,Proxy
 DOMAIN-SUFFIX,paper.li,Proxy
 DOMAIN-SUFFIX,paperb.us,Proxy
+DOMAIN-SUFFIX,paradisehill.cc,Proxy
 DOMAIN-SUFFIX,paradisepoker.com,Proxy
 DOMAIN-SUFFIX,partycasino.com,Proxy
 DOMAIN-SUFFIX,partypoker.com,Proxy
@@ -3434,6 +3446,7 @@ DOMAIN-SUFFIX,placemix.com,Proxy
 DOMAIN-SUFFIX,pictures.playboy.com,Proxy
 DOMAIN-SUFFIX,playboy.com,Proxy
 DOMAIN-SUFFIX,playboyplus.com,Proxy
+DOMAIN-SUFFIX,player.fm,Proxy
 DOMAIN-SUFFIX,playno1.com,Proxy
 DOMAIN-SUFFIX,playpcesor.com,Proxy
 DOMAIN-SUFFIX,plays.com.tw,Proxy
@@ -3578,6 +3591,7 @@ DOMAIN-SUFFIX,quannengshen.org,Proxy
 DOMAIN-SUFFIX,quantumbooter.net,Proxy
 DOMAIN-SUFFIX,quitccp.net,Proxy
 DOMAIN-SUFFIX,quitccp.org,Proxy
+DOMAIN-SUFFIX,quora.com,Proxy
 DOMAIN-SUFFIX,quran.com,Proxy
 DOMAIN-SUFFIX,quranexplorer.com,Proxy
 DOMAIN-SUFFIX,qusi8.net,Proxy
@@ -3835,6 +3849,7 @@ DOMAIN-SUFFIX,singfortibet.com,Proxy
 DOMAIN-SUFFIX,singpao.com.hk,Proxy
 DOMAIN-SUFFIX,singtao.com,Proxy
 DOMAIN-SUFFIX,news.singtao.ca,Proxy
+DOMAIN-SUFFIX,singtaousa.com,Proxy
 DOMAIN-SUFFIX,sino-monthly.com,Proxy
 DOMAIN-SUFFIX,sinocast.com,Proxy
 DOMAIN-SUFFIX,sinocism.com,Proxy
@@ -4546,6 +4561,7 @@ DOMAIN-SUFFIX,beta.usejump.com,Proxy
 DOMAIN-SUFFIX,usfk.mil,Proxy
 DOMAIN-SUFFIX,usma.edu,Proxy
 DOMAIN-SUFFIX,usmc.mil,Proxy
+DOMAIN-SUFFIX,usocctn.com,Proxy
 DOMAIN-SUFFIX,tarr.uspto.gov,Proxy
 DOMAIN-SUFFIX,tsdr.uspto.gov,Proxy
 DOMAIN-SUFFIX,ustream.tv,Proxy
@@ -4822,6 +4838,7 @@ DOMAIN-SUFFIX,chenshan20042005.wordpress.com,Proxy
 DOMAIN-SUFFIX,hka8964.wordpress.com,Proxy
 DOMAIN-SUFFIX,hkanews.wordpress.com,Proxy
 DOMAIN-SUFFIX,hqsbonline.wordpress.com,Proxy
+DOMAIN-SUFFIX,investigating.wordpress.com,Proxy
 DOMAIN-SUFFIX,jobnewera.wordpress.com,Proxy
 DOMAIN-SUFFIX,sujiatun.wordpress.com,Proxy
 DOMAIN-SUFFIX,wp.com,Proxy
@@ -4939,6 +4956,7 @@ DOMAIN-SUFFIX,yesasia.com,Proxy
 DOMAIN-SUFFIX,yesasia.com.hk,Proxy
 DOMAIN-SUFFIX,yes-news.com,Proxy
 DOMAIN-SUFFIX,yespornplease.com,Proxy
+DOMAIN-SUFFIX,yeyeclub.com,Proxy
 DOMAIN-SUFFIX,yhcw.net,Proxy
 DOMAIN-SUFFIX,yibada.com,Proxy
 DOMAIN-SUFFIX,yibaochina.com,Proxy
@@ -4956,6 +4974,7 @@ DOMAIN-SUFFIX,yorkbbs.ca,Proxy
 DOMAIN-SUFFIX,youxu.info,Proxy
 DOMAIN-SUFFIX,youjizz.com,Proxy
 DOMAIN-SUFFIX,youmaker.com,Proxy
+DOMAIN-SUFFIX,youngpornvideos.com,Proxy
 DOMAIN-SUFFIX,youngspiration.hk,Proxy
 DOMAIN-SUFFIX,youpai.org,Proxy
 DOMAIN-SUFFIX,your-freedom.net,Proxy
@@ -4964,6 +4983,7 @@ DOMAIN-SUFFIX,yourprivatevpn.com,Proxy
 DOMAIN-SUFFIX,yousendit.com,Proxy
 DOMAIN-SUFFIX,youthnetradio.org,Proxy
 DOMAIN-SUFFIX,blog.youthwant.com.tw,Proxy
+DOMAIN-SUFFIX,me.youthwant.com.tw,Proxy
 DOMAIN-SUFFIX,share.youthwant.com.tw,Proxy
 DOMAIN-SUFFIX,topic.youthwant.com.tw,Proxy
 DOMAIN-SUFFIX,youporn.com,Proxy

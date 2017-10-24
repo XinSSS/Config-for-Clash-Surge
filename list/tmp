@@ -1,12 +1,12 @@
 [AutoProxy 0.2.9]
-! Checksum: 5yIIvgdU19tSK7BBBdXILg
+! Checksum: E5AyuGvpieu8eE0hh/DRng
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Tue, 17 Oct 2017 09:41:03 -0400
+! Last Modified: Mon, 23 Oct 2017 00:46:08 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
-! License: https://raw.githubusercontent.com/gfwlist/gfwlist/master/COPYING.txt
+! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
 !
 ! GFWList is unlikely to fully comprise the real
 ! rules being deployed inside GFW system. We try
@@ -236,8 +236,9 @@ share.dmhy.org
 |https://*.s3.amazonaws.com
 ||agro.hk
 ||boomssr.com
-||line-scdn.net
 ||jiji.com
+||line-scdn.net
+||cloud.mail.ru
 ||pixiv.net
 ||i.lithium.com
 
@@ -1055,6 +1056,8 @@ a5.com.ru
 !--|http://cdn*.abc.com/
 .abc.com
 .abchinese.com
+abclite.net
+|https://www.abclite.net
 .ablwang.com
 .aboluowang.com
 ||aboluowang.com
@@ -1199,6 +1202,7 @@ anontext.com
 antichristendom.com
 .antiwave.net
 |http://antiwave.net
+.anyporn.com
 .anysex.com
 |http://anysex.com
 ||aobo.com.au
@@ -1612,6 +1616,7 @@ caochangqing.com
 .carabinasypistolas.com
 cardinalkungfoundation.org
 carmotorshow.com
+ss.carryzhou.com
 .cartoonmovement.com
 ||cartoonmovement.com
 .casadeltibetbcn.org
@@ -2136,6 +2141,7 @@ dpp.org.tw
 ||dpr.info
 ||dragonsprings.org
 !--||draw.io
+.dreamamateurs.com
 .drepung.org
 ||drgan.net
 .drmingxia.org
@@ -2223,6 +2229,7 @@ eastern-ark.com
 ebookbrowse.com
 ebookee.com
 ||ecfa.org.tw
+ushuarencity.echainhost.com
 ||ecimg.tw
 ecministry.net
 .economist.com
@@ -2518,6 +2525,7 @@ flickrhivemind.net
 .flickriver.com
 .fling.com
 ||flipkart.com
+||flog.tw
 |http://cn.fmnnow.com
 fofldfradio.org
 blog.foolsmountain.com
@@ -2651,12 +2659,15 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001037090
 .ftchinese.com/story/001037091
 .ftchinese.com/story/001038220
+.ftchinese.com/story/001039369
+.ftchinese.com/story/001039712
 .ftchinese.com/story/001040890
 .ftchinese.com/story/001040918
 .ftchinese.com/story/001042100
 .ftchinese.com/story/001042252
 .ftchinese.com/story/001042272
 .ftchinese.com/story/001043534
+.ftchinese.com/story/001043680
 .ftchinese.com/story/001043849
 .ftchinese.com/story/001044099
 .ftchinese.com/story/001044776
@@ -2676,6 +2687,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001047413
 .ftchinese.com/story/001047491
 .ftchinese.com/story/001047545
+.ftchinese.com/story/001047558
 .ftchinese.com/story/001047568
 .ftchinese.com/story/001047627
 .ftchinese.com/story/001048710
@@ -2684,24 +2696,54 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001052965
 .ftchinese.com/story/001053150
 .ftchinese.com/story/001053526
+.ftchinese.com/story/001053906
 .ftchinese.com/story/001054103
+.ftchinese.com/story/001054166
 .ftchinese.com/story/001054168
 .ftchinese.com/story/001054526
+.ftchinese.com/story/001054607
 .ftchinese.com/story/001054644
+.ftchinese.com/story/001054786
+.ftchinese.com/story/001054925
+.ftchinese.com/story/001055051
+.ftchinese.com/story/001055170
+.ftchinese.com/story/001055202
+.ftchinese.com/story/001055242
+.ftchinese.com/story/001055263
+.ftchinese.com/story/001055274
 .ftchinese.com/story/001055299
 .ftchinese.com/story/001055480
 .ftchinese.com/story/001055551
 .ftchinese.com/story/001055559
+.ftchinese.com/story/001055566
+.ftchinese.com/story/001056108
 .ftchinese.com/story/001056131
 .ftchinese.com/story/001056529
+.ftchinese.com/story/001056538
+.ftchinese.com/story/001056541
 .ftchinese.com/story/001056554
 .ftchinese.com/story/001056567
 .ftchinese.com/story/001056588
 .ftchinese.com/story/001056596
+.ftchinese.com/story/001056832
+.ftchinese.com/story/001056896
+.ftchinese.com/story/001056927
+.ftchinese.com/story/001057011
+.ftchinese.com/story/001057018
+.ftchinese.com/story/001057162
+.ftchinese.com/story/001057500
+.ftchinese.com/story/001057504
 .ftchinese.com/story/001057509
+.ftchinese.com/story/001057518
 .ftchinese.com/story/001057533
+.ftchinese.com/story/001057556
+.ftchinese.com/story/001057580
+.ftchinese.com/story/001057638
+.ftchinese.com/story/001057644
+.ftchinese.com/story/001058257
 .ftchinese.com/story/001058295
 .ftchinese.com/story/001058344
+.ftchinese.com/story/001058413
 .ftchinese.com/story/001058421
 .ftchinese.com/story/001058458
 .ftchinese.com/story/001058468
@@ -2710,50 +2752,83 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001058567
 .ftchinese.com/story/001058585
 .ftchinese.com/story/001058628
+.ftchinese.com/story/001058665
 .ftchinese.com/story/001058678
 .ftchinese.com/story/001059484
+.ftchinese.com/story/001059537
 .ftchinese.com/story/001059538
+.ftchinese.com/story/001059551
 .ftchinese.com/story/001059818
 .ftchinese.com/story/001059914
 .ftchinese.com/story/001059920
+.ftchinese.com/story/001060156
 .ftchinese.com/story/001060181
 .ftchinese.com/story/001060493
 .ftchinese.com/story/001060495
+.ftchinese.com/story/001060590
+.ftchinese.com/story/001060846
+.ftchinese.com/story/001060847
+.ftchinese.com/story/001060875
 .ftchinese.com/story/001060921
 .ftchinese.com/story/001061120
+.ftchinese.com/story/001061642
 .ftchinese.com/story/001062028
 .ftchinese.com/story/001062176
 .ftchinese.com/story/001062254
 .ftchinese.com/story/001062482
+.ftchinese.com/story/001062496
+.ftchinese.com/story/001062501
 .ftchinese.com/story/001062508
+.ftchinese.com/story/001062519
+.ftchinese.com/story/001062554
 .ftchinese.com/story/001062741
 .ftchinese.com/story/001062794
 .ftchinese.com/story/001063160
 .ftchinese.com/story/001063359
+.ftchinese.com/story/001063668
 .ftchinese.com/story/001063692
+.ftchinese.com/story/001063763
+.ftchinese.com/story/001063764
 .ftchinese.com/story/001063826
+.ftchinese.com/story/001064705
+.ftchinese.com/story/001064807
+.ftchinese.com/story/001065120
+.ftchinese.com/story/001065168
 .ftchinese.com/story/001065287
 .ftchinese.com/story/001065541
+.ftchinese.com/story/001065735
+.ftchinese.com/story/001065756
+.ftchinese.com/story/001066136
 .ftchinese.com/story/001066465
 .ftchinese.com/story/001066959
 .ftchinese.com/story/001067435
 www.ftchinese.com/story/001067479
 .ftchinese.com/story/001067545
+.ftchinese.com/story/001067572
 .ftchinese.com/story/001067648
 .ftchinese.com/story/001067650
+.ftchinese.com/story/001067680
+.ftchinese.com/story/001067871
 .ftchinese.com/story/001068248
 .ftchinese.com/story/001068278
 .ftchinese.com/story/001068379
 .ftchinese.com/story/001068483
+.ftchinese.com/story/001068547
+.ftchinese.com/story/001068622
+.ftchinese.com/story/001068707
 .ftchinese.com/story/001069373
 .ftchinese.com/story/001069516
 .ftchinese.com/story/001069517
+.ftchinese.com/story/001069687
+.ftchinese.com/story/001069741
 .ftchinese.com/story/001069861
 .ftchinese.com/story/001069952
+.ftchinese.com/story/001070177
 .ftchinese.com/story/001070307
 .ftchinese.com/story/001070809
 .ftchinese.com/story/001070990
 .ftchinese.com/story/001071042
+.ftchinese.com/story/001071044
 .ftchinese.com/story/001071106
 .ftchinese.com/story/001071166
 .ftchinese.com/story/001071181
@@ -2761,6 +2836,7 @@ ftchinese.com/story/001071200
 .ftchinese.com/story/001071208
 .ftchinese.com/story/001071238
 .ftchinese.com/story/001072271
+.ftchinese.com/story/001072348
 .ftchinese.com/story/001072677
 .ftchinese.com/story/001072853
 .ftchinese.com/story/001072895
@@ -2788,6 +2864,9 @@ ftchinese.com/story/001071200
 .ftchinese.com/story/001074550
 .ftchinese.com/story/001074562
 .ftchinese.com/story/001074653
+.ftchinese.com/story/001074693
+.ftchinese.com/story/001074699
+.ftchinese.com/story/001074712
 .ftchinese.com/tag/%E5%8D%81%E5%85%AB%E5%B1%8A%E4%B8%89%E4%B8%AD%E5%85%A8%E4%BC%9A
 .ftchinese.com/video/1437
 .ftchinese.com/video/1882
@@ -3270,6 +3349,7 @@ greatfirewallofchina.org
 |http://guaguass.com
 .guaguass.org
 |http://guaguass.org
+.guangming.com.my
 guishan.org
 ||guishan.org
 .gumroad.com
@@ -4319,6 +4399,7 @@ mixpod.com
 .mlcool.com
 ||mmaaxx.com
 .mmmca.com
+mnewstv.com
 ||mobatek.net
 .mobile01.com
 |http://mobile01.com
@@ -4510,6 +4591,7 @@ newschinacomment.org
 newspeak.cc/story
 .newsancai.com
 ||newsancai.com
+.newsdetox.ca
 .newsdh.com
 ||newstamago.com
 ||newstapa.org
@@ -4724,6 +4806,7 @@ oyghan.com/wps
 .ozchinese.com/bbs
 ||ow.ly
 bbs.ozchinese.com
+.ozvoice.org
 |https://ozvoice.org
 .ozxw.com
 .ozyoyo.com
@@ -4752,6 +4835,7 @@ paljorpublications.com
 ||pao-pao.net
 paper.li
 paperb.us
+.paradisehill.cc
 .paradisepoker.com
 .partycasino.com
 .partypoker.com
@@ -4860,6 +4944,7 @@ piraattilahti.org
 ||playboy.com
 .playboyplus.com
 ||playboyplus.com
+||player.fm
 .playno1.com
 ||playno1.com
 ||playpcesor.com
@@ -5049,6 +5134,7 @@ quantumbooter.net
 .quitccp.net
 ||quitccp.org
 .quitccp.org
+.quora.com/Chinas-Future
 .quran.com
 |http://quran.com
 .quranexplorer.com
@@ -5122,6 +5208,7 @@ relaxbbs.com
 .releaseinternational.org
 religioustolerance.org
 renminbao.com
+||renminbao.com
 .renyurenquan.org
 ||renyurenquan.org
 |http://certificate.revocationcheck.com
@@ -5378,6 +5465,8 @@ news.sinchew.com.my
 singtao.com
 ||singtao.com
 news.singtao.ca
+.singtaousa.com
+||singtaousa.com
 !--||cdp.sinica.edu.tw
 sino-monthly.com
 ||sinocast.com
@@ -6317,6 +6406,7 @@ beta.usejump.com
 ||usfk.mil
 ||usma.edu
 ||usmc.mil
+.usocctn.com
 |http://tarr.uspto.gov/
 ||tsdr.uspto.gov
 .ustream.tv
@@ -6725,6 +6815,7 @@ worldjournal.com
 ||hka8964.wordpress.com
 ||hkanews.wordpress.com
 ||hqsbonline.wordpress.com
+||investigating.wordpress.com
 ||jobnewera.wordpress.com
 ||sujiatun.wordpress.com
 ||wp.com
@@ -6872,6 +6963,7 @@ yegle.net
 |http://yes-news.com
 .yespornplease.com
 ||yespornplease.com
+|http://yeyeclub.com
 !--yfrog.com
 ||yhcw.net
 .yibada.com
@@ -6894,6 +6986,7 @@ yong.hu
 .youjizz.com
 ||youjizz.com
 youmaker.com
+.youngpornvideos.com
 youngspiration.hk
 .youpai.org
 ||youpai.org
@@ -6905,6 +6998,7 @@ youngspiration.hk
 ||yousendit.com
 .youthnetradio.org/tmit/forum
 blog.youthwant.com.tw
+me.youthwant.com.tw
 share.youthwant.com.tw
 topic.youthwant.com.tw
 .youporn.com

@@ -76,7 +76,7 @@ USER-AGENT,trustd*,DIRECT
 
 # direct
 # thx  https://github.com/lhie1/Surge
-# updated on 2017-10-17
+# updated on 2017-10-24
 DOMAIN-KEYWORD,torrent,DIRECT
 DOMAIN-SUFFIX,edu.cn,DIRECT
 DOMAIN-SUFFIX,google.cn,DIRECT

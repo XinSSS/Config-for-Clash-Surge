@@ -69,7 +69,7 @@ USER-AGENT,trustd*,🍎PROXY
 
 # direct
 # thx  https://github.com/lhie1/Surge
-# updated on 2017-10-17
+# updated on 2017-10-24
 HOST-KEYWORD,torrent,nProxy
 HOST-SUFFIX,edu.cn,nProxy
 HOST-SUFFIX,google.cn,nProxy
