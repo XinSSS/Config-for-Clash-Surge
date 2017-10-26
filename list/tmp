@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: E5AyuGvpieu8eE0hh/DRng
+! Checksum: ZyYc7nZgDUZUnwY7MK+Y/A
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Mon, 23 Oct 2017 00:46:08 -0400
+! Last Modified: Wed, 25 Oct 2017 10:28:09 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -2666,6 +2666,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001042100
 .ftchinese.com/story/001042252
 .ftchinese.com/story/001042272
+.ftchinese.com/story/001043152
 .ftchinese.com/story/001043534
 .ftchinese.com/story/001043680
 .ftchinese.com/story/001043849
@@ -2674,6 +2675,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001045755
 .ftchinese.com/story/001046118
 .ftchinese.com/story/001046132
+.ftchinese.com/story/001046517
 .ftchinese.com/story/001046822
 .ftchinese.com/story/001046866
 .ftchinese.com/story/001047180
@@ -2685,6 +2687,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001047375
 .ftchinese.com/story/001047381
 .ftchinese.com/story/001047413
+.ftchinese.com/story/001047456
 .ftchinese.com/story/001047491
 .ftchinese.com/story/001047545
 .ftchinese.com/story/001047558
@@ -2692,12 +2695,15 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001047627
 .ftchinese.com/story/001048710
 .ftchinese.com/story/001049360
+.ftchinese.com/story/001051027
 .ftchinese.com/story/001051372
 .ftchinese.com/story/001052965
 .ftchinese.com/story/001053150
+.ftchinese.com/story/001053425
 .ftchinese.com/story/001053526
 .ftchinese.com/story/001053906
 .ftchinese.com/story/001054103
+.ftchinese.com/story/001054139
 .ftchinese.com/story/001054166
 .ftchinese.com/story/001054168
 .ftchinese.com/story/001054526
@@ -2740,6 +2746,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001057580
 .ftchinese.com/story/001057638
 .ftchinese.com/story/001057644
+.ftchinese.com/story/001058224
 .ftchinese.com/story/001058257
 .ftchinese.com/story/001058295
 .ftchinese.com/story/001058344
@@ -2770,6 +2777,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001060847
 .ftchinese.com/story/001060875
 .ftchinese.com/story/001060921
+.ftchinese.com/story/001060946
 .ftchinese.com/story/001061120
 .ftchinese.com/story/001061642
 .ftchinese.com/story/001062028
@@ -2799,6 +2807,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001065735
 .ftchinese.com/story/001065756
 .ftchinese.com/story/001066136
+.ftchinese.com/story/001066140
 .ftchinese.com/story/001066465
 .ftchinese.com/story/001066959
 .ftchinese.com/story/001067435
@@ -2844,7 +2853,9 @@ ftchinese.com/story/001071200
 .ftchinese.com/story/001073043
 .ftchinese.com/story/001073103
 .ftchinese.com/story/001073157
+.ftchinese.com/story/001073216
 .ftchinese.com/story/001073246
+.ftchinese.com/story/001073305
 .ftchinese.com/story/001073307
 .ftchinese.com/story/001073408
 .ftchinese.com/story/001073537
@@ -5334,6 +5345,7 @@ seapuff.com
 domainhelp.search.com
 .searchtruth.com
 secretchina.com
+||secretchina.com
 ||secretgarden.no
 .secretsline.biz
 ||secretsline.biz
@@ -6817,6 +6829,7 @@ worldjournal.com
 ||hqsbonline.wordpress.com
 ||investigating.wordpress.com
 ||jobnewera.wordpress.com
+||wo3ttt.wordpress.com
 ||sujiatun.wordpress.com
 ||wp.com
 
@@ -6874,7 +6887,8 @@ xanga.com
 .xerotica.com
 destiny.xfiles.to/ubbthreads
 .xfm.pp.ru
-xgmyd.com
+.xgmyd.com
+||xgmyd.com
 xhamster.com
 ||xhamster.com
 .xianchawang.net
@@ -6978,6 +6992,8 @@ xa.yimg.com
 yinlei.org/mt
 .yizhihongxing.com
 .yobt.com
+.yobt.tv
+||yobt.tv
 .yogichen.org
 ||yogichen.org
 yong.hu

@@ -3,7 +3,13 @@ loglevel = notify
 bypass-system = true
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
 bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
-dns-server = 119.29.29.29,223.5.5.5,8.8.8.8,208.67.222.222
+dns-server = 119.29.29.29,8.8.8.8,208.67.222.222
+# 以下是Mac配置
+external-controller-access = 12345@127.0.0.1:8866
+interface = 0.0.0.0
+port = 1095
+socks-interface = 0.0.0.0
+socks-port = 1096
 
 [Proxy]
 🇭🇰HK1 = custom, 127.0.0.1, 8080, aes-256-cfb, 12345, https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/ss.module
@@ -36,6 +42,7 @@ PROCESS-NAME,Twitter,Proxy
 PROCESS-NAME,WhatsApp,Proxy
 PROCESS-NAME,Thunder,nProxy
 PROCESS-NAME,WeChat,nProxy
+PROCESS-NAME,ss-local,DIRECT
 
 # Apple
 PROCESS-NAME,trustd,🍎PROXY

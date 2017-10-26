@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2017-10-24 11:19:29
+# updated on 2017-10-26 09:17:31
 
 DOMAIN-SUFFIX,2dbook.com,Proxy
 DOMAIN-SUFFIX,4tern.com,Proxy
@@ -4840,6 +4840,7 @@ DOMAIN-SUFFIX,hkanews.wordpress.com,Proxy
 DOMAIN-SUFFIX,hqsbonline.wordpress.com,Proxy
 DOMAIN-SUFFIX,investigating.wordpress.com,Proxy
 DOMAIN-SUFFIX,jobnewera.wordpress.com,Proxy
+DOMAIN-SUFFIX,wo3ttt.wordpress.com,Proxy
 DOMAIN-SUFFIX,sujiatun.wordpress.com,Proxy
 DOMAIN-SUFFIX,wp.com,Proxy
 DOMAIN-SUFFIX,wow.com,Proxy
@@ -4968,6 +4969,7 @@ DOMAIN-SUFFIX,yipub.com,Proxy
 DOMAIN-SUFFIX,yinlei.org,Proxy
 DOMAIN-SUFFIX,yizhihongxing.com,Proxy
 DOMAIN-SUFFIX,yobt.com,Proxy
+DOMAIN-SUFFIX,yobt.tv,Proxy
 DOMAIN-SUFFIX,yogichen.org,Proxy
 DOMAIN-SUFFIX,yong.hu,Proxy
 DOMAIN-SUFFIX,yorkbbs.ca,Proxy
