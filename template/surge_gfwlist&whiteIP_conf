@@ -16,6 +16,8 @@ socks-port = 1096
 🇸🇬SG1 = custom, 127.0.0.1, 8080, aes-256-cfb, 12345, https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/ss.module
 🇯🇵JP1 = custom, 127.0.0.1, 8080, aes-256-cfb, 12345, https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/ss.module
 🇺🇸US1 = custom, 127.0.0.1, 8080, aes-256-cfb, 12345, https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/ss.module
+# 请设置SSR-NG-R8为手动配置, 对配置对应的sock5端口号
+Local = socks5, 127.0.0.1, 1086,,
 
 [Proxy Group]
 #苹果相关通信, 默认选择 DIRECT
