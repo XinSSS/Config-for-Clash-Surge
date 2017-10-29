@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2017-10-26 11:37:57
+# updated on 2017-10-29 22:40:52
 
 DOMAIN-SUFFIX,2dbook.com,Proxy
 DOMAIN-SUFFIX,4tern.com,Proxy
@@ -187,6 +187,7 @@ DOMAIN-SUFFIX,xn--i2ru8q2qg.com,Proxy
 DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,Proxy
 DOMAIN-SUFFIX,s3.amazonaws.com,Proxy
 DOMAIN-SUFFIX,agro.hk,Proxy
+DOMAIN-SUFFIX,apkmirror.com,Proxy
 DOMAIN-SUFFIX,boomssr.com,Proxy
 DOMAIN-SUFFIX,jiji.com,Proxy
 DOMAIN-SUFFIX,line-scdn.net,Proxy
@@ -1446,6 +1447,7 @@ DOMAIN-SUFFIX,creadersnet.com,Proxy
 DOMAIN-SUFFIX,cristyli.com,Proxy
 DOMAIN-SUFFIX,crocotube.com,Proxy
 DOMAIN-SUFFIX,crossthewall.net,Proxy
+DOMAIN-SUFFIX,crossvpn.net,Proxy
 DOMAIN-SUFFIX,csdparty.com,Proxy
 DOMAIN-SUFFIX,csuchen.de,Proxy
 DOMAIN-SUFFIX,csw.org.uk,Proxy
@@ -3811,6 +3813,7 @@ DOMAIN-SUFFIX,shiatv.net,Proxy
 DOMAIN-SUFFIX,shicheng.org,Proxy
 DOMAIN-SUFFIX,shinychan.com,Proxy
 DOMAIN-SUFFIX,shipcamouflage.com,Proxy
+DOMAIN-SUFFIX,shireyishunjian.com,Proxy
 DOMAIN-SUFFIX,shitaotv.org,Proxy
 DOMAIN-SUFFIX,shixiao.org,Proxy
 DOMAIN-SUFFIX,shizhao.org,Proxy
@@ -3873,6 +3876,7 @@ DOMAIN-SUFFIX,sketchappsources.com,Proxy
 DOMAIN-SUFFIX,skimtube.com,Proxy
 DOMAIN-SUFFIX,skybet.com,Proxy
 DOMAIN-SUFFIX,users.skynet.be,Proxy
+DOMAIN-SUFFIX,skyking.com.tw,Proxy
 DOMAIN-SUFFIX,bbs.skykiwi.com,Proxy
 DOMAIN-SUFFIX,www.skype.com,Proxy
 DOMAIN-SUFFIX,skyvegas.com,Proxy
@@ -3952,6 +3956,7 @@ DOMAIN-SUFFIX,spankingtube.com,Proxy
 DOMAIN-SUFFIX,spankwire.com,Proxy
 DOMAIN-SUFFIX,spb.com,Proxy
 DOMAIN-SUFFIX,speakerdeck.com,Proxy
+DOMAIN-SUFFIX,speedify.com,Proxy
 DOMAIN-SUFFIX,spem.at,Proxy
 DOMAIN-SUFFIX,spencertipping.com,Proxy
 DOMAIN-SUFFIX,spicevpn.com,Proxy
@@ -4173,6 +4178,7 @@ DOMAIN-SUFFIX,tianhuayuan.com,Proxy
 DOMAIN-SUFFIX,tianlawoffice.com,Proxy
 DOMAIN-SUFFIX,tianti.io,Proxy
 DOMAIN-SUFFIX,tiantibooks.org,Proxy
+DOMAIN-SUFFIX,tianyantong.org.cn,Proxy
 DOMAIN-SUFFIX,tianzhu.org,Proxy
 DOMAIN-SUFFIX,tibet.at,Proxy
 DOMAIN-SUFFIX,tibet.ca,Proxy
