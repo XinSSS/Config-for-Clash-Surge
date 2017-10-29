@@ -378,6 +378,7 @@ HOST-SUFFIX,youtube-nocookie.com,Proxy,force-remote-dns
 HOST-SUFFIX,steampowered.com,nProxy
 HOST-SUFFIX,steamcommunity.com,nProxy
 HOST-SUFFIX,akamaihd.net,nProxy
+HOST-SUFFIX,steamstatic.com,nProxy
 
 # Line
 HOST-SUFFIX,lin.ee,Proxy

@@ -385,6 +385,7 @@ DOMAIN-SUFFIX,youtube-nocookie.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,steampowered.com,DIRECT
 DOMAIN-SUFFIX,steamcommunity.com,DIRECT
 DOMAIN-SUFFIX,akamaihd.net,DIRECT
+DOMAIN-SUFFIX,steamstatic.com,DIRECT
 
 # Line
 DOMAIN-SUFFIX,lin.ee,PROXY

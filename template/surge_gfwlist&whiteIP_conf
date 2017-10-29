@@ -425,6 +425,7 @@ DOMAIN-SUFFIX,youtube-nocookie.com,Proxy,force-remote-dns
 # steam用户根据各自情况修改此规则
 DOMAIN-SUFFIX,steampowered.com,nProxy
 DOMAIN-SUFFIX,steamcommunity.com,nProxy
+DOMAIN-SUFFIX,steamstatic.com,nProxy
 DOMAIN-SUFFIX,akamaihd.net,nProxy
 
 # Line
