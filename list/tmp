@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: K/hJj/VWsmF0CgMcxY7vCQ
+! Checksum: J0lLXbexB/H9o1wvB2Nrrw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 28 Oct 2017 10:11:16 -0400
+! Last Modified: Tue, 31 Oct 2017 22:25:44 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -31,7 +31,6 @@
 ||athenaeizou.com
 ||azubu.tv
 ||banorte.com
-!--||barracuda.com
 ||bash-hackers.org
 ||beeg.com
 ||global.bing.com
@@ -234,12 +233,14 @@ share.dmhy.org
 !---Amazon---
 !-||cdn-images.mailchimp.com
 |https://*.s3.amazonaws.com
+||s3-ap-southeast-2.amazonaws.com
 ||agro.hk
 ||apkmirror.com
 ||boomssr.com
 ||jiji.com
 ||line-scdn.net
 ||cloud.mail.ru
+||go.nesnode.com
 ||pixiv.net
 ||i.lithium.com
 
@@ -631,7 +632,7 @@ blogspot.com
 .google.tt
 .google.vu
 .google.ws
-/^https?:\/\/([^\/]+\.)*google\.(ac|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cat|cd|cf|cg|ch|ci|cl|cm|co.ao|co.bw|co.ck|co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma|com|com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo|com.br|com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj|com.gh|com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm|com.mt|com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa|com.pe|com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg|com.sl|com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|co.mz|co.nz|co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm|co.zw|cv|cz|de|dj|dk|dm|dz|ee|es|eu|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hk|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|mx|ne|nl|no|nr|nu|org|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|us|vg|vn|vu|ws)\/.*/
+/^https?:\/\/([^\/]+\.)*google\.(ac|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cat|cd|cf|cg|ch|ci|cl|cm|co.ao|co.bw|co.ck|co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma|com|com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo|com.br|com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj|com.gh|com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm|com.mt|com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa|com.pe|com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg|com.sl|com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|co.mz|co.nz|co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm|co.zw|cv|cz|de|dj|dk|dm|dz|ee|es|eu|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hk|hn|hr|ht|hu|ie|im|iq|is|it|it.ao|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|mx|ne|nl|no|nr|nu|org|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|us|vg|vn|vu|ws)\/.*/
 !--||google-analytics.com
 !--||googleadservices.com
 ||googleapis.cn
@@ -1358,6 +1359,8 @@ bdsmvideos.net
 ||beijing1989.com
 beijingspring.com
 ||beijingspring.com
+.beijingzx.org
+|http://beijingzx.org
 .belamionline.com
 .bell.wiki
 |http://bell.wiki
@@ -2269,7 +2272,8 @@ emilylau.org.hk
 .emulefans.com
 |http://emulefans.com
 .emuparadise.me
-.enanyang.my/news/20170502/%E7%BE%8E%E5%9B%BD%E4%B9%8B%E9%9F%B3%E5%A4%A7%E5%9C%B0%E9%9C%87%E3%80%8A%E8%8B%B9%E6%9E%9C%E3%80%8B%E7%8B%AC%E5%AE%B6
+.enanyang.my
+!--.enanyang.my/news/20170502/%E7%BE%8E%E5%9B%BD%E4%B9%8B%E9%9F%B3%E5%A4%A7%E5%9C%B0%E9%9C%87%E3%80%8A%E8%8B%B9%E6%9E%9C%E3%80%8B%E7%8B%AC%E5%AE%B6
 ||enewstree.com
 .enfal.de
 chinese.engadget.com
@@ -2655,17 +2659,26 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001030502
 .ftchinese.com/story/001031317
 .ftchinese.com/story/001032692
+.ftchinese.com/story/001034917
 .ftchinese.com/story/001034926
 .ftchinese.com/story/001034927
 .ftchinese.com/story/001034928
+.ftchinese.com/story/001034952
 .ftchinese.com/story/001035972
 .ftchinese.com/story/001037090
 .ftchinese.com/story/001037091
 .ftchinese.com/story/001038220
+.ftchinese.com/story/001038862
+.ftchinese.com/story/001039067
+.ftchinese.com/story/001039211
+.ftchinese.com/story/001039271
+.ftchinese.com/story/001039295
 .ftchinese.com/story/001039369
 .ftchinese.com/story/001039712
 .ftchinese.com/story/001040890
 .ftchinese.com/story/001040918
+.ftchinese.com/story/001040992
+.ftchinese.com/story/001041209
 .ftchinese.com/story/001042100
 .ftchinese.com/story/001042252
 .ftchinese.com/story/001042272
@@ -2706,6 +2719,7 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001053526
 .ftchinese.com/story/001053906
 .ftchinese.com/story/001054103
+.ftchinese.com/story/001054119
 .ftchinese.com/story/001054139
 .ftchinese.com/story/001054166
 .ftchinese.com/story/001054168
@@ -2788,7 +2802,9 @@ hk.frienddy.com/hk
 .ftchinese.com/story/001060946
 .ftchinese.com/story/001061120
 .ftchinese.com/story/001061642
+.ftchinese.com/story/001062020
 .ftchinese.com/story/001062028
+.ftchinese.com/story/001062147
 .ftchinese.com/story/001062176
 .ftchinese.com/story/001062254
 .ftchinese.com/story/001062374
@@ -2831,6 +2847,7 @@ www.ftchinese.com/story/001067479
 .ftchinese.com/story/001068278
 .ftchinese.com/story/001068379
 .ftchinese.com/story/001068483
+.ftchinese.com/story/001068506
 .ftchinese.com/story/001068547
 .ftchinese.com/story/001068622
 .ftchinese.com/story/001068707
@@ -2888,8 +2905,10 @@ ftchinese.com/story/001071200
 .ftchinese.com/story/001074699
 .ftchinese.com/story/001074712
 .ftchinese.com/story/001074713
+.ftchinese.com/story/001074768
 .ftchinese.com/story/001074794
 .ftchinese.com/story/001074822
+.ftchinese.com/story/001074874
 .ftchinese.com/tag/%E5%8D%81%E5%85%AB%E5%B1%8A%E4%B8%89%E4%B8%AD%E5%85%A8%E4%BC%9A
 .ftchinese.com/video/1437
 .ftchinese.com/video/1882
@@ -2950,6 +2969,7 @@ gardennetworks.com
 ||gartlive.com
 ||gate-project.com
 ||gather.com
+.gatherproxy.com
 gati.org.tw
 .gaybubble.com
 .gaycn.net
@@ -3397,6 +3417,8 @@ h1n1china.org
 |http://hacg.in
 .hacg.li
 |http://hacg.li
+.hacg.me
+|http://hacg.me
 .hacg.red
 |http://hacg.red
 .hacken.cc/bbs
@@ -3635,6 +3657,8 @@ hrweb.org
 .huangyiyu.com
 .huaren.us
 ||huaren.us
+.huashangnews.com
+|http://huashangnews.com
 bbs.huasing.org
 huaxia-news.com
 huaxiabao.org
@@ -4199,6 +4223,7 @@ livestream.com
 .liwangyang.com
 lizhizhuangbi.com
 lkcn.net
+.llss.me/
 .load.to
 .lobsangwangyal.com
 .localdomain.ws
@@ -4253,6 +4278,7 @@ lvhai.org
 .lyfhk.net
 |http://lyfhk.net
 .lzmtnews.org
+||lzmtnews.org
 
 !--------------------MM-------------------------
 http://*.m-team.cc
@@ -6957,6 +6983,8 @@ xvideo.cc
 .xxbbx.com
 .xxlmovies.com
 ||xxx.com
+.xxx.xxx
+|http://xxx.xxx
 .xxxfuckmom.com
 ||xxxx.com.au
 .xxxymovies.com
@@ -7124,6 +7152,7 @@ zomobo.net
 ||zonaeuropa.com
 ||zonghexinwen.com
 .zonghexinwen.net
+||zoogvpn.com
 ||zootool.com
 .zoozle.net
 writer.zoho.com
