@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2017-11-01 17:15:44
+# updated on 2017-11-06 14:30:23
 
 DOMAIN-SUFFIX,2dbook.com,Proxy
 DOMAIN-SUFFIX,4tern.com,Proxy
@@ -146,7 +146,6 @@ DOMAIN-SUFFIX,rdio.com,Proxy
 DOMAIN-SUFFIX,riseup.net,Proxy
 DOMAIN-SUFFIX,sadistic-v.com,Proxy
 DOMAIN-SUFFIX,search.xxx,Proxy
-DOMAIN-SUFFIX,shutterstock.com,Proxy
 DOMAIN-SUFFIX,slacker.com,Proxy
 DOMAIN-SUFFIX,sm-miracle.com,Proxy
 DOMAIN-SUFFIX,spotify.com,Proxy
@@ -193,7 +192,9 @@ DOMAIN-SUFFIX,boomssr.com,Proxy
 DOMAIN-SUFFIX,jiji.com,Proxy
 DOMAIN-SUFFIX,line-scdn.net,Proxy
 DOMAIN-SUFFIX,cloud.mail.ru,Proxy
+DOMAIN-SUFFIX,cdn-images.mailchimp.com,Proxy
 DOMAIN-SUFFIX,go.nesnode.com,Proxy
+DOMAIN-SUFFIX,nikkei.com,Proxy
 DOMAIN-SUFFIX,pixiv.net,Proxy
 DOMAIN-SUFFIX,i.lithium.com,Proxy
 DOMAIN-SUFFIX,china-mmm.jp.net,Proxy
@@ -567,6 +568,7 @@ DOMAIN-SUFFIX,html5rocks.com,Proxy
 DOMAIN-SUFFIX,iam.soy,Proxy
 DOMAIN-SUFFIX,igoogle.com,Proxy
 DOMAIN-SUFFIX,itasoftware.com,Proxy
+DOMAIN-SUFFIX,lers.google,Proxy
 DOMAIN-SUFFIX,like.com,Proxy
 DOMAIN-SUFFIX,madewithcode.com,Proxy
 DOMAIN-SUFFIX,material.io,Proxy
@@ -742,6 +744,7 @@ DOMAIN-SUFFIX,3proxy.ru,Proxy
 DOMAIN-SUFFIX,3ren.ca,Proxy
 DOMAIN-SUFFIX,3tui.net,Proxy
 DOMAIN-SUFFIX,4bluestones.biz,Proxy
+DOMAIN-SUFFIX,4chan.com,Proxy
 DOMAIN-SUFFIX,4everproxy.com,Proxy
 DOMAIN-SUFFIX,4rbtv.com,Proxy
 DOMAIN-SUFFIX,4shared.com,Proxy
@@ -1061,6 +1064,7 @@ DOMAIN-SUFFIX,bigsound.org,Proxy
 DOMAIN-SUFFIX,billypan.com,Proxy
 DOMAIN-SUFFIX,billywr.com,Proxy
 DOMAIN-SUFFIX,binux.me,Proxy
+DOMAIN-SUFFIX,ai.binwang.me,Proxy
 DOMAIN-SUFFIX,bipic.net,Proxy
 DOMAIN-SUFFIX,bit.do,Proxy
 DOMAIN-SUFFIX,bit.ly,Proxy
@@ -1488,6 +1492,7 @@ DOMAIN-SUFFIX,dadazim.com,Proxy
 DOMAIN-SUFFIX,dadi360.com,Proxy
 DOMAIN-SUFFIX,dafagood.com,Proxy
 DOMAIN-SUFFIX,dafahao.com,Proxy
+DOMAIN-SUFFIX,dafoh.org,Proxy
 DOMAIN-SUFFIX,dagelijksestandaard.nl,Proxy
 DOMAIN-SUFFIX,daidostup.ru,Proxy
 DOMAIN-SUFFIX,dailidaili.com,Proxy
@@ -1806,6 +1811,7 @@ DOMAIN-SUFFIX,faluninfo.net,Proxy
 DOMAIN-SUFFIX,falunpilipinas.net,Proxy
 DOMAIN-SUFFIX,falunworld.net,Proxy
 DOMAIN-SUFFIX,familyfed.org,Proxy
+DOMAIN-SUFFIX,fangeming.com,Proxy
 DOMAIN-SUFFIX,fanglizhi.info,Proxy
 DOMAIN-SUFFIX,fangong.org,Proxy
 DOMAIN-SUFFIX,fangongheike.com,Proxy
@@ -1820,7 +1826,6 @@ DOMAIN-SUFFIX,fail.hk,Proxy
 DOMAIN-SUFFIX,famunion.com,Proxy
 DOMAIN-SUFFIX,fan-qiang.com,Proxy
 DOMAIN-SUFFIX,fangbinxing.com,Proxy
-DOMAIN-SUFFIX,fangeming.com,Proxy
 DOMAIN-SUFFIX,fangmincn.org,Proxy
 DOMAIN-SUFFIX,fanhaodang.com,Proxy
 DOMAIN-SUFFIX,fanswong.com,Proxy
@@ -3708,6 +3713,7 @@ DOMAIN-SUFFIX,rtycminnesota.org,Proxy
 DOMAIN-SUFFIX,ruanyifeng.com,Proxy
 DOMAIN-SUFFIX,rukor.org,Proxy
 DOMAIN-SUFFIX,rushbee.com,Proxy
+DOMAIN-SUFFIX,ruten.com.tw,Proxy
 DOMAIN-SUFFIX,rutube.ru,Proxy
 DOMAIN-SUFFIX,ruyiseek.com,Proxy
 DOMAIN-SUFFIX,rxhj.net,Proxy
@@ -3831,6 +3837,7 @@ DOMAIN-SUFFIX,shop2000.com.tw,Proxy
 DOMAIN-SUFFIX,shopping.com,Proxy
 DOMAIN-SUFFIX,showhaotu.com,Proxy
 DOMAIN-SUFFIX,showtime.jp,Proxy
+DOMAIN-SUFFIX,shutterstock.com,Proxy
 DOMAIN-SUFFIX,ch.shvoong.com,Proxy
 DOMAIN-SUFFIX,shwchurch.org,Proxy
 DOMAIN-SUFFIX,www.shwchurch.org,Proxy
@@ -3975,6 +3982,7 @@ DOMAIN-SUFFIX,sproutcore.com,Proxy
 DOMAIN-SUFFIX,sproxy.info,Proxy
 DOMAIN-SUFFIX,srocket.us,Proxy
 DOMAIN-SUFFIX,ss-link.com,Proxy
+DOMAIN-SUFFIX,ssglobal.co,Proxy
 DOMAIN-SUFFIX,ssglobal.me,Proxy
 DOMAIN-SUFFIX,ssh91.com,Proxy
 DOMAIN-SUFFIX,sspro.ml,Proxy
@@ -4315,6 +4323,7 @@ DOMAIN-SUFFIX,torrenty.org,Proxy
 DOMAIN-SUFFIX,torrentz.eu,Proxy
 DOMAIN-SUFFIX,torvpn.com,Proxy
 DOMAIN-SUFFIX,totalvpn.com,Proxy
+DOMAIN-SUFFIX,toutiaoabc.com,Proxy
 DOMAIN-SUFFIX,towngain.com,Proxy
 DOMAIN-SUFFIX,toypark.in,Proxy
 DOMAIN-SUFFIX,toytractorshow.com,Proxy

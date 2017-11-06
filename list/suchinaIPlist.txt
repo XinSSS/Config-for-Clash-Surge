@@ -1,4 +1,4 @@
-# chinaIP list updated on 2017-11-01 17:15:45
+# chinaIP list updated on 2017-11-06 14:30:25
 IP-CIDR,1.0.1.0/24,nProxy
 IP-CIDR,1.0.2.0/23,nProxy
 IP-CIDR,1.0.8.0/21,nProxy
