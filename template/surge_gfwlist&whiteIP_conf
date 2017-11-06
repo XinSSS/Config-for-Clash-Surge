@@ -48,42 +48,18 @@ PROCESS-NAME,ss-local,DIRECT
 
 # Apple
 PROCESS-NAME,trustd,🍎PROXY
-DOMAIN,appleid.apple.com,🍎PROXY
 DOMAIN,appleiphonecell.com,🍎PROXY
-DOMAIN,captive.apple.com,🍎PROXY
-DOMAIN,configuration.apple.com,🍎PROXY
-DOMAIN,guzzoni.apple.com,🍎PROXY
-DOMAIN,idmsa.apple.com,🍎PROXY
-DOMAIN,images.apple.com,🍎PROXY
-DOMAIN,init.itunes.apple.com,🍎PROXY
-DOMAIN,iosapps.itunes.apple.com,🍎PROXY
-DOMAIN,itsliveradio.apple.com,🍎PROXY
-DOMAIN,metrics.apple.com,🍎PROXY
-DOMAIN,osxapps.itunes.apple.com,🍎PROXY
-DOMAIN,smp-device-content.apple.com,🍎PROXY
-DOMAIN,support.apple.com,🍎PROXY
-DOMAIN,swcdn.apple.com,🍎PROXY
-DOMAIN,swdist.apple.com,🍎PROXY
-DOMAIN,swdownload.apple.com,🍎PROXY
-DOMAIN,swquery.apple.com,🍎PROXY
-DOMAIN,swscan.apple.com,🍎PROXY
 DOMAIN-SUFFIX,appsto.re,🍎PROXY
 DOMAIN-SUFFIX,aaplimg.com,🍎PROXY
 DOMAIN-SUFFIX,akadns.net,🍎PROXY
 DOMAIN-SUFFIX,apple.co,🍎PROXY
 DOMAIN-SUFFIX,apple.com,🍎PROXY
 DOMAIN-SUFFIX,cdn-apple.com,🍎PROXY
-DOMAIN-SUFFIX,ess.apple.com,🍎PROXY
 DOMAIN-SUFFIX,icloud.com,🍎PROXY
 DOMAIN-SUFFIX,icloud-content.com,🍎PROXY
-DOMAIN-SUFFIX,itunes.apple.com,🍎PROXY
 DOMAIN-SUFFIX,itunes.com,🍎PROXY
-DOMAIN-SUFFIX,lookup-api.apple.com,🍎PROXY
-DOMAIN-SUFFIX,ls.apple.com,🍎PROXY
 DOMAIN-SUFFIX,me.com,🍎PROXY
 DOMAIN-SUFFIX,mzstatic.com,🍎PROXY
-DOMAIN-SUFFIX,push.apple.com,🍎PROXY
-DOMAIN-SUFFIX,siri.apple.com,🍎PROXY
 #UA Apple
 USER-AGENT,AppStore*,🍎PROXY
 USER-AGENT,com.apple.appstored*,🍎PROXY

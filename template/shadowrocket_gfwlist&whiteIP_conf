@@ -7,42 +7,18 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 
 [Rule]
 # Apple
-DOMAIN,appleid.apple.com,DIRECT
 DOMAIN,appleiphonecell.com,DIRECT
-DOMAIN,captive.apple.com,DIRECT
-DOMAIN,configuration.apple.com,DIRECT
-DOMAIN,guzzoni.apple.com,DIRECT
-DOMAIN,idmsa.apple.com,DIRECT
-DOMAIN,images.apple.com,DIRECT
-DOMAIN,init.itunes.apple.com,DIRECT
-DOMAIN,iosapps.itunes.apple.com,DIRECT
-DOMAIN,itsliveradio.apple.com,DIRECT
-DOMAIN,metrics.apple.com,DIRECT
-DOMAIN,osxapps.itunes.apple.com,DIRECT
-DOMAIN,smp-device-content.apple.com,DIRECT
-DOMAIN,support.apple.com,DIRECT
-DOMAIN,swcdn.apple.com,DIRECT
-DOMAIN,swdist.apple.com,DIRECT
-DOMAIN,swdownload.apple.com,DIRECT
-DOMAIN,swquery.apple.com,DIRECT
-DOMAIN,swscan.apple.com,DIRECT
 DOMAIN-SUFFIX,appsto.re,DIRECT
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
 DOMAIN-SUFFIX,apple.co,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT
 DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-DOMAIN-SUFFIX,ess.apple.com,DIRECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
-DOMAIN-SUFFIX,itunes.apple.com,DIRECT
 DOMAIN-SUFFIX,itunes.com,DIRECT
-DOMAIN-SUFFIX,lookup-api.apple.com,DIRECT
-DOMAIN-SUFFIX,ls.apple.com,DIRECT
 DOMAIN-SUFFIX,me.com,DIRECT
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
-DOMAIN-SUFFIX,push.apple.com,DIRECT
-DOMAIN-SUFFIX,siri.apple.com,DIRECT
 #UA Apple
 USER-AGENT,AppStore*,DIRECT
 USER-AGENT,com.apple.appstored*,DIRECT
