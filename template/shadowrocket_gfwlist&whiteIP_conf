@@ -7,9 +7,9 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 
 [Rule]
 # Apple
-DOMAIN,appleiphonecell.com,DIRECT
 DOMAIN,evintl-ocsp.verisign.com,DIRECT
 DOMAIN,evsecure-ocsp.verisign.com,DIRECT
+DOMAIN-SUFFIX,appleiphonecell.com,DIRECT
 DOMAIN-SUFFIX,appsto.re,DIRECT
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT

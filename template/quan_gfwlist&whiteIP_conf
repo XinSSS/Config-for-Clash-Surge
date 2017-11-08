@@ -1,8 +1,8 @@
 [TCP]
 # Apple
-HOST,appleiphonecell.com,🍎PROXY
 HOST,evintl-ocsp.verisign.com,🍎PROXY
 HOST,evsecure-ocsp.verisign.com,🍎PROXY
+HOST-SUFFIX,appleiphonecell.com,🍎PROXY
 HOST-SUFFIX,appsto.re,🍎PROXY
 HOST-SUFFIX,aaplimg.com,🍎PROXY
 HOST-SUFFIX,akadns.net,🍎PROXY

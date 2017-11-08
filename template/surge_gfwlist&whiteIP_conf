@@ -49,9 +49,9 @@ PROCESS-NAME,ss-local,DIRECT
 
 # Apple
 PROCESS-NAME,trustd,🍎PROXY
-DOMAIN,appleiphonecell.com,🍎PROXY
 DOMAIN,evintl-ocsp.verisign.com,🍎PROXY
 DOMAIN,evsecure-ocsp.verisign.com,🍎PROXY
+DOMAIN-SUFFIX,appleiphonecell.com,🍎PROXY
 DOMAIN-SUFFIX,appsto.re,🍎PROXY
 DOMAIN-SUFFIX,aaplimg.com,🍎PROXY
 DOMAIN-SUFFIX,akadns.net,🍎PROXY
