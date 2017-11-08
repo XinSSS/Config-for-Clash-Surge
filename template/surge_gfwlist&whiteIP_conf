@@ -39,6 +39,7 @@ PROCESS-NAME,iTranslate,Proxy
 PROCESS-NAME,Speedtest,Proxy
 PROCESS-NAME,Spotify,Proxy
 PROCESS-NAME,Telegram,Proxy
+PROCESS-NAME,Telegram Desktop,Proxy
 PROCESS-NAME,Tweetbot,Proxy
 PROCESS-NAME,Twitter,Proxy
 PROCESS-NAME,WhatsApp,Proxy
@@ -49,6 +50,8 @@ PROCESS-NAME,ss-local,DIRECT
 # Apple
 PROCESS-NAME,trustd,🍎PROXY
 DOMAIN,appleiphonecell.com,🍎PROXY
+DOMAIN,evintl-ocsp.verisign.com,🍎PROXY
+DOMAIN,evsecure-ocsp.verisign.com,🍎PROXY
 DOMAIN-SUFFIX,appsto.re,🍎PROXY
 DOMAIN-SUFFIX,aaplimg.com,🍎PROXY
 DOMAIN-SUFFIX,akadns.net,🍎PROXY
@@ -60,6 +63,8 @@ DOMAIN-SUFFIX,icloud-content.com,🍎PROXY
 DOMAIN-SUFFIX,itunes.com,🍎PROXY
 DOMAIN-SUFFIX,me.com,🍎PROXY
 DOMAIN-SUFFIX,mzstatic.com,🍎PROXY
+DOMAIN-SUFFIX,symcb.com,🍎PROXY
+DOMAIN-SUFFIX,symcd.com,🍎PROXY
 #UA Apple
 USER-AGENT,AppStore*,🍎PROXY
 USER-AGENT,com.apple.appstored*,🍎PROXY

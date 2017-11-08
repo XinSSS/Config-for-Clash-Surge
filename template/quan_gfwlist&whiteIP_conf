@@ -1,6 +1,8 @@
 [TCP]
 # Apple
 HOST,appleiphonecell.com,🍎PROXY
+HOST,evintl-ocsp.verisign.com,🍎PROXY
+HOST,evsecure-ocsp.verisign.com,🍎PROXY
 HOST-SUFFIX,appsto.re,🍎PROXY
 HOST-SUFFIX,aaplimg.com,🍎PROXY
 HOST-SUFFIX,akadns.net,🍎PROXY
@@ -12,6 +14,8 @@ HOST-SUFFIX,icloud-content.com,🍎PROXY
 HOST-SUFFIX,itunes.com,🍎PROXY
 HOST-SUFFIX,me.com,🍎PROXY
 HOST-SUFFIX,mzstatic.com,🍎PROXY
+HOST-SUFFIX,symcb.com,🍎PROXY
+HOST-SUFFIX,symcd.com,🍎PROXY
 #UA Apple
 USER-AGENT,AppStore*,🍎PROXY
 USER-AGENT,com.apple.appstored*,🍎PROXY
