@@ -32,17 +32,17 @@ Proxy = select, @Auto, 🇭🇰HK1
 FinalProxy = select, Proxy, DIRECT
 
 [Rule]
-PROCESS-NAME,Dropbox,Proxy
-PROCESS-NAME,Facebook,Proxy
-PROCESS-NAME,Instagram,Proxy
-PROCESS-NAME,iTranslate,Proxy
+PROCESS-NAME,Dropbox,Proxy,force-remote-dns
+PROCESS-NAME,Facebook,Proxy,force-remote-dns
+PROCESS-NAME,Instagram,Proxy,force-remote-dns
+PROCESS-NAME,iTranslate,Proxy,force-remote-dns
 PROCESS-NAME,Speedtest,Proxy
-PROCESS-NAME,Spotify,Proxy
-PROCESS-NAME,Telegram,Proxy
-PROCESS-NAME,Telegram Desktop,Proxy
-PROCESS-NAME,Tweetbot,Proxy
-PROCESS-NAME,Twitter,Proxy
-PROCESS-NAME,WhatsApp,Proxy
+PROCESS-NAME,Spotify,Proxy,force-remote-dns
+PROCESS-NAME,Telegram,Proxy,force-remote-dns
+PROCESS-NAME,Telegram Desktop,Proxy,force-remote-dns
+PROCESS-NAME,Tweetbot,Proxy,force-remote-dns
+PROCESS-NAME,Twitter,Proxy,force-remote-dns
+PROCESS-NAME,WhatsApp,Proxy,force-remote-dns
 PROCESS-NAME,Thunder,nProxy
 PROCESS-NAME,WeChat,nProxy
 PROCESS-NAME,ss-local,DIRECT
@@ -55,6 +55,7 @@ DOMAIN-SUFFIX,appleiphonecell.com,🍎PROXY
 DOMAIN-SUFFIX,appsto.re,🍎PROXY
 DOMAIN-SUFFIX,aaplimg.com,🍎PROXY
 DOMAIN-SUFFIX,akadns.net,🍎PROXY
+DOMAIN-SUFFIX,apple.cn,🍎PROXY
 DOMAIN-SUFFIX,apple.co,🍎PROXY
 DOMAIN-SUFFIX,apple.com,🍎PROXY
 DOMAIN-SUFFIX,cdn-apple.com,🍎PROXY
@@ -99,15 +100,14 @@ USER-AGENT,trustd*,🍎PROXY
 # direct
 # thx  https://github.com/lhie1/Surge
 # updated on 2017-10-24
-DOMAIN-KEYWORD,torrent,nProxy
-DOMAIN-SUFFIX,edu.cn,nProxy
-DOMAIN-SUFFIX,google.cn,nProxy
 DOMAIN-SUFFIX,cn,nProxy
 # UA
 USER-AGENT,Argo*,Proxy
-USER-AGENT,*Telegram*,Proxy
-USER-AGENT,Instagram*,Proxy
+USER-AGENT,*Telegram*,Proxy,force-remote-dns
+USER-AGENT,Instagram*,Proxy,force-remote-dns
 USER-AGENT,Speedtest*,Proxy
+USER-AGENT,WhatsApp*,Proxy,force-remote-dns
+USER-AGENT,YouTube*,Proxy,force-remote-dns
 USER-AGENT,%E5%8D%B3%E5%88%BB*,nProxy
 USER-AGENT,*Vainglory*,nProxy
 USER-AGENT,arrowio*,nProxy
@@ -205,6 +205,7 @@ DOMAIN-SUFFIX,hdslb.com,nProxy
 DOMAIN-SUFFIX,hdslb.net,nProxy
 DOMAIN-SUFFIX,hollisterco.com,nProxy
 DOMAIN-SUFFIX,hongxiu.com,nProxy
+DOMAIN-SUFFIX,huomao.com,nProxy
 DOMAIN-SUFFIX,hxcdn.net,nProxy
 DOMAIN-SUFFIX,iciba.com,nProxy
 DOMAIN-SUFFIX,ifeng.com,nProxy
@@ -246,8 +247,10 @@ DOMAIN-SUFFIX,netease.com,nProxy
 DOMAIN-SUFFIX,nssurge.com,nProxy
 DOMAIN-SUFFIX,nuomi.com,nProxy
 DOMAIN-SUFFIX,ourdvs.com,nProxy
+DOMAIN-SUFFIX,outlook.com,nProxy
 DOMAIN-SUFFIX,overcast.fm,nProxy
 DOMAIN-SUFFIX,paypal.com,nProxy
+DOMAIN-SUFFIX,panda.tv,nProxy
 DOMAIN-SUFFIX,pgyer.com,nProxy
 DOMAIN-SUFFIX,pstatp.com,nProxy
 DOMAIN-SUFFIX,qbox.me,nProxy
@@ -400,6 +403,8 @@ DOMAIN-SUFFIX,unfiltered.news,Proxy,force-remote-dns
 DOMAIN-SUFFIX,waveprotocol.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,webmproject.org,Proxy,force-remote-dns
 DOMAIN-SUFFIX,webrtc.org,Proxy,force-remote-dns
+DOMAIN-SUFFIX,whatsapp.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,whatsapp.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,youtube.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,youtube-nocookie.com,Proxy,force-remote-dns
 

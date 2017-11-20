@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,appleiphonecell.com,DIRECT
 DOMAIN-SUFFIX,appsto.re,DIRECT
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
+DOMAIN-SUFFIX,apple.cn,DIRECT
 DOMAIN-SUFFIX,apple.co,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT
 DOMAIN-SUFFIX,cdn-apple.com,DIRECT
@@ -57,15 +58,14 @@ USER-AGENT,trustd*,DIRECT
 # direct
 # thx  https://github.com/lhie1/Surge
 # updated on 2017-10-24
-DOMAIN-KEYWORD,torrent,DIRECT
-DOMAIN-SUFFIX,edu.cn,DIRECT
-DOMAIN-SUFFIX,google.cn,DIRECT
 DOMAIN-SUFFIX,cn,DIRECT
 # UA
 USER-AGENT,Argo*,PROXY
-USER-AGENT,*Telegram*,PROXY
-USER-AGENT,Instagram*,PROXY
+USER-AGENT,*Telegram*,PROXY,force-remote-dns
+USER-AGENT,Instagram*,PROXY,force-remote-dns
 USER-AGENT,Speedtest*,PROXY
+USER-AGENT,WhatsApp*,PROXY,force-remote-dns
+USER-AGENT,YouTube*,PROXY,force-remote-dns
 USER-AGENT,%E5%8D%B3%E5%88%BB*,DIRECT
 USER-AGENT,*Vainglory*,DIRECT
 USER-AGENT,arrowio*,DIRECT
@@ -163,6 +163,7 @@ DOMAIN-SUFFIX,hdslb.com,DIRECT
 DOMAIN-SUFFIX,hdslb.net,DIRECT
 DOMAIN-SUFFIX,hollisterco.com,DIRECT
 DOMAIN-SUFFIX,hongxiu.com,DIRECT
+DOMAIN-SUFFIX,huomao.com,DIRECT
 DOMAIN-SUFFIX,hxcdn.net,DIRECT
 DOMAIN-SUFFIX,iciba.com,DIRECT
 DOMAIN-SUFFIX,ifeng.com,DIRECT
@@ -204,7 +205,9 @@ DOMAIN-SUFFIX,netease.com,DIRECT
 DOMAIN-SUFFIX,nssurge.com,DIRECT
 DOMAIN-SUFFIX,nuomi.com,DIRECT
 DOMAIN-SUFFIX,ourdvs.com,DIRECT
+DOMAIN-SUFFIX,outlook.com,DIRECT
 DOMAIN-SUFFIX,overcast.fm,DIRECT
+DOMAIN-SUFFIX,panda.tv,DIRECT
 DOMAIN-SUFFIX,paypal.com,DIRECT
 DOMAIN-SUFFIX,pgyer.com,DIRECT
 DOMAIN-SUFFIX,pstatp.com,DIRECT
@@ -358,6 +361,8 @@ DOMAIN-SUFFIX,unfiltered.news,PROXY,force-remote-dns
 DOMAIN-SUFFIX,waveprotocol.org,PROXY,force-remote-dns
 DOMAIN-SUFFIX,webmproject.org,PROXY,force-remote-dns
 DOMAIN-SUFFIX,webrtc.org,PROXY,force-remote-dns
+DOMAIN-SUFFIX,whatsapp.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,whatsapp.net,PROXY,force-remote-dns
 DOMAIN-SUFFIX,youtube.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,youtube-nocookie.com,PROXY,force-remote-dns
 
