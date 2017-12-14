@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: QUkpbZMlsDW+47iLLkVhlw
+! Checksum: YffV7682heqA5ztvR2FsJw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 25 Nov 2017 19:47:45 -0500
+! Last Modified: Tue, 12 Dec 2017 19:46:46 -0500
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -240,14 +240,16 @@ share.dmhy.org
 ||glorystar.me
 ||jiji.com
 ||line-scdn.net
+||i.lithium.com
 ||cloud.mail.ru
 ||cdn-images.mailchimp.com
 ||go.nesnode.com
 ||nikkei.com
+||my.pcloud.com
 ||pixiv.net
 ||secure.raxcdn.com
 ||sulian.me
-||i.lithium.com
+||unseen.is
 ||xm.com
 
 !----------------Frauds & Scams-----------------
@@ -673,7 +675,7 @@ blogspot.com
 ||googleplus.com
 ||googlescholar.com
 ||googlesource.com
-||googlesyndication.com
+!--||googlesyndication.com
 !--||googletagmanager.com
 !--||googletagservices.com
 ||googleusercontent.com
@@ -726,6 +728,8 @@ blogspot.com
 ||whatbrowser.org
 ||widevine.com
 ||withgoogle.com
+||withyoutube.com
+||x.company
 ||xn--ngstr-lra8j.com
 ||youtu.be
 .youtube.com
@@ -782,7 +786,11 @@ cn.nytstyle.com
 ||pscp.tv
 .t.co
 ||t.co
+.tweetdeck.com
+||tweetdeck.com
 ||twimg.com
+.twitpic.com
+||twitpic.com
 .twitter.com
 ||twitter.com
 ||twitter.jp
@@ -1046,6 +1054,7 @@ taiwannation.50webs.com
 666kb.com
 6park.com
 ||6park.com
+||6parker.com
 ||7capture.com
 .7cow.com
 .8-d.com
@@ -1831,6 +1840,7 @@ chinese-memorial.org
 ||chinesen.de
 .chinesepen.org
 .chinesetalks.net/ch
+||chineseupress.com
 .chingcheong.com
 ||chingcheong.com
 .chinman.net
@@ -2303,6 +2313,7 @@ electionsmeter.com
 .emaga.com/info/3407
 emilylau.org.hk
 .emanna.com/chineseTraditional
+bitc.bme.emory.edu/~lzhou/blogs
 .empfil.com
 .emule-ed2k.com
 |http://emule-ed2k.com
@@ -3654,6 +3665,8 @@ hentaitube.tv
 heqinglian.net
 ||heungkongdiscuss.com
 .hexieshe.com
+||hexieshe.com
+||hexieshe.xyz
 !--Google employee within Google IP
 ||hexxeh.net
 app.heywire.com
@@ -3810,7 +3823,6 @@ hrweb.org
 .hstt.net
 .htkou.net
 ||htkou.net
-||htmldog.com
 .hua-yue.net
 .huaglad.com
 ||huaglad.com
@@ -3819,6 +3831,7 @@ hrweb.org
 .huangyiyu.com
 .huaren.us
 ||huaren.us
+m.huaren4us.com
 .huashangnews.com
 |http://huashangnews.com
 bbs.huasing.org
@@ -4137,6 +4150,7 @@ weiboscope.jmsc.hku.hk
 |http://jmscult.com
 ||joachims.org
 ||jobso.tv
+.sunwinism.joinbbs.net
 .journalchretien.net
 ||journalofdemocracy.org
 .joymiihub.com
@@ -4465,6 +4479,7 @@ maskedip.com
 mail-archive.com
 .malaysiakini.com
 ||makemymood.com
+.manchukuo.net
 .maniash.com
 |http://maniash.com
 .mansion.com
@@ -5397,6 +5412,8 @@ rcinet.ca
 .readydown.com
 |http://readydown.com
 .realcourage.org
+.realitykings.com
+||realitykings.com
 .realraptalk.com
 .realsexpass.com
 .recordhistory.org
@@ -5404,6 +5421,7 @@ rcinet.ca
 |http://online.recoveryversion.org
 ||recoveryversion.com.tw
 ||red-lang.org
+redballoonsolidarity.org
 .redchinacn.net
 |http://redchinacn.net
 redchinacn.org
@@ -6410,8 +6428,6 @@ tweetboard.com
 ||tweetboner.biz
 .tweetcs.com
 |http://tweetcs.com
-.tweetdeck.com
-||tweetdeck.com
 |http://deck.ly
 !-- Operation discontinued
 !--||tweete.net
@@ -6475,8 +6491,6 @@ twitmania.com
 twitoaster.com
 ||twitoaster.com
 ||twitonmsn.com
-.twitpic.com
-||twitpic.com
 !--Same IP
 .twit2d.com
 ||twit2d.com
@@ -6994,6 +7008,7 @@ zh-yue.wikipedia.org
 ||windowsphoneme.com
 .windscribe.com
 ||windscribe.com
+||community.windy.com
 ||wingy.site
 winning11.com
 winwhispers.info
@@ -7035,11 +7050,14 @@ worldjournal.com
 |http://*.wordpress.com
 ||cnbbnews.wordpress.com
 ||chenshan20042005.wordpress.com
+||freedominfonetweb.wordpress.com
 ||hka8964.wordpress.com
 ||hkanews.wordpress.com
+||hqsbnet.wordpress.com
 ||hqsbonline.wordpress.com
 ||investigating.wordpress.com
 ||jobnewera.wordpress.com
+||minghuiyw.wordpress.com
 ||wo3ttt.wordpress.com
 ||sujiatun.wordpress.com
 ||wp.com
@@ -7076,6 +7094,7 @@ wujieliulan.com
 ||wujieliulan.com
 wukangrui.net
 ||wuw.red
+||wuyanblog.com
 .wwitv.com
 ||wwitv.com
 wzyboy.im/post/160
@@ -7249,6 +7268,7 @@ yuanming.net
 .yuanzhengtang.org
 .yulghun.com
 ||yunchao.net
+||yuntipub.com
 .yuvutu.com
 ||yvesgeleyn.com
 .ywpw.com/forums/history/post/A0/p0/html/227
@@ -7391,6 +7411,7 @@ zhengjian
 @@||connectivitycheck.gstatic.com
 @@||csi.gstatic.com
 @@||fonts.gstatic.com
+@@||ssl.gstatic.com
 @@||haosou.com
 @@||ip.cn
 @@||jike.com
