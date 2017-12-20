@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: YffV7682heqA5ztvR2FsJw
+! Checksum: QCE+ghQRYTBgbcgBMYiTyA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Tue, 12 Dec 2017 19:46:46 -0500
+! Last Modified: Sat, 16 Dec 2017 08:34:41 -0500
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -5866,10 +5866,12 @@ usinfo.state.gov
 |http://startuplivingchina.com
 ||static-economist.com
 ||stc.com.sa
-steamcommunity.com/profiles/76561198062771609
-steamcommunity.com/groups/LibetTibet
-steamcommunity.com/groups/zhonggong
-steamcommunity.com/id/CJT_Jackton
+.steamcommunity.com
+||steamcommunity.com
+!--steamcommunity.com/profiles/76561198062771609
+!--steamcommunity.com/groups/LibetTibet
+!--steamcommunity.com/groups/zhonggong
+!--steamcommunity.com/id/CJT_Jackton
 ||steel-storm.com
 .steganos.com
 ||steganos.com
