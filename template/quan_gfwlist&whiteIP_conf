@@ -1,3 +1,4 @@
+# Github地址 : https://github.com/XinSSS/Conf-for-Surge-Shadowrocket , 希望能够点赞支持下
 [TCP]
 # Apple
 HOST,evintl-ocsp.verisign.com,Apple服务
@@ -367,6 +368,7 @@ HOST-SUFFIX,steamstatic.com,国内
 
 #others
 HOST-SUFFIX,accountkit.com,PROXY
+HOST-SUFFIX,codeload.github.com,PROXY
 
 # Line
 HOST-SUFFIX,lin.ee,PROXY

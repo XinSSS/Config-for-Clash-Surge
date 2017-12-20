@@ -96,7 +96,7 @@ def getSurgeChinaIPList():
 
         ip = re.findall(r'\d+\.\d+\.\d+\.\d+/\d+', line)
         if len(ip) > 0:
-            ipListTxt.write('IP-CIDR,%s,nProxy\n' % (ip[0]))
+            ipListTxt.write('IP-CIDR,%s,CNProxy\n' % (ip[0]))
 
     ipListTxt.close()
     ipListTxt.close()
@@ -118,6 +118,22 @@ def getShadowrocketChinaIPList():
     ipListTxt.close()
     ipListTxt.close()
 
+def getQuanChinaIPList():
+    # the url of chinaIP
+    ipList = codecs.open('./list/chinaIPlist', 'r', 'utf-8')
+    ipListTxt = codecs.open('./list/sqchinaIPlist.txt', 'w', 'utf-8')
+    ipListTxt.write('# chinaIP list updated on ' + datetime.datetime.now().strftime(
+        "%Y-%m-%d %H:%M:%S" + '\n'))
+    # Write list
+    for line in ipList.readlines():
+
+        ip = re.findall(r'\d+\.\d+\.\d+\.\d+/\d+', line)
+        if len(ip) > 0:
+            ipListTxt.write('IP-CIDR,%s,国内\n' % (ip[0]))
+
+    ipListTxt.close()
+    ipListTxt.close()
+
 
 def genSurgeGFWAndChinaIPConf():
     f = codecs.open('template/surge_gfwlist&whiteIP_conf', 'r', 'utf-8')
@@ -130,7 +146,7 @@ def genSurgeGFWAndChinaIPConf():
     iplist.close()
     f.close()
 
-    GEOIPList = 'GEOIP,CN,nProxy'
+    GEOIPList = 'GEOIP,CN,CNProxy'
 
     file_content = file_content.replace('__GFWLIST__', gfwlist_buffer)
     file_content = file_content.replace('__CHINAIP__', GEOIPList)
@@ -171,7 +187,7 @@ def genShadowrocketGFWAndChinaIPConf():
 def genQuantumultGFWAndChinaIPConf():
     f = codecs.open('template/quan_gfwlist&whiteIP_conf', 'r', 'utf-8')
     gfwlist = codecs.open('list/gfwlist.txt', 'r', 'utf-8')
-    iplist = codecs.open('list/suchinaIPlist.txt', 'r', 'utf-8')
+    iplist = codecs.open('list/sqchinaIPlist.txt', 'r', 'utf-8')
     file_content = f.read()
     iplist_buffer = iplist.read()
     gfwlist_buffer = gfwlist.read()
@@ -198,6 +214,7 @@ def main():
     print('Getting chinaIP list...')
     getSurgeChinaIPList()
     getShadowrocketChinaIPList()
+    getQuanChinaIPList()
 
     print('Generate config file:surge shadowrocket quantumult conf files success')
     genSurgeGFWAndChinaIPConf()

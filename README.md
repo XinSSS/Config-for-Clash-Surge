@@ -22,9 +22,9 @@ Surge Shadowrocket Quantumult conf
 
 使用Surge的情况的下, 需要在 `surge_gfwlist&whiteIP.conf` 添加你的Proxy和配置ProxyGroup.
 
-##### 请注意 !!! 修改Surge的ProxyGroup时, 请仔细阅读注释, 勿删除(可修改)已经和规则相关联的ProxyGroup: `🍎PROXY` `Proxy` `nProxy` `FinalProxy` , 解释下同Quantumult
+##### 请注意 !!! 修改Surge的ProxyGroup时, 请仔细阅读注释, 勿删除已经和规则相关联的ProxyGroup: `AppleService` `Proxy` `CNProxy` `FinalProxy` , 解释下同Quantumult
 
-##### 使用Quantumult的情况的下, 请在Favorite中添加TCP FILTER, Replace后请注意, `🍎PROXY` 为苹果服务器的连接规则, `Proxy`为一般情况下的代理规则, `nProxy`为直连规则, `FinalProxy` 则请看如下提示.
+##### 使用Quantumult的情况的下, 请在Favorite中添加TCP FILTER, Replace后请注意, `Apple服务` 为苹果服务器的连接规则, `Proxy`为一般情况下的代理规则, `国内`为直连规则, `FinalProxy` 则请看如下提示.
 
 > 由于已经导入了比较全面的CN IP白名单 + GFWList黑名单, 所以你最后可以根据自己的情况去设置FINAL规则究竟是PROXY还是DIRECT, 就是说, 当你访问没有被墙的国外域名时, 你是想直连呢还是想走代理?
 
