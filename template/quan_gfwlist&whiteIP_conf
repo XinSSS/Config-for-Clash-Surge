@@ -114,7 +114,6 @@ HOST-SUFFIX,bdstatic.com,国内
 HOST-SUFFIX,beatsbydre.com,国内
 HOST-SUFFIX,bilibili.com,国内
 HOST-SUFFIX,bing.com,国内
-HOST-SUFFIX,blizzard.com,国内
 HOST-SUFFIX,caiyunapp.com,国内
 HOST-SUFFIX,ccgslb.com,国内
 HOST-SUFFIX,ccgslb.net,国内
@@ -323,6 +322,7 @@ HOST-SUFFIX,fbsbx.com,PROXY,resolve-on-proxy
 HOST-SUFFIX,gcr.io,PROXY,resolve-on-proxy
 HOST-SUFFIX,gmail.com,PROXY,resolve-on-proxy
 HOST-SUFFIX,googleapis.com,PROXY,resolve-on-proxy
+HOST-SUFFIX,googlevideo.com,PROXY,resolve-on-proxy
 HOST-SUFFIX,gosetsuden.jp,PROXY,resolve-on-proxy
 HOST-SUFFIX,gvt1.com,PROXY,resolve-on-proxy
 HOST-SUFFIX,gwtproject.org,PROXY,resolve-on-proxy
@@ -364,6 +364,9 @@ HOST-SUFFIX,steampowered.com,国内
 HOST-SUFFIX,steamcommunity.com,国内
 HOST-SUFFIX,akamaihd.net,国内
 HOST-SUFFIX,steamstatic.com,国内
+
+#others
+HOST-SUFFIX,accountkit.com,PROXY
 
 # Line
 HOST-SUFFIX,lin.ee,PROXY
@@ -419,11 +422,11 @@ IP-CIDR,110.76.140.0/22,PROXY,no-resolve
 IP-CIDR,113.61.104.0/22,PROXY,no-resolve
 IP-CIDR,27.0.236.0/22,PROXY,no-resolve
 
-IP-CIDR,10.0.0.0/8,DIRECT
-IP-CIDR,100.64.0.0/10,DIRECT
-IP-CIDR,127.0.0.0/8,DIRECT
-IP-CIDR,172.16.0.0/12,DIRECT
-IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
 
 
 

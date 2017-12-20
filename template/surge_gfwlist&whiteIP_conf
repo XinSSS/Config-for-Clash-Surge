@@ -163,7 +163,6 @@ DOMAIN-SUFFIX,bdstatic.com,nProxy
 DOMAIN-SUFFIX,beatsbydre.com,nProxy
 DOMAIN-SUFFIX,bilibili.com,nProxy
 DOMAIN-SUFFIX,bing.com,nProxy
-DOMAIN-SUFFIX,blizzard.com,nProxy
 DOMAIN-SUFFIX,caiyunapp.com,nProxy
 DOMAIN-SUFFIX,ccgslb.com,nProxy
 DOMAIN-SUFFIX,ccgslb.net,nProxy
@@ -372,6 +371,7 @@ DOMAIN-SUFFIX,fbsbx.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,gcr.io,Proxy,force-remote-dns
 DOMAIN-SUFFIX,gmail.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,googleapis.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,googlevideo.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,gosetsuden.jp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,gvt1.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,gwtproject.org,Proxy,force-remote-dns
@@ -413,6 +413,9 @@ DOMAIN-SUFFIX,steampowered.com,nProxy
 DOMAIN-SUFFIX,steamcommunity.com,nProxy
 DOMAIN-SUFFIX,steamstatic.com,nProxy
 DOMAIN-SUFFIX,akamaihd.net,nProxy
+
+#others
+DOMAIN-SUFFIX,accountkit.com,Proxy
 
 # Line
 DOMAIN-SUFFIX,lin.ee,Proxy
@@ -468,11 +471,11 @@ IP-CIDR,110.76.140.0/22,Proxy,no-resolve
 IP-CIDR,113.61.104.0/22,Proxy,no-resolve
 IP-CIDR,27.0.236.0/22,Proxy,no-resolve
 
-IP-CIDR,10.0.0.0/8,DIRECT
-IP-CIDR,100.64.0.0/10,DIRECT
-IP-CIDR,127.0.0.0/8,DIRECT
-IP-CIDR,172.16.0.0/12,DIRECT
-IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
 
 
 
