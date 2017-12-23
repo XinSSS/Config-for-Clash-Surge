@@ -369,10 +369,10 @@ DOMAIN-SUFFIX,youtube.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,youtube-nocookie.com,PROXY,force-remote-dns
 
 # steam用户根据各自情况修改此规则
-DOMAIN-SUFFIX,steampowered.com,DIRECT
-DOMAIN-SUFFIX,steamcommunity.com,DIRECT
-DOMAIN-SUFFIX,akamaihd.net,DIRECT
-DOMAIN-SUFFIX,steamstatic.com,DIRECT
+DOMAIN-SUFFIX,steampowered.com,PROXY
+DOMAIN-SUFFIX,steamcommunity.com,PROXY
+DOMAIN-SUFFIX,akamaihd.net,PROXY
+DOMAIN-SUFFIX,steamstatic.com,PROXY
 
 #others
 DOMAIN-SUFFIX,accountkit.com,PROXY

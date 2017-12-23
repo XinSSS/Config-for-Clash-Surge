@@ -361,10 +361,10 @@ HOST-SUFFIX,youtube.com,PROXY,resolve-on-proxy
 HOST-SUFFIX,youtube-nocookie.com,PROXY,resolve-on-proxy
 
 # steam用户根据各自情况修改此规则
-HOST-SUFFIX,steampowered.com,国内
-HOST-SUFFIX,steamcommunity.com,国内
-HOST-SUFFIX,akamaihd.net,国内
-HOST-SUFFIX,steamstatic.com,国内
+HOST-SUFFIX,steampowered.com,PROXY
+HOST-SUFFIX,steamcommunity.com,PROXY
+HOST-SUFFIX,akamaihd.net,PROXY
+HOST-SUFFIX,steamstatic.com,PROXY
 
 #others
 HOST-SUFFIX,accountkit.com,PROXY

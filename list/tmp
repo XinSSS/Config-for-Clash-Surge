@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: QCE+ghQRYTBgbcgBMYiTyA
+! Checksum: XIZYKXGzrd5NqnbMi7ZqVQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 16 Dec 2017 08:34:41 -0500
+! Last Modified: Fri, 22 Dec 2017 06:14:13 -0500
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -1266,7 +1266,8 @@ apkpure.com
 .aplusvpn.com
 !--||appannie.com
 .appdownloader.net/Android
-appledaily.com
+.appledaily.com
+||appledaily.com
 .appshopper.com
 |http://appshopper.com
 ||appsocks.net
@@ -5948,6 +5949,7 @@ switchvpn.net
 ||switchvpn.net
 ||swift-tools.net
 .sydneytoday.com
+||sydneytoday.com
 .sylfoundation.org
 ||syncback.com
 sysresccd.org
