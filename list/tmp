@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: XIZYKXGzrd5NqnbMi7ZqVQ
+! Checksum: RntqxMgMEEOFmkt2LkXLZw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Fri, 22 Dec 2017 06:14:13 -0500
+! Last Modified: Sat, 13 Jan 2018 20:49:00 -0500
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -79,6 +79,7 @@ share.dmhy.org
 ||glass8.eu
 ||glype.com
 ||go141.com
+||guo.media
 ||hautelook.com
 ||hautelookcdn.com
 ||hmvdigital.ca
@@ -243,11 +244,14 @@ share.dmhy.org
 ||i.lithium.com
 ||cloud.mail.ru
 ||cdn-images.mailchimp.com
+||dictionary.goo.ne.jp
 ||go.nesnode.com
 ||nikkei.com
 ||my.pcloud.com
+||picacomic.com
 ||pixiv.net
 ||secure.raxcdn.com
+||sosreader.com
 ||sulian.me
 ||unseen.is
 ||xm.com
@@ -936,6 +940,7 @@ blogs.yahoo.co.jp
 buy.yahoo.com.tw/gdsale
 hk.yahoo.com
 hk.knowledge.yahoo.com
+tw.money.yahoo.com
 hk.myblog.yahoo.com
 news.yahoo.com/china-blocks-bbc
 ||hk.news.yahoo.com
@@ -964,6 +969,7 @@ video.yahoo.com
 |http://0rz.tw
 1-apple.com.tw
 ||1-apple.com.tw
+.10.tt
 .100ke.org
 .1000giri.net
 ||1000giri.net
@@ -1109,6 +1115,7 @@ abclite.net
 .acg18.me
 |http://acg18.me
 ||acgkj.com
+.acmedia365.com
 .acnw.com.au
 actfortibet.org
 actimes.com.au
@@ -1274,7 +1281,7 @@ apkpure.com
 ||appsto.re
 ||archives.gov
 .archive.is
-|http://archive.is
+||archive.is
 .archive.fo
 ||archive.org
 .arctosia.com
@@ -1318,6 +1325,7 @@ atgfw.org
 .atnext.com
 ||atnext.com
 ice.audionow.com
+||av.movie
 avaaz.org
 ||avaaz.org
 !--||avast.com
@@ -2170,6 +2178,7 @@ gloryhole.com
 ||dollf.com
 .domain.club.tw
 .domaintoday.com.au
+chinese.donga.com
 dongtaiwang.com
 ||dongtaiwang.com
 .dongtaiwang.net
@@ -2660,6 +2669,8 @@ cn.freeones.com
 free4u.com.ar
 .free-ssh.com
 ||free-ssh.com
+.freechina.news/
+||freechinaforum.org
 .freedomcollection.org/interviews/rebiya_kadeer
 .freeforums.org
 ||freenetproject.org
@@ -3040,6 +3051,7 @@ ftchinese.com/story/001071200
 .ftchinese.com/story/001072271
 .ftchinese.com/story/001072348
 .ftchinese.com/story/001072677
+.ftchinese.com/story/001072794
 .ftchinese.com/story/001072853
 .ftchinese.com/story/001072895
 .ftchinese.com/story/001072993
@@ -3080,6 +3092,13 @@ ftchinese.com/story/001071200
 .ftchinese.com/story/001074891
 .ftchinese.com/story/001074918
 .ftchinese.com/story/001075081
+.ftchinese.com/story/001075216
+.ftchinese.com/story/001075230
+.ftchinese.com/story/001075262
+.ftchinese.com/story/001075269
+.ftchinese.com/story/001075500
+.ftchinese.com/story/001075650
+.ftchinese.com/story/001075678
 .ftchinese.com/tag/%E5%8D%81%E5%85%AB%E5%B1%8A%E4%B8%89%E4%B8%AD%E5%85%A8%E4%BC%9A
 .ftchinese.com/tag/%E6%B8%A9%E5%AE%B6%E5%AE%9D
 .ftchinese.com/tag/%E8%96%84%E7%86%99%E6%9D%A5
@@ -4615,6 +4634,7 @@ thecenter.mit.edu
 .mitao.com.tw
 .mitbbs.com
 ||mitbbs.com
+mitbbsau.com
 .mixero.com
 ||mixero.com
 mixpod.com
@@ -4623,6 +4643,7 @@ mixpod.com
 ||mizzmona.com
 .mk5000.com
 .mlcool.com
+.mm-cg.com
 ||mmaaxx.com
 .mmmca.com
 mnewstv.com
@@ -5034,7 +5055,7 @@ oyghan.com/wps
 ||ow.ly
 bbs.ozchinese.com
 .ozvoice.org
-|https://ozvoice.org
+||ozvoice.org
 .ozxw.com
 .ozyoyo.com
 
@@ -5134,6 +5155,7 @@ philly.com
 ||photodharma.net
 ||photofocus.com
 ||phuquocservices.com
+||picacomiccn.com
 .picidae.net
 ||img*.picturedip.com
 picturesocial.com
@@ -5252,6 +5274,7 @@ proxyanonimo.es
 pubu.com.tw
 puffinbrowser.com
 pureinsight.org
+.pushchinawall.com
 .putty.org
 ||putty.org
 
@@ -5383,6 +5406,7 @@ opml.radiotime.com
 ||raidcall.com.tw
 .raidtalk.com.tw
 .rainbowplan.org/bbs
+|https://raindrop.io/
 .raizoji.or.jp
 |http://raizoji.or.jp
 rangwang.biz
@@ -5473,7 +5497,7 @@ riku.me/
 .roadshow.hk
 .roboforex.com
 ||robustnessiskey.com
-||roc-taiwan.org
+!--||roc-taiwan.org
 ||rocket-inc.net
 |http://www2.rocketbbs.com/11/bbs.cgi?id=5mus
 |http://www2.rocketbbs.com/11/bbs.cgi?id=freemgl
@@ -5887,7 +5911,7 @@ sthoo.com
 stickeraction.com/sesawe
 .stileproject.com
 .sto.cc
-||stoneip.info
+.stoporganharvesting.org
 ||storagenewsletter.com
 .storm.mg
 ||storm.mg
@@ -5947,7 +5971,6 @@ sun1911.com
 ||swissvpn.net
 switchvpn.net
 ||switchvpn.net
-||swift-tools.net
 .sydneytoday.com
 ||sydneytoday.com
 .sylfoundation.org
@@ -5957,7 +5980,7 @@ sysresccd.org
 blog.syx86.com/2009/09/puff
 blog.syx86.cn/2009/09/puff
 .szbbs.net
-||szetowah.org.hk
+.szetowah.org.hk
 
 !--------------------TT-------------------------
 ||t-g.com
@@ -5985,7 +6008,7 @@ tahr.org.tw
 .taiwandaily.net
 ||taiwandaily.net
 .taiwandc.org
-||taiwanembassy.org
+!--||taiwanembassy.org
 .taiwanjustice.com
 taiwankiss.com
 taiwannation.com
@@ -5993,7 +6016,7 @@ taiwannation.com.tw
 ||taiwanncf.org.tw
 ||taiwannews.com.tw
 |http://www.taiwanonline.cc/
-||taiwantoday.tw
+!--||taiwantoday.tw
 taiwantp.net
 ||taiwantt.org.tw
 taiwanus.net
@@ -6277,8 +6300,6 @@ tora.to
 .torcn.com
 .torproject.org
 ||torproject.org
-torrentcrazy.com
-||torrentcrazy.com
 torrentprivacy.com
 ||torrentprivacy.com
 |http://torrentproject.se
@@ -6541,7 +6562,6 @@ twurl.nl
 .txxx.com
 .tycool.com
 ||tycool.com
-||tzangms.com
 
 !--typepad
 ||typepad.com
@@ -6992,6 +7012,7 @@ wikilivres.info/wiki/%E9%9B%B6%E5%85%AB%E5%AE%AA%E7%AB%A0
 !--@@||m.wikimediafoundation.org
 !----Main-----
 !--||wikipedia.org
+||ja.wikipedia.org
 zh.wikipedia.org
 !--||zh.wikipedia.org
 zh.m.wikipedia.org
@@ -7323,6 +7344,7 @@ zhongguo.ca
 zhongguotese.net
 ||zhongguotese.net
 ||zhongmeng.org
+.zhoushuguang.com
 ||zhreader.com
 .zhuangbi.me
 ||zhuangbi.me
@@ -7352,7 +7374,7 @@ zomobo.net
 .zoozle.net
 writer.zoho.com
 ||zpn.im
-.zshare.net/download
+||zspeeder.me
 .zsrhao.com
 .zuo.la
 ||zuo.la
@@ -7411,6 +7433,7 @@ zhengjian
 @@||storage.googleapis.com
 @@||translate.googleapis.com
 @@||update.googleapis.com
+@@||safebrowsing.googleapis.com
 @@||cn.gravatar.com
 @@||connectivitycheck.gstatic.com
 @@||csi.gstatic.com
