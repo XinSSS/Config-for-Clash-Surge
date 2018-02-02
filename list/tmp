@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: RntqxMgMEEOFmkt2LkXLZw
+! Checksum: llrebaQ7o5qvGHK/yUh2LQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 13 Jan 2018 20:49:00 -0500
+! Last Modified: Sat, 20 Jan 2018 20:23:59 -0500
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -775,6 +775,15 @@ userapi.nytlog.com
 cn.nytstyle.com
 ||nytstyle.com
 
+!!---Steam---
+.steamcommunity.com
+||steamcommunity.com
+!--steamcommunity.com/profiles/76561198062771609
+!--steamcommunity.com/groups/LibetTibet
+!--steamcommunity.com/groups/zhonggong
+!--steamcommunity.com/id/CJT_Jackton
+|http://store.steampowered.com/app/333600
+
 !!---Telegram---
 !!!---Domain---
 ||t.me
@@ -783,6 +792,7 @@ cn.nytstyle.com
 ||telegram.me
 ||telegram.org
 .telegramdownload.com
+!!!---IP---
 
 !!---Twitter---
 ||periscope.tv
@@ -983,6 +993,7 @@ video.yahoo.com
 ||12vpn.com
 ||12vpn.net
 141hongkong.com/forum
+||141jj.com
 .141tube.com
 .1688.com.au
 .173ng.com
@@ -2184,6 +2195,7 @@ dongtaiwang.com
 .dongtaiwang.net
 ||dongtaiwang.net
 .dongyangjing.com
+|http://danbooru.donmai.us
 .dontfilter.us
 ||dontmovetochina.com
 .dorjeshugden.com
@@ -4749,6 +4761,7 @@ mymediarom.com/files/box
 ||myparagliding.com
 ||mypopescu.com
 myradio.hk/podcast
+.myreadingmanga.info
 mysinablog.com
 .myspace.com
 !--.blogs.myspace.com
@@ -5490,6 +5503,7 @@ rfaweb.org
 .rileyguide.com
 riku.me/
 .ritouki.jp
+||ritter.vg
 .rlwlw.com
 ||rlwlw.com
 .rmjdw.com
@@ -5891,12 +5905,6 @@ usinfo.state.gov
 |http://startuplivingchina.com
 ||static-economist.com
 ||stc.com.sa
-.steamcommunity.com
-||steamcommunity.com
-!--steamcommunity.com/profiles/76561198062771609
-!--steamcommunity.com/groups/LibetTibet
-!--steamcommunity.com/groups/zhonggong
-!--steamcommunity.com/id/CJT_Jackton
 ||steel-storm.com
 .steganos.com
 ||steganos.com
