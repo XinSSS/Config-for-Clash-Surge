@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: llrebaQ7o5qvGHK/yUh2LQ
+! Checksum: 6rcNlI2RUyfLE48QC2PfZQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 20 Jan 2018 20:23:59 -0500
+! Last Modified: Sat, 17 Feb 2018 03:34:12 -0500
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -176,6 +176,7 @@ share.dmhy.org
 |https://riseup.net
 ||sadistic-v.com
 |http://cdn*.search.xxx/
+||shiksha.com
 ||slacker.com
 ||sm-miracle.com
 ||spotify.com
@@ -254,6 +255,7 @@ share.dmhy.org
 ||sosreader.com
 ||sulian.me
 ||unseen.is
+||cn.uptodown.com
 ||xm.com
 
 !----------------Frauds & Scams-----------------
@@ -1336,6 +1338,7 @@ atgfw.org
 .atnext.com
 ||atnext.com
 ice.audionow.com
+.av.com
 ||av.movie
 avaaz.org
 ||avaaz.org
@@ -5595,6 +5598,7 @@ savevid.com
 .scmpchinese.com
 ||scramble.io
 .scribd.com
+||scribd.com
 ||scriptspot.com
 seapuff.com
 domainhelp.search.com
@@ -6367,6 +6371,7 @@ tube8.com
 |http://tubeislam.com
 .tubestack.com
 ||tubewolf.com
+.tuibeitu.net
 tuidang.net
 tuidang.org
 .tuidang.se
@@ -6927,7 +6932,8 @@ wengewang.com
 ||wengewang.org
 .wenhui.ch
 |http://trans.wenweipo.com/gb/
-wenxuecity.com
+.wenxuecity.com
+||wenxuecity.com
 .wenyunchao.com
 ||wenyunchao.com
 .westca.com
@@ -7047,7 +7053,7 @@ winning11.com
 winwhispers.info
 ||wiredbytes.com
 ||wiredpen.com
-||wireshark.org
+!--||wireshark.org
 .wisdompubs.org
 .wisevid.com
 ||wisevid.com
@@ -7366,6 +7372,7 @@ zhuichaguoji.org
 .zinio.com
 ||zinio.com
 .ziporn.com
+.zippyshare.com
 .zkaip.com
 ||zkaip.com
 realforum.zkiz.com
