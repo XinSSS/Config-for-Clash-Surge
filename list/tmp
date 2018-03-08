@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: 6rcNlI2RUyfLE48QC2PfZQ
+! Checksum: CeYEJmr4E6I2z1wfUFtAKg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 17 Feb 2018 03:34:12 -0500
+! Last Modified: Tue, 06 Mar 2018 07:28:57 -0500
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -238,6 +238,7 @@ share.dmhy.org
 ||agro.hk
 ||apkmirror.com
 ||boomssr.com
+||castbox.fm
 ||blog.fuckgfw233.org
 ||glorystar.me
 ||jiji.com
@@ -252,6 +253,7 @@ share.dmhy.org
 ||picacomic.com
 ||pixiv.net
 ||secure.raxcdn.com
+||shadowsocks9.com
 ||sosreader.com
 ||sulian.me
 ||unseen.is
@@ -794,6 +796,7 @@ cn.nytstyle.com
 ||telegram.me
 ||telegram.org
 .telegramdownload.com
+||telesco.pe
 !!!---IP---
 
 !!---Twitter---
@@ -1304,7 +1307,6 @@ apkpure.com
 ||arethusa.su
 ||arlingtoncemetery.mil
 ||army.mil
-||arstechnica.com
 .art4tibet1998.org
 artofpeacefoundation.org
 artsy.net
@@ -3114,12 +3116,17 @@ ftchinese.com/story/001071200
 .ftchinese.com/story/001075500
 .ftchinese.com/story/001075650
 .ftchinese.com/story/001075678
+.ftchinese.com/story/001075703
+.ftchinese.com/story/001076142
+.ftchinese.com/story/001076470
+.ftchinese.com/story/001076538
 .ftchinese.com/tag/%E5%8D%81%E5%85%AB%E5%B1%8A%E4%B8%89%E4%B8%AD%E5%85%A8%E4%BC%9A
 .ftchinese.com/tag/%E6%B8%A9%E5%AE%B6%E5%AE%9D
 .ftchinese.com/tag/%E8%96%84%E7%86%99%E6%9D%A5
 .ftchinese.com/video/1437
 .ftchinese.com/video/1882
 .ftchinese.com/video/2446
+.ftchinese.com/video/2601
 .ftchinese.com/comments
 .ftv.com.tw
 fucd.com
@@ -5012,6 +5019,8 @@ showbiz.omy.sg
 ||onion.city
 .onlinecha.com
 ||onlineyoutube.com
+.onlytweets.com
+|http://onlytweets.com
 onmoon.net
 onmoon.com
 .onthehunt.com
@@ -5376,6 +5385,8 @@ pythonhackers.com/p
 ||qiandao.today
 .qi-gong.me
 ||qi-gong.me
+!--#921
+||qiangyou.org
 .qidian.ca
 .qienkuen.org
 ||qienkuen.org

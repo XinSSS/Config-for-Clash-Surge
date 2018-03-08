@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2018-02-27 14:57:28
+# updated on 2018-03-08 20:31:08
 
 DOMAIN-SUFFIX,2dbook.com,Proxy
 DOMAIN-SUFFIX,4tern.com,Proxy
@@ -191,6 +191,7 @@ DOMAIN-SUFFIX,s3-ap-southeast-2.amazonaws.com,Proxy
 DOMAIN-SUFFIX,agro.hk,Proxy
 DOMAIN-SUFFIX,apkmirror.com,Proxy
 DOMAIN-SUFFIX,boomssr.com,Proxy
+DOMAIN-SUFFIX,castbox.fm,Proxy
 DOMAIN-SUFFIX,blog.fuckgfw233.org,Proxy
 DOMAIN-SUFFIX,glorystar.me,Proxy
 DOMAIN-SUFFIX,jiji.com,Proxy
@@ -205,6 +206,7 @@ DOMAIN-SUFFIX,my.pcloud.com,Proxy
 DOMAIN-SUFFIX,picacomic.com,Proxy
 DOMAIN-SUFFIX,pixiv.net,Proxy
 DOMAIN-SUFFIX,secure.raxcdn.com,Proxy
+DOMAIN-SUFFIX,shadowsocks9.com,Proxy
 DOMAIN-SUFFIX,sosreader.com,Proxy
 DOMAIN-SUFFIX,sulian.me,Proxy
 DOMAIN-SUFFIX,unseen.is,Proxy
@@ -648,6 +650,7 @@ DOMAIN-SUFFIX,telegram.dog,Proxy
 DOMAIN-SUFFIX,telegram.me,Proxy
 DOMAIN-SUFFIX,telegram.org,Proxy
 DOMAIN-SUFFIX,telegramdownload.com,Proxy
+DOMAIN-SUFFIX,telesco.pe,Proxy
 DOMAIN-SUFFIX,periscope.tv,Proxy
 DOMAIN-SUFFIX,pscp.tv,Proxy
 DOMAIN-SUFFIX,t.co,Proxy
@@ -973,7 +976,6 @@ DOMAIN-SUFFIX,areca-backup.org,Proxy
 DOMAIN-SUFFIX,arethusa.su,Proxy
 DOMAIN-SUFFIX,arlingtoncemetery.mil,Proxy
 DOMAIN-SUFFIX,army.mil,Proxy
-DOMAIN-SUFFIX,arstechnica.com,Proxy
 DOMAIN-SUFFIX,art4tibet1998.org,Proxy
 DOMAIN-SUFFIX,artofpeacefoundation.org,Proxy
 DOMAIN-SUFFIX,artsy.net,Proxy
@@ -3347,6 +3349,7 @@ DOMAIN-SUFFIX,onedrive.live.com,Proxy
 DOMAIN-SUFFIX,onion.city,Proxy
 DOMAIN-SUFFIX,onlinecha.com,Proxy
 DOMAIN-SUFFIX,onlineyoutube.com,Proxy
+DOMAIN-SUFFIX,onlytweets.com,Proxy
 DOMAIN-SUFFIX,onmoon.net,Proxy
 DOMAIN-SUFFIX,onmoon.com,Proxy
 DOMAIN-SUFFIX,onthehunt.com,Proxy
@@ -3638,6 +3641,7 @@ DOMAIN-SUFFIX,qanote.com,Proxy
 DOMAIN-SUFFIX,qgirl.com.tw,Proxy
 DOMAIN-SUFFIX,qiandao.today,Proxy
 DOMAIN-SUFFIX,qi-gong.me,Proxy
+DOMAIN-SUFFIX,qiangyou.org,Proxy
 DOMAIN-SUFFIX,qidian.ca,Proxy
 DOMAIN-SUFFIX,qienkuen.org,Proxy
 DOMAIN-SUFFIX,qiwen.lu,Proxy
