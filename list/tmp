@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: CeYEJmr4E6I2z1wfUFtAKg
+! Checksum: Hsoah5iNwp5n7BFSZst3HA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Tue, 06 Mar 2018 07:28:57 -0500
+! Last Modified: Fri, 23 Mar 2018 09:21:29 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -235,11 +235,17 @@ share.dmhy.org
 !-||cdn-images.mailchimp.com
 |https://*.s3.amazonaws.com
 ||s3-ap-southeast-2.amazonaws.com
+
+!---BitCoin---
+||bitmex.com
+
 ||agro.hk
 ||apkmirror.com
 ||boomssr.com
 ||castbox.fm
+||depositphotos.com
 ||blog.fuckgfw233.org
+||globalvoices.org
 ||glorystar.me
 ||jiji.com
 ||line-scdn.net
@@ -258,7 +264,9 @@ share.dmhy.org
 ||sulian.me
 ||unseen.is
 ||cn.uptodown.com
+||wire.com
 ||xm.com
+||xuehua.us
 
 !----------------Frauds & Scams-----------------
 !!---Content Farm(fake 500 error)---
@@ -306,6 +314,7 @@ www.aolnews.com
 .tellme.pw
 
 !!---BBC---
+.bbc.co.uk/blogs
 .bbc.co.uk/chinese
 .bbc.co.uk/news/world-asia-china
 .bbc.co.uk/tv
@@ -1722,6 +1731,7 @@ cclife.org
 cclifefl.org
 .ccthere.com
 ||ccthere.com
+.cctmweb.net
 .cctongbao.com/article/2078732
 ccue.ca
 ccue.com
@@ -2280,8 +2290,8 @@ xys.dxiong.com
 ||e-classical.com.tw
 ||e-gold.com
 .e-gold.com
-||g.e-hentai.org
-||lofi.e-hentai.org
+.e-hentai.org
+||e-hentai.org
 .e-hentaidb.com
 |http://e-hentaidb.com
 e-info.org.tw
@@ -3873,7 +3883,7 @@ hrweb.org
 .huangyiyu.com
 .huaren.us
 ||huaren.us
-m.huaren4us.com
+.huaren4us.com
 .huashangnews.com
 |http://huashangnews.com
 bbs.huasing.org
@@ -4131,6 +4141,7 @@ jamaat.org
 .jandyx.com
 ||janwongphoto.com
 ||japan-whores.com
+.jav.com
 .jav101.com
 .jav2be.com
 ||jav2be.com
@@ -5502,7 +5513,7 @@ retweetist.com
 !--|http://www.reuters.com/news/video
 revver.com
 .rfa.org
-|http://rfa.org
+||rfa.org
 .rfachina.com
 .rfamobile.org
 rfaweb.org
@@ -6138,6 +6149,8 @@ thetibetconnection.org
 .thetibetmuseum.org
 .thetibetpost.com
 ||thetibetpost.com
+!--Tor
+||thetinhat.com
 thetrotskymovie.com
 thevivekspot.com
 ||thewgo.org
@@ -6384,7 +6397,8 @@ tube8.com
 ||tubewolf.com
 .tuibeitu.net
 tuidang.net
-tuidang.org
+.tuidang.org
+||tuidang.org
 .tuidang.se
 bbs.tuitui.info
 .tumutanzi.com
@@ -7357,6 +7371,8 @@ zgzcjj.net
 ||zhangtianliang.com
 ||zhanlve.org
 zhenghui.org
+.zhengjian.org
+||zhengjian.org
 zhengwunet.org
 zhenlibu.info
 ||zhenlibu.info
@@ -7428,7 +7444,6 @@ q=triangle
 q%3DTriangle
 ultrareach
 ultrasurf
-zhengjian
 !#############Supplemental List End#############
 
 !################Whitelist Start################
