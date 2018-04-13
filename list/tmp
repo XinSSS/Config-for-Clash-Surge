@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: Hsoah5iNwp5n7BFSZst3HA
+! Checksum: dxgQ838FlHM1wPdD64PoiA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Fri, 23 Mar 2018 09:21:29 -0400
+! Last Modified: Mon, 09 Apr 2018 00:19:42 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -25,6 +25,7 @@
 ||akiba-web.com
 ||alien-ufos.com
 ||altrec.com
+||apartments.com
 ||arena.taipei
 ||asianspiss.com
 ||assimp.org
@@ -237,13 +238,23 @@ share.dmhy.org
 ||s3-ap-southeast-2.amazonaws.com
 
 !---BitCoin---
+||binance.com
+||bitfinex.com
 ||bitmex.com
+||hitbtc.com
+||huobi.com
+||huobi.pro
+||huobipro.com
+||livecoin.net
+||okex.com
+||zb.com
 
 ||agro.hk
 ||apkmirror.com
 ||boomssr.com
 ||castbox.fm
 ||depositphotos.com
+||fangeqiang.com
 ||blog.fuckgfw233.org
 ||globalvoices.org
 ||glorystar.me
@@ -696,6 +707,7 @@ blogspot.com
 !--||googletagmanager.com
 !--||googletagservices.com
 ||googleusercontent.com
+.googlevideo.com
 ||googlevideo.com
 ||googleweblight.com
 ||googlezip.net
@@ -1098,6 +1110,7 @@ taiwannation.50webs.com
 ||881903.com
 .888.com
 .888poker.com
+89.64.charter.constitutionalism.solutions
 89-64.org
 ||89-64.org
 .8news.com.tw
@@ -1516,6 +1529,7 @@ blinw.com
 ||blog.de
 .blog.jp
 |http://blog.jp
+@@||jpush.cn
 .blogcatalog.com
 ||blogcatalog.com
 ||blogcity.me
@@ -1706,6 +1720,8 @@ cari.com.my
 .casinoking.com
 .casinoriva.com
 ||catch22.net
+.catchgod.com
+|http://catchgod.com
 ||catfightpayperview.xxx
 .catholic.org.hk
 ||catholic.org.hk
@@ -2130,7 +2146,6 @@ cn.dayabook.com
 dcmilitary.com
 .ddc.com.tw
 .ddhw.info
-ddns.net
 ||de-sci.org
 .de-sci.org
 packages.debian.org/zh-cn/lenny/gpass
@@ -4917,6 +4932,7 @@ njuice.com
 nlfreevpn.com
 
 !--no-ip.com#NOIP
+.ddns.net/
 .gooddns.info
 ||gotdns.ch
 .maildns.xyz
@@ -6834,6 +6850,7 @@ vpnbook.com
 ||vpndada.com
 .vpnfan.com
 vpnfire.com
+.vpnfires.biz
 .vpnforgame.net
 ||vpnforgame.net
 ||vpngate.jp
@@ -7112,8 +7129,9 @@ worldjournal.com
 ||videopress.com
 .wordpress.com
 |http://*.wordpress.com
-||cnbbnews.wordpress.com
 ||chenshan20042005.wordpress.com
+||chinaview.wordpress.com
+||cnbbnews.wordpress.com
 ||freedominfonetweb.wordpress.com
 ||hka8964.wordpress.com
 ||hkanews.wordpress.com
@@ -7124,6 +7142,7 @@ worldjournal.com
 ||minghuiyw.wordpress.com
 ||wo3ttt.wordpress.com
 ||sujiatun.wordpress.com
+||xijie.wordpress.com
 ||wp.com
 
 !-||wormsculptor.com
@@ -7415,6 +7434,7 @@ zomobo.net
 ||zootool.com
 .zoozle.net
 writer.zoho.com
+||zorrovpn.com
 ||zpn.im
 ||zspeeder.me
 .zsrhao.com

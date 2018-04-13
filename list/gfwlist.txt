@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2018-03-27 16:13:09
+# updated on 2018-04-13 14:25:47
 
 DOMAIN-SUFFIX,2dbook.com,Proxy
 DOMAIN-SUFFIX,4tern.com,Proxy
@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,agnesb.fr,Proxy
 DOMAIN-SUFFIX,akiba-web.com,Proxy
 DOMAIN-SUFFIX,alien-ufos.com,Proxy
 DOMAIN-SUFFIX,altrec.com,Proxy
+DOMAIN-SUFFIX,apartments.com,Proxy
 DOMAIN-SUFFIX,arena.taipei,Proxy
 DOMAIN-SUFFIX,asianspiss.com,Proxy
 DOMAIN-SUFFIX,assimp.org,Proxy
@@ -188,12 +189,22 @@ DOMAIN-SUFFIX,xn--i2ru8q2qg.com,Proxy
 DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,Proxy
 DOMAIN-SUFFIX,s3.amazonaws.com,Proxy
 DOMAIN-SUFFIX,s3-ap-southeast-2.amazonaws.com,Proxy
+DOMAIN-SUFFIX,binance.com,Proxy
+DOMAIN-SUFFIX,bitfinex.com,Proxy
 DOMAIN-SUFFIX,bitmex.com,Proxy
+DOMAIN-SUFFIX,hitbtc.com,Proxy
+DOMAIN-SUFFIX,huobi.com,Proxy
+DOMAIN-SUFFIX,huobi.pro,Proxy
+DOMAIN-SUFFIX,huobipro.com,Proxy
+DOMAIN-SUFFIX,livecoin.net,Proxy
+DOMAIN-SUFFIX,okex.com,Proxy
+DOMAIN-SUFFIX,zb.com,Proxy
 DOMAIN-SUFFIX,agro.hk,Proxy
 DOMAIN-SUFFIX,apkmirror.com,Proxy
 DOMAIN-SUFFIX,boomssr.com,Proxy
 DOMAIN-SUFFIX,castbox.fm,Proxy
 DOMAIN-SUFFIX,depositphotos.com,Proxy
+DOMAIN-SUFFIX,fangeqiang.com,Proxy
 DOMAIN-SUFFIX,blog.fuckgfw233.org,Proxy
 DOMAIN-SUFFIX,globalvoices.org,Proxy
 DOMAIN-SUFFIX,glorystar.me,Proxy
@@ -815,6 +826,7 @@ DOMAIN-SUFFIX,85st.com,Proxy
 DOMAIN-SUFFIX,881903.com,Proxy
 DOMAIN-SUFFIX,888.com,Proxy
 DOMAIN-SUFFIX,888poker.com,Proxy
+DOMAIN-SUFFIX,89.64.charter.constitutionalism.solutions,Proxy
 DOMAIN-SUFFIX,89-64.org,Proxy
 DOMAIN-SUFFIX,8news.com.tw,Proxy
 DOMAIN-SUFFIX,8z1.net,Proxy
@@ -1271,6 +1283,7 @@ DOMAIN-SUFFIX,caribbeancom.com,Proxy
 DOMAIN-SUFFIX,casinoking.com,Proxy
 DOMAIN-SUFFIX,casinoriva.com,Proxy
 DOMAIN-SUFFIX,catch22.net,Proxy
+DOMAIN-SUFFIX,catchgod.com,Proxy
 DOMAIN-SUFFIX,catfightpayperview.xxx,Proxy
 DOMAIN-SUFFIX,catholic.org.hk,Proxy
 DOMAIN-SUFFIX,catholic.org.tw,Proxy
@@ -1589,7 +1602,6 @@ DOMAIN-SUFFIX,dcard.tw,Proxy
 DOMAIN-SUFFIX,dcmilitary.com,Proxy
 DOMAIN-SUFFIX,ddc.com.tw,Proxy
 DOMAIN-SUFFIX,ddhw.info,Proxy
-DOMAIN-SUFFIX,ddns.net,Proxy
 DOMAIN-SUFFIX,de-sci.org,Proxy
 DOMAIN-SUFFIX,packages.debian.org,Proxy
 DOMAIN-SUFFIX,decodet.co,Proxy
@@ -3263,6 +3275,7 @@ DOMAIN-SUFFIX,niusnews.com,Proxy
 DOMAIN-SUFFIX,njactb.org,Proxy
 DOMAIN-SUFFIX,njuice.com,Proxy
 DOMAIN-SUFFIX,nlfreevpn.com,Proxy
+DOMAIN-SUFFIX,ddns.net,Proxy
 DOMAIN-SUFFIX,gooddns.info,Proxy
 DOMAIN-SUFFIX,gotdns.ch,Proxy
 DOMAIN-SUFFIX,maildns.xyz,Proxy
@@ -4739,6 +4752,7 @@ DOMAIN-SUFFIX,vpncoupons.com,Proxy
 DOMAIN-SUFFIX,vpndada.com,Proxy
 DOMAIN-SUFFIX,vpnfan.com,Proxy
 DOMAIN-SUFFIX,vpnfire.com,Proxy
+DOMAIN-SUFFIX,vpnfires.biz,Proxy
 DOMAIN-SUFFIX,vpnforgame.net,Proxy
 DOMAIN-SUFFIX,vpngate.jp,Proxy
 DOMAIN-SUFFIX,vpngate.net,Proxy
@@ -4917,8 +4931,9 @@ DOMAIN-SUFFIX,worldcat.org,Proxy
 DOMAIN-SUFFIX,worldjournal.com,Proxy
 DOMAIN-SUFFIX,worldvpn.net,Proxy
 DOMAIN-SUFFIX,wordpress.com,Proxy
-DOMAIN-SUFFIX,cnbbnews.wordpress.com,Proxy
 DOMAIN-SUFFIX,chenshan20042005.wordpress.com,Proxy
+DOMAIN-SUFFIX,chinaview.wordpress.com,Proxy
+DOMAIN-SUFFIX,cnbbnews.wordpress.com,Proxy
 DOMAIN-SUFFIX,freedominfonetweb.wordpress.com,Proxy
 DOMAIN-SUFFIX,hka8964.wordpress.com,Proxy
 DOMAIN-SUFFIX,hkanews.wordpress.com,Proxy
@@ -4929,6 +4944,7 @@ DOMAIN-SUFFIX,jobnewera.wordpress.com,Proxy
 DOMAIN-SUFFIX,minghuiyw.wordpress.com,Proxy
 DOMAIN-SUFFIX,wo3ttt.wordpress.com,Proxy
 DOMAIN-SUFFIX,sujiatun.wordpress.com,Proxy
+DOMAIN-SUFFIX,xijie.wordpress.com,Proxy
 DOMAIN-SUFFIX,wp.com,Proxy
 DOMAIN-SUFFIX,wow.com,Proxy
 DOMAIN-SUFFIX,wow-life.net,Proxy
@@ -5152,6 +5168,7 @@ DOMAIN-SUFFIX,zoogvpn.com,Proxy
 DOMAIN-SUFFIX,zootool.com,Proxy
 DOMAIN-SUFFIX,zoozle.net,Proxy
 DOMAIN-SUFFIX,writer.zoho.com,Proxy
+DOMAIN-SUFFIX,zorrovpn.com,Proxy
 DOMAIN-SUFFIX,zpn.im,Proxy
 DOMAIN-SUFFIX,zspeeder.me,Proxy
 DOMAIN-SUFFIX,zsrhao.com,Proxy
