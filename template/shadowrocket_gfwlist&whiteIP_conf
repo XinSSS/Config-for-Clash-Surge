@@ -398,6 +398,7 @@ DOMAIN-SUFFIX,netflix.net,PROXY
 DOMAIN-SUFFIX,nflxext.com,PROXY
 DOMAIN-SUFFIX,nflximg.com,PROXY
 DOMAIN-SUFFIX,nflximg.net,PROXY
+DOMAIN-SUFFIX,nflxso.net,PROXY
 DOMAIN-SUFFIX,nflxvideo.net,PROXY
 
 # proxy list from gfwlist!

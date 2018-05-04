@@ -390,6 +390,7 @@ HOST-SUFFIX,netflix.net,PROXY
 HOST-SUFFIX,nflxext.com,PROXY
 HOST-SUFFIX,nflximg.com,PROXY
 HOST-SUFFIX,nflximg.net,PROXY
+HOST-SUFFIX,nflxso.net,PROXY
 HOST-SUFFIX,nflxvideo.net,PROXY
 
 # proxy list from gfwlist!

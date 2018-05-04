@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: dxgQ838FlHM1wPdD64PoiA
+! Checksum: aim0c4E3ItB2O6o2xXQBRw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Mon, 09 Apr 2018 00:19:42 -0400
+! Last Modified: Tue, 24 Apr 2018 09:44:40 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -219,6 +219,7 @@ share.dmhy.org
 
 !##############General List Start###############
 !-------------------Pure IP---------------------
+||1.1.1.1
 14.102.250.18
 14.102.250.19
 50.7.31.230:8898
@@ -241,6 +242,9 @@ share.dmhy.org
 ||binance.com
 ||bitfinex.com
 ||bitmex.com
+.coinegg.com
+||coinegg.com
+||gate.io
 ||hitbtc.com
 ||huobi.com
 ||huobi.pro
@@ -258,6 +262,7 @@ share.dmhy.org
 ||blog.fuckgfw233.org
 ||globalvoices.org
 ||glorystar.me
+||ipfs.io
 ||jiji.com
 ||line-scdn.net
 ||i.lithium.com
@@ -266,6 +271,7 @@ share.dmhy.org
 ||dictionary.goo.ne.jp
 ||go.nesnode.com
 ||nikkei.com
+||paste.ee
 ||my.pcloud.com
 ||picacomic.com
 ||pixiv.net
@@ -1204,6 +1210,7 @@ voa-11.akacast.akamaistream.net
 .akademiye.org/ug
 |http://akademiye.org/ug
 ||akiba-online.com
+||akow.org
 .al-islam.com
 ||al-qimmah.net
 ||alabout.com
@@ -1318,10 +1325,14 @@ apkpure.com
 ||appsocks.net
 ||appsto.re
 ||archives.gov
+.archive.fo
 .archive.is
 ||archive.is
-.archive.fo
+.archive.li
+|https://archive.li
 ||archive.org
+archive.today
+|https://archive.today
 .arctosia.com
 |http://arctosia.com
 ||areca-backup.org
@@ -1628,6 +1639,7 @@ brucewang.net
 ||btku.me
 ||btku.org
 .btspread.com
+.btsynckeys.com
 .budaedu.org
 ||budaedu.org
 .buddhanet.com.tw/zfrop/tibet
@@ -1919,6 +1931,7 @@ christiantimes.org.hk
 .cineastentreff.de
 .cipfg.org
 ||circlethebayfortibet.org
+||cirosantilli.com
 .citizencn.com
 ||citizencn.com
 |http://citizenlab.org
@@ -2024,6 +2037,7 @@ cpj.org
 crackle.com
 ||crackle.com
 .crazys.cc
+.crazyshit.com
 ||crchina.org
 crd-net.org
 creaders.net
@@ -2464,7 +2478,7 @@ eeas.europa.eu/statements-eeas/2015/151022
 experts-univers.com
 ||exploader.net
 .expressvpn.com
-|http://expressvpn.com
+||expressvpn.com
 .extremetube.com
 eyevio.jp
 ||eyevio.jp
@@ -3284,6 +3298,7 @@ gigporno.ru
 |http://softwaredownload.gitbooks.io
 
 !---GitHub---
+github.com/getlantern
 |https://gist.github.com
 http://cthlo.github.io/hktv
 ||haoel.github.io
@@ -4997,8 +5012,8 @@ nuzcom.com
 .nvtongzhisheng.org
 |http://nvtongzhisheng.org
 .nwtca.org
-||nyaa.eu
-||nyaa.si
+|http://nyaa.eu
+!--||nyaa.si
 .nydus.ca
 nylon-angel.com
 nylonstockingsonline.com
@@ -5793,6 +5808,7 @@ sinomontreal.ca
 sis.xxx
 ||sis001.com
 sis001.us
+.site2unblock.com
 ||site90.net
 .sitebro.tw
 ||sitekreator.com
@@ -6006,6 +6022,8 @@ sun1911.com
 .superfreevpn.com
 .supervpn.net
 ||supervpn.net
+.superzooi.com
+|http://superzooi.com
 .suppig.net
 .suprememastertv.com
 |http://suprememastertv.com
@@ -6123,6 +6141,8 @@ tcnynj.org
 .tcsofbc.org
 .tcsovi.org
 teamamericany.com
+!--OVH
+||techviz.net
 ||teck.in
 .teeniefuck.net
 teensinasia.com
@@ -6170,6 +6190,8 @@ thetibetconnection.org
 thetrotskymovie.com
 thevivekspot.com
 ||thewgo.org
+.theync.com
+|http://theync.com
 .thinkingtaiwan.com
 .thisav.com
 |http://thisav.com
@@ -7250,6 +7272,7 @@ xuchao.net
 ||xuchao.net
 xvideo.cc
 .xvideos.com
+||xvideos.com
 ||xvideos.es
 .xkiwi.tk/
 .xxbbx.com
