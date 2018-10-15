@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: Z+6CYulLFrYpimhncMK1eg
+! Checksum: bMsmNwPCgqvBF2sXfnclhg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sun, 12 Aug 2018 20:45:03 -0400
+! Last Modified: Sat, 22 Sep 2018 17:21:47 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -259,6 +259,7 @@ share.dmhy.org
 ||agro.hk
 ||apkmirror.com
 ||bird.so
+||businessinsider.com
 ||boomssr.com
 ||castbox.fm
 ||cmcn.org
@@ -272,6 +273,7 @@ share.dmhy.org
 ||glorystar.me
 ||hbo.com
 ||ipfs.io
+||japantimes.co.jp
 ||jiji.com
 ||jinx.com
 ||line-scdn.net
@@ -309,10 +311,12 @@ share.dmhy.org
 ||static.shemalez.com
 ||sosreader.com
 ||sulian.me
+||supchina.com
 ||teddysun.com
 ||textnow.me
 ||tineye.com
 ||tubepornclassic.com
+||twitch.tv
 ||uku.im
 ||unseen.is
 ||cn.uptodown.com
@@ -667,6 +671,8 @@ cdninstagram.com
 ||fb.me
 ||fbcdn.net
 ||fbsbx.com
+||fbaddins.com
+||fbworkmail.com
 .instagram.com
 ||instagram.com
 ||m.me
@@ -1682,6 +1688,8 @@ a5.com.ru
 |http://aamacau.com
 !--|http://cdn*.abc.com/
 .abc.com
+.abc.net.au
+||abc.net.au
 .abchinese.com
 abclite.net
 |https://www.abclite.net
@@ -1752,6 +1760,7 @@ voa-11.akacast.akamaistream.net
 !--||fbexternal-a.akamaihd.net
 !--||fbstatic-a.akamaihd.net
 !--|https://igcdn*.akamaihd.net
+rthklive2-lh.akamaihd.net
 
 .akademiye.org/ug
 |http://akademiye.org/ug
@@ -5860,6 +5869,8 @@ secretchina.com
 .secretsline.biz
 ||secretsline.biz
 ||securetunnel.com
+securityinabox.org
+|https://securityinabox.org
 .securitykiss.com
 ||securitykiss.com
 ||seed4.me
@@ -7398,6 +7409,7 @@ wretch.cc
 .wsj.com
 ||wsj.com
 .wsj.net
+||wsj.net
 .wsjhk.com
 .wtbn.org
 .wtfpeople.com

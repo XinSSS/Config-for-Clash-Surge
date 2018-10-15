@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2018-08-30 11:44:31
+# updated on 2018-10-15 09:53:13
 
 DOMAIN-SUFFIX,85.17.73.31,Proxy
 DOMAIN-SUFFIX,agnesb.fr,Proxy
@@ -211,6 +211,7 @@ DOMAIN-SUFFIX,s3-ap-southeast-2.amazonaws.com,Proxy
 DOMAIN-SUFFIX,agro.hk,Proxy
 DOMAIN-SUFFIX,apkmirror.com,Proxy
 DOMAIN-SUFFIX,bird.so,Proxy
+DOMAIN-SUFFIX,businessinsider.com,Proxy
 DOMAIN-SUFFIX,boomssr.com,Proxy
 DOMAIN-SUFFIX,castbox.fm,Proxy
 DOMAIN-SUFFIX,cmcn.org,Proxy
@@ -224,6 +225,7 @@ DOMAIN-SUFFIX,globalvoices.org,Proxy
 DOMAIN-SUFFIX,glorystar.me,Proxy
 DOMAIN-SUFFIX,hbo.com,Proxy
 DOMAIN-SUFFIX,ipfs.io,Proxy
+DOMAIN-SUFFIX,japantimes.co.jp,Proxy
 DOMAIN-SUFFIX,jiji.com,Proxy
 DOMAIN-SUFFIX,jinx.com,Proxy
 DOMAIN-SUFFIX,line-scdn.net,Proxy
@@ -261,10 +263,12 @@ DOMAIN-SUFFIX,tn3.shemalez.com,Proxy
 DOMAIN-SUFFIX,static.shemalez.com,Proxy
 DOMAIN-SUFFIX,sosreader.com,Proxy
 DOMAIN-SUFFIX,sulian.me,Proxy
+DOMAIN-SUFFIX,supchina.com,Proxy
 DOMAIN-SUFFIX,teddysun.com,Proxy
 DOMAIN-SUFFIX,textnow.me,Proxy
 DOMAIN-SUFFIX,tineye.com,Proxy
 DOMAIN-SUFFIX,tubepornclassic.com,Proxy
+DOMAIN-SUFFIX,twitch.tv,Proxy
 DOMAIN-SUFFIX,uku.im,Proxy
 DOMAIN-SUFFIX,unseen.is,Proxy
 DOMAIN-SUFFIX,cn.uptodown.com,Proxy
@@ -556,6 +560,8 @@ DOMAIN-SUFFIX,fb.com,Proxy
 DOMAIN-SUFFIX,fb.me,Proxy
 DOMAIN-SUFFIX,fbcdn.net,Proxy
 DOMAIN-SUFFIX,fbsbx.com,Proxy
+DOMAIN-SUFFIX,fbaddins.com,Proxy
+DOMAIN-SUFFIX,fbworkmail.com,Proxy
 DOMAIN-SUFFIX,instagram.com,Proxy
 DOMAIN-SUFFIX,m.me,Proxy
 DOMAIN-SUFFIX,messenger.com,Proxy
@@ -958,6 +964,7 @@ DOMAIN-SUFFIX,a-normal-day.com,Proxy
 DOMAIN-SUFFIX,a5.com.ru,Proxy
 DOMAIN-SUFFIX,aamacau.com,Proxy
 DOMAIN-SUFFIX,abc.com,Proxy
+DOMAIN-SUFFIX,abc.net.au,Proxy
 DOMAIN-SUFFIX,abchinese.com,Proxy
 DOMAIN-SUFFIX,abclite.net,Proxy
 DOMAIN-SUFFIX,www.abclite.net,Proxy
@@ -1007,6 +1014,7 @@ DOMAIN-SUFFIX,abematv.akamaized.net,Proxy
 DOMAIN-SUFFIX,linear-abematv.akamaized.net,Proxy
 DOMAIN-SUFFIX,vod-abematv.akamaized.net,Proxy
 DOMAIN-SUFFIX,akamaihd.net,Proxy
+DOMAIN-SUFFIX,rthklive2-lh.akamaihd.net,Proxy
 DOMAIN-SUFFIX,akademiye.org,Proxy
 DOMAIN-SUFFIX,akiba-online.com,Proxy
 DOMAIN-SUFFIX,akow.org,Proxy
@@ -1355,7 +1363,6 @@ DOMAIN-SUFFIX,bullog.org,Proxy
 DOMAIN-SUFFIX,bullogger.com,Proxy
 DOMAIN-SUFFIX,bunbunhk.com,Proxy
 DOMAIN-SUFFIX,busayari.com,Proxy
-DOMAIN-SUFFIX,businessinsider.com,Proxy
 DOMAIN-SUFFIX,www.businessinsider.com.au,Proxy
 DOMAIN-SUFFIX,businessweek.com,Proxy
 DOMAIN-SUFFIX,busu.org,Proxy
@@ -3992,6 +3999,7 @@ DOMAIN-SUFFIX,secretchina.com,Proxy
 DOMAIN-SUFFIX,secretgarden.no,Proxy
 DOMAIN-SUFFIX,secretsline.biz,Proxy
 DOMAIN-SUFFIX,securetunnel.com,Proxy
+DOMAIN-SUFFIX,securityinabox.org,Proxy
 DOMAIN-SUFFIX,securitykiss.com,Proxy
 DOMAIN-SUFFIX,seed4.me,Proxy
 DOMAIN-SUFFIX,news.seehua.com,Proxy
