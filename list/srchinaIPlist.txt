@@ -1,4 +1,4 @@
-# chinaIP list updated on 2018-11-06 12:07:39
+# chinaIP list updated on 2018-11-06 12:12:42
 IP-CIDR,1.0.1.0/24,DIRECT
 IP-CIDR,1.0.2.0/23,DIRECT
 IP-CIDR,1.0.8.0/21,DIRECT
