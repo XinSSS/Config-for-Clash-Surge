@@ -102,7 +102,6 @@ USER-AGENT,trustd*,AppleService
 # direct
 # thx  https://github.com/lhie1/Surge
 # updated on 2017-10-24
-DOMAIN-SUFFIX,cn,CNProxy
 # UA
 USER-AGENT,Argo*,Proxy
 USER-AGENT,*Telegram*,Proxy,force-remote-dns
@@ -446,6 +445,7 @@ DOMAIN-SUFFIX,nflxvideo.net,Proxy
 # proxy list from gfwlist!
 __GFWLIST__
 
+DOMAIN-SUFFIX,cn,CNProxy
 
 # LINE
 IP-CIDR,103.2.28.0/22,Proxy,no-resolve
