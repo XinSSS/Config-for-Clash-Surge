@@ -1,4 +1,8 @@
 # Github: https://github.com/XinSSS/Conf-for-Surge-Shadowrocket
+
+[DNS]
+119.29.29.29, 223.5.5.5
+
 [TCP]
 # Apple
 HOST,evintl-ocsp.verisign.com,Apple服务

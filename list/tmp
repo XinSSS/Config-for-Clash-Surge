@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: bMsmNwPCgqvBF2sXfnclhg
+! Checksum: IzFbrXJEVAM4do2v5uixsw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 22 Sep 2018 17:21:47 -0400
+! Last Modified: Tue, 13 Nov 2018 11:43:40 -0500
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -258,7 +258,9 @@ share.dmhy.org
 
 ||agro.hk
 ||apkmirror.com
+||behance.net
 ||bird.so
+||zh.bitterwinter.org
 ||businessinsider.com
 ||boomssr.com
 ||castbox.fm
@@ -267,15 +269,18 @@ share.dmhy.org
 ||depositphotos.com
 ||fangeqiang.com
 ||flyzy2005.com
+||foreignpolicy.com
 ||free-ss.site
 ||blog.fuckgfw233.org
 ||globalvoices.org
 ||glorystar.me
 ||hbo.com
+||hudson.org
 ||ipfs.io
 ||japantimes.co.jp
 ||jiji.com
 ||jinx.com
+||liangzhichuanmei.com
 ||line-scdn.net
 ||i.lithium.com
 ||cloud.mail.ru
@@ -283,8 +288,10 @@ share.dmhy.org
 ||mohu.club
 ||mohu.ml
 ||mastodon.host
+||msa-it.org
 ||dictionary.goo.ne.jp
 ||go.nesnode.com
+||international-news.newsmagazine.asia
 ||nikkei.com
 ||nofile.io
 ||now.com
@@ -294,7 +301,9 @@ share.dmhy.org
 ||my.pcloud.com
 ||picacomic.com
 ||pixiv.net
+||premproxy.com
 ||protonvpn.com
+||api.pureapk.com
 ||quora.com
 ||cdn.seatguru.com
 ||secure.raxcdn.com
@@ -302,6 +311,8 @@ share.dmhy.org
 ||reddit.com
 ||redditmedia.com
 ||redditstatic.com
+||rixcloud.com
+||rixcloud.us
 ||rsdlmonitor.com
 ||shadowsocks.be
 ||shadowsocks9.com
@@ -316,7 +327,6 @@ share.dmhy.org
 ||textnow.me
 ||tineye.com
 ||tubepornclassic.com
-||twitch.tv
 ||uku.im
 ||unseen.is
 ||cn.uptodown.com
@@ -326,6 +336,8 @@ share.dmhy.org
 ||scache1.vzw.com
 ||scache2.vzw.com
 ||ss7.vzw.com
+||ssr.tools
+||taiwanjustice.net
 ||wenzhao.ca
 ||whatsonweibo.com
 ||wire.com
@@ -380,6 +392,7 @@ share.dmhy.org
 ||livecoin.net
 ||oex.com
 ||okex.com
+||otcbtc.com
 ||rightbtc.com
 ||topbtc.com
 ||xbtce.com
@@ -1142,6 +1155,7 @@ blogspot.com
 ||chromium.org
 ||com.google
 ||creativelab5.com
+||crisisresponse.google
 ||crrev.com
 ||data-vocabulary.org
 ||debug.com
@@ -1256,6 +1270,7 @@ blogspot.com
 ||googleweblight.com
 ||googlezip.net
 ||groups.google.cn
+||grow.google
 ||gstatic.com
 !--||gv.com
 ||gvt0.com
@@ -1275,7 +1290,9 @@ blogspot.com
 ||on2.com
 ||panoramio.com
 ||picasaweb.com
+||pki.goog
 ||polymer-project.org
+||pride.google
 ||questvisual.com
 ||admin.recaptcha.net
 ||api.recaptcha.net
@@ -1283,11 +1300,13 @@ blogspot.com
 ||api-verify.recaptcha.net
 ||redhotlabs.com
 ||registry.google
+||safety.google
 ||savethedate.foo
 ||schema.org
 ||shattered.io
 |http://sipml5.org/
 ||stories.google
+||sustainability.google
 ||synergyse.com
 ||teachparentstech.org
 ||tensorflow.org
@@ -1364,6 +1383,12 @@ cn.nytstyle.com
 .telegramdownload.com
 ||telesco.pe
 !!!---IP---
+
+!!---Twitch---
+||jtvnw.net
+||ttvnw.net
+||twitch.tv
+||twitchcdn.net
 
 !!---Twitter---
 ||periscope.tv
@@ -2240,6 +2265,7 @@ busytrade.com
 .buzzorange.com
 ||buzzorange.com
 ||bvpn.com
+||bwh1.net
 bwsj.hk
 ||bx.tl
 
@@ -4088,6 +4114,7 @@ hqmovies.com
 .hrea.org
 .hrichina.org
 ||hrichina.org
+.hrtsea.com
 .hrw.org
 ||hrw.org
 hrweb.org
@@ -4755,7 +4782,7 @@ marguerite.su
 ||martincartoons.com
 maskedip.com
 .maiio.net
-mail-archive.com
+.mail-archive.com
 .malaysiakini.com
 ||makemymood.com
 .manchukuo.net
@@ -6064,6 +6091,8 @@ sneakme.net
 snowlionpub.com
 home.so-net.net.tw/yisa_tsai
 ||soc.mil
+.socks-proxy.net
+||socks-proxy.net
 .sockscap64.com
 ||sockslist.net
 .socrec.org
@@ -6939,6 +6968,7 @@ uploaded.net/file
 |http://uploaded.to/file
 .uploadstation.com/file
 .upmedia.mg
+||upmedia.mg
 .upornia.com
 |http://upornia.com
 ||uproxy.org
@@ -6982,6 +7012,7 @@ uyghur.co.uk
 ||uyghurcongress.org
 .uyghurpen.org
 .uyghurpress.com
+|https://uyghurpress.com
 .uyghurstudies.org
 |http://uyghurstudies.org
 uygur.org
@@ -7249,6 +7280,7 @@ whylover.com
 |http://zh.ecdm.wikia.com
 |http://evchk.wikia.com
 fq.wikia.com
+zh.pttpedia.wikia.com/wiki/%E7%BF%92%E5%8C%85%E5%AD%90%E4%B9%8B%E4%BA%82
 cn.uncyclopedia.wikia.com
 zh.uncyclopedia.wikia.com
 ||wikileaks.ch
@@ -7315,6 +7347,7 @@ wikilivres.info/wiki/%E9%9B%B6%E5%85%AB%E5%AE%AA%E7%AB%A0
 ||ja.wikipedia.org
 zh.wikipedia.org
 !--||zh.wikipedia.org
+||ug.m.wikipedia.org
 zh.m.wikipedia.org
 |https://zh.m.wikipedia.org
 !--@@||m.wikipedia.org
@@ -7364,6 +7397,7 @@ woopie.tv
 ||woopie.tv
 ||workatruna.com
 .workerdemo.org.hk
+.workerempowerment.org
 ||workersthebig.net
 .worldcat.org
 worldjournal.com
@@ -7515,7 +7549,6 @@ xyy69.info
 
 !--------------------YY-------------------------
 ||yakbutterblues.com
-yam.com
 ||yam.com
 ||yam.org.tw
 .yanghengjun.com
