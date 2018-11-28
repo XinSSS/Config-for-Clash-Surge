@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: IzFbrXJEVAM4do2v5uixsw
+! Checksum: SuIlae40vrhsUGebkJfECA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Tue, 13 Nov 2018 11:43:40 -0500
+! Last Modified: Mon, 26 Nov 2018 09:59:47 -0500
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -1316,6 +1316,7 @@ blogspot.com
 !--||www.google
 ||waveprotocol.org
 ||waymo.com
+||web.dev
 ||webmproject.org
 ||webrtc.org
 ||whatbrowser.org

@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2018-11-18 10:02:15
+# updated on 2018-11-28 10:54:18
 
 DOMAIN-SUFFIX,85.17.73.31,Proxy
 DOMAIN-SUFFIX,agnesb.fr,Proxy
@@ -764,6 +764,7 @@ DOMAIN-SUFFIX,tiltbrush.com,Proxy
 DOMAIN-SUFFIX,urchin.com,Proxy
 DOMAIN-SUFFIX,waveprotocol.org,Proxy
 DOMAIN-SUFFIX,waymo.com,Proxy
+DOMAIN-SUFFIX,web.dev,Proxy
 DOMAIN-SUFFIX,webmproject.org,Proxy
 DOMAIN-SUFFIX,webrtc.org,Proxy
 DOMAIN-SUFFIX,whatbrowser.org,Proxy
