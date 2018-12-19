@@ -32,6 +32,9 @@ Proxy = select, @Auto, 🇭🇰HK1
 # 本规则较全面, 国内白名单+国外网站黑名单基本上都全了, 所以提取出最后的Final规则, 供选择: 没有被屏蔽的国外网站想要走代理还是直连?默认代理
 FinalProxy = select, Proxy, DIRECT
 
+#补充NetflixGroup
+Netflix = select, 🇭🇰HK1, Proxy
+
 # Github: https://github.com/XinSSS/Conf-for-Surge-Shadowrocket
 
 [Rule]
@@ -433,13 +436,13 @@ DOMAIN-SUFFIX,mytvsuper.com,Proxy
 DOMAIN-SUFFIX,tvb.com,Proxy
 
 # Netflix
-DOMAIN-SUFFIX,netflix.com,Proxy
-DOMAIN-SUFFIX,netflix.net,Proxy
-DOMAIN-SUFFIX,nflxext.com,Proxy
-DOMAIN-SUFFIX,nflximg.com,Proxy
-DOMAIN-SUFFIX,nflximg.net,Proxy
-DOMAIN-SUFFIX,nflxso.net,Proxy
-DOMAIN-SUFFIX,nflxvideo.net,Proxy
+DOMAIN-SUFFIX,netflix.com,Netflix
+DOMAIN-SUFFIX,netflix.net,Netflix
+DOMAIN-SUFFIX,nflxext.com,Netflix
+DOMAIN-SUFFIX,nflximg.com,Netflix
+DOMAIN-SUFFIX,nflximg.net,Netflix
+DOMAIN-SUFFIX,nflxso.net,Netflix
+DOMAIN-SUFFIX,nflxvideo.net,Netflix
 
 # proxy list from gfwlist!
 __GFWLIST__

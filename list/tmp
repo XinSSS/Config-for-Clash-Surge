@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: SuIlae40vrhsUGebkJfECA
+! Checksum: e7uftC4J4WrSd3sxkqhuwg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Mon, 26 Nov 2018 09:59:47 -0500
+! Last Modified: Wed, 05 Dec 2018 13:00:59 -0500
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -274,6 +274,7 @@ share.dmhy.org
 ||blog.fuckgfw233.org
 ||globalvoices.org
 ||glorystar.me
+||goregrish.com
 ||hbo.com
 ||hudson.org
 ||ipfs.io
@@ -285,9 +286,10 @@ share.dmhy.org
 ||i.lithium.com
 ||cloud.mail.ru
 ||cdn-images.mailchimp.com
+||mastodon.host
 ||mohu.club
 ||mohu.ml
-||mastodon.host
+||motiyun.com
 ||msa-it.org
 ||dictionary.goo.ne.jp
 ||go.nesnode.com
@@ -321,6 +323,7 @@ share.dmhy.org
 ||tn3.shemalez.com
 ||static.shemalez.com
 ||sosreader.com
+||sspanel.net
 ||sulian.me
 ||supchina.com
 ||teddysun.com
@@ -343,6 +346,7 @@ share.dmhy.org
 ||wire.com
 ||xm.com
 ||xuehua.us
+||zzcloud.me
 
 !---Digital Currency Exchange(CRYPTO)---
 ||allcoin.com
@@ -1132,6 +1136,8 @@ ftchinese.com/story/001071200
 ||agoogleaday.com
 ||ai.google
 ||ampproject.org
+@@|https://www.ampproject.org
+@@|https://cdn.ampproject.org
 ||android.com
 ||androidify.com
 ||api.ai
@@ -1154,6 +1160,7 @@ blogspot.com
 ||chromestatus.com
 ||chromium.org
 ||com.google
+||crbug.com
 ||creativelab5.com
 ||crisisresponse.google
 ||crrev.com
@@ -1172,6 +1179,7 @@ blogspot.com
 ||gcr.io
 ||get.app
 ||get.how
+||get.page
 ||getmdl.io
 ||getoutline.org
 ||ggpht.com
@@ -4300,6 +4308,8 @@ internetdefenseleague.org
 internetfreedom.org
 !--||interpol.int
 ||internetpopculture.com
+.inthenameofconfuciusmovie.com
+||inthenameofconfuciusmovie.com
 inxian.com
 ||inxian.com
 ipalter.com
@@ -5830,6 +5840,7 @@ riku.me/
 .rtycminnesota.org
 .ruanyifeng.com/blog*some_ways_to_break_the_great_firewall
 rukor.org
+.runbtx.com
 .rushbee.com
 .ruten.com.tw
 rutube.ru
@@ -5883,6 +5894,7 @@ savevid.com
 |http://www.sciencemag.org/content/344/6187/953
 .sciencenets.com
 .scmp.com
+||scmp.com
 .scmpchinese.com
 ||scramble.io
 .scribd.com
@@ -6163,6 +6175,7 @@ sowers.org.hk
 ||speedify.com
 spem.at
 ||spencertipping.com
+||spendee.com
 ||spicevpn.com
 .spideroak.com
 ||spideroak.com

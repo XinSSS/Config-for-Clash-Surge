@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2018-11-28 10:54:18
+# updated on 2018-12-19 11:17:24
 
 DOMAIN-SUFFIX,85.17.73.31,Proxy
 DOMAIN-SUFFIX,agnesb.fr,Proxy
@@ -226,6 +226,7 @@ DOMAIN-SUFFIX,free-ss.site,Proxy
 DOMAIN-SUFFIX,blog.fuckgfw233.org,Proxy
 DOMAIN-SUFFIX,globalvoices.org,Proxy
 DOMAIN-SUFFIX,glorystar.me,Proxy
+DOMAIN-SUFFIX,goregrish.com,Proxy
 DOMAIN-SUFFIX,hbo.com,Proxy
 DOMAIN-SUFFIX,hudson.org,Proxy
 DOMAIN-SUFFIX,ipfs.io,Proxy
@@ -237,9 +238,10 @@ DOMAIN-SUFFIX,line-scdn.net,Proxy
 DOMAIN-SUFFIX,i.lithium.com,Proxy
 DOMAIN-SUFFIX,cloud.mail.ru,Proxy
 DOMAIN-SUFFIX,cdn-images.mailchimp.com,Proxy
+DOMAIN-SUFFIX,mastodon.host,Proxy
 DOMAIN-SUFFIX,mohu.club,Proxy
 DOMAIN-SUFFIX,mohu.ml,Proxy
-DOMAIN-SUFFIX,mastodon.host,Proxy
+DOMAIN-SUFFIX,motiyun.com,Proxy
 DOMAIN-SUFFIX,msa-it.org,Proxy
 DOMAIN-SUFFIX,dictionary.goo.ne.jp,Proxy
 DOMAIN-SUFFIX,go.nesnode.com,Proxy
@@ -273,6 +275,7 @@ DOMAIN-SUFFIX,tn2.shemalez.com,Proxy
 DOMAIN-SUFFIX,tn3.shemalez.com,Proxy
 DOMAIN-SUFFIX,static.shemalez.com,Proxy
 DOMAIN-SUFFIX,sosreader.com,Proxy
+DOMAIN-SUFFIX,sspanel.net,Proxy
 DOMAIN-SUFFIX,sulian.me,Proxy
 DOMAIN-SUFFIX,supchina.com,Proxy
 DOMAIN-SUFFIX,teddysun.com,Proxy
@@ -295,6 +298,7 @@ DOMAIN-SUFFIX,whatsonweibo.com,Proxy
 DOMAIN-SUFFIX,wire.com,Proxy
 DOMAIN-SUFFIX,xm.com,Proxy
 DOMAIN-SUFFIX,xuehua.us,Proxy
+DOMAIN-SUFFIX,zzcloud.me,Proxy
 DOMAIN-SUFFIX,allcoin.com,Proxy
 DOMAIN-SUFFIX,adcex.com,Proxy
 DOMAIN-SUFFIX,bcex.ca,Proxy
@@ -613,6 +617,7 @@ DOMAIN-SUFFIX,chromercise.com,Proxy
 DOMAIN-SUFFIX,chromestatus.com,Proxy
 DOMAIN-SUFFIX,chromium.org,Proxy
 DOMAIN-SUFFIX,com.google,Proxy
+DOMAIN-SUFFIX,crbug.com,Proxy
 DOMAIN-SUFFIX,creativelab5.com,Proxy
 DOMAIN-SUFFIX,crisisresponse.google,Proxy
 DOMAIN-SUFFIX,crrev.com,Proxy
@@ -631,6 +636,7 @@ DOMAIN-SUFFIX,g.co,Proxy
 DOMAIN-SUFFIX,gcr.io,Proxy
 DOMAIN-SUFFIX,get.app,Proxy
 DOMAIN-SUFFIX,get.how,Proxy
+DOMAIN-SUFFIX,get.page,Proxy
 DOMAIN-SUFFIX,getmdl.io,Proxy
 DOMAIN-SUFFIX,getoutline.org,Proxy
 DOMAIN-SUFFIX,ggpht.com,Proxy
@@ -2775,6 +2781,7 @@ DOMAIN-SUFFIX,internet.org,Proxy
 DOMAIN-SUFFIX,internetdefenseleague.org,Proxy
 DOMAIN-SUFFIX,internetfreedom.org,Proxy
 DOMAIN-SUFFIX,internetpopculture.com,Proxy
+DOMAIN-SUFFIX,inthenameofconfuciusmovie.com,Proxy
 DOMAIN-SUFFIX,inxian.com,Proxy
 DOMAIN-SUFFIX,ipalter.com,Proxy
 DOMAIN-SUFFIX,ipfire.org,Proxy
@@ -3973,6 +3980,7 @@ DOMAIN-SUFFIX,rti.org.tw,Proxy
 DOMAIN-SUFFIX,rtycminnesota.org,Proxy
 DOMAIN-SUFFIX,ruanyifeng.com,Proxy
 DOMAIN-SUFFIX,rukor.org,Proxy
+DOMAIN-SUFFIX,runbtx.com,Proxy
 DOMAIN-SUFFIX,rushbee.com,Proxy
 DOMAIN-SUFFIX,ruten.com.tw,Proxy
 DOMAIN-SUFFIX,rutube.ru,Proxy
@@ -4238,6 +4246,7 @@ DOMAIN-SUFFIX,speakerdeck.com,Proxy
 DOMAIN-SUFFIX,speedify.com,Proxy
 DOMAIN-SUFFIX,spem.at,Proxy
 DOMAIN-SUFFIX,spencertipping.com,Proxy
+DOMAIN-SUFFIX,spendee.com,Proxy
 DOMAIN-SUFFIX,spicevpn.com,Proxy
 DOMAIN-SUFFIX,spideroak.com,Proxy
 DOMAIN-SUFFIX,spike.com,Proxy
