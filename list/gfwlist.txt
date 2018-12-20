@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2018-12-19 11:17:24
+# updated on 2018-12-20 11:28:05
 
 DOMAIN-SUFFIX,85.17.73.31,Proxy
 DOMAIN-SUFFIX,agnesb.fr,Proxy

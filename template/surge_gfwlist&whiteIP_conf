@@ -54,6 +54,7 @@ PROCESS-NAME,ss-local,DIRECT
 
 # Apple
 PROCESS-NAME,trustd,AppleService
+PROCESS-NAME,softwareupdated,AppleService
 DOMAIN,evintl-ocsp.verisign.com,AppleService
 DOMAIN,evsecure-ocsp.verisign.com,AppleService
 DOMAIN-SUFFIX,appleiphonecell.com,AppleService
@@ -73,6 +74,7 @@ DOMAIN-SUFFIX,symcb.com,AppleService
 DOMAIN-SUFFIX,symcd.com,AppleService
 #UA Apple
 USER-AGENT,AppStore*,AppleService
+USER-AGENT,%E8%BD%AF%E4%BB%B6%E6%9B%B4%E6%96%B0*,AppleService
 USER-AGENT,com.apple.appstored*,AppleService
 USER-AGENT,com.apple.Mobile*,AppleService
 USER-AGENT,com.apple.geod*,AppleService

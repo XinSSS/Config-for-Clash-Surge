@@ -24,6 +24,7 @@ HOST-SUFFIX,symcb.com,Apple服务
 HOST-SUFFIX,symcd.com,Apple服务
 #UA Apple
 USER-AGENT,AppStore*,Apple服务
+USER-AGENT,%E8%BD%AF%E4%BB%B6%E6%9B%B4%E6%96%B0*,Apple服务
 USER-AGENT,com.apple.appstored*,Apple服务
 USER-AGENT,com.apple.Mobile*,Apple服务
 USER-AGENT,com.apple.geod*,Apple服务
