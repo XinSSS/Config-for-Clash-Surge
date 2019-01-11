@@ -1,10 +1,12 @@
 # SS config file for surge with gfw list 
-# updated on 2018-12-27 16:41:01
+# updated on 2019-01-11 16:35:36
 
 DOMAIN-SUFFIX,85.17.73.31,Proxy
 DOMAIN-SUFFIX,agnesb.fr,Proxy
 DOMAIN-SUFFIX,akiba-web.com,Proxy
 DOMAIN-SUFFIX,altrec.com,Proxy
+DOMAIN-SUFFIX,angela-merkel.de,Proxy
+DOMAIN-SUFFIX,angola.org,Proxy
 DOMAIN-SUFFIX,apartmentratings.com,Proxy
 DOMAIN-SUFFIX,apartments.com,Proxy
 DOMAIN-SUFFIX,arena.taipei,Proxy
@@ -210,15 +212,18 @@ DOMAIN-SUFFIX,s3.amazonaws.com,Proxy
 DOMAIN-SUFFIX,s3-ap-southeast-2.amazonaws.com,Proxy
 DOMAIN-SUFFIX,agro.hk,Proxy
 DOMAIN-SUFFIX,apkmirror.com,Proxy
+DOMAIN-SUFFIX,arte.tv,Proxy
 DOMAIN-SUFFIX,behance.net,Proxy
 DOMAIN-SUFFIX,bird.so,Proxy
 DOMAIN-SUFFIX,zh.bitterwinter.org,Proxy
 DOMAIN-SUFFIX,businessinsider.com,Proxy
 DOMAIN-SUFFIX,boomssr.com,Proxy
 DOMAIN-SUFFIX,castbox.fm,Proxy
+DOMAIN-SUFFIX,clyp.it,Proxy
 DOMAIN-SUFFIX,cmcn.org,Proxy
 DOMAIN-SUFFIX,cmx.im,Proxy
 DOMAIN-SUFFIX,depositphotos.com,Proxy
+DOMAIN-SUFFIX,doubmirror.cf,Proxy
 DOMAIN-SUFFIX,fangeqiang.com,Proxy
 DOMAIN-SUFFIX,flyzy2005.com,Proxy
 DOMAIN-SUFFIX,foreignpolicy.com,Proxy
@@ -239,6 +244,7 @@ DOMAIN-SUFFIX,i.lithium.com,Proxy
 DOMAIN-SUFFIX,cloud.mail.ru,Proxy
 DOMAIN-SUFFIX,cdn-images.mailchimp.com,Proxy
 DOMAIN-SUFFIX,mastodon.host,Proxy
+DOMAIN-SUFFIX,matters.news,Proxy
 DOMAIN-SUFFIX,mohu.club,Proxy
 DOMAIN-SUFFIX,mohu.ml,Proxy
 DOMAIN-SUFFIX,motiyun.com,Proxy
@@ -250,6 +256,7 @@ DOMAIN-SUFFIX,nikkei.com,Proxy
 DOMAIN-SUFFIX,nofile.io,Proxy
 DOMAIN-SUFFIX,now.com,Proxy
 DOMAIN-SUFFIX,sukebei.nyaa.si,Proxy
+DOMAIN-SUFFIX,openvpn.org,Proxy
 DOMAIN-SUFFIX,onejav.com,Proxy
 DOMAIN-SUFFIX,paste.ee,Proxy
 DOMAIN-SUFFIX,my.pcloud.com,Proxy
@@ -263,6 +270,7 @@ DOMAIN-SUFFIX,cdn.seatguru.com,Proxy
 DOMAIN-SUFFIX,secure.raxcdn.com,Proxy
 DOMAIN-SUFFIX,redd.it,Proxy
 DOMAIN-SUFFIX,reddit.com,Proxy
+DOMAIN-SUFFIX,redditlist.com,Proxy
 DOMAIN-SUFFIX,redditmedia.com,Proxy
 DOMAIN-SUFFIX,redditstatic.com,Proxy
 DOMAIN-SUFFIX,rixcloud.com,Proxy
@@ -274,6 +282,7 @@ DOMAIN-SUFFIX,tn1.shemalez.com,Proxy
 DOMAIN-SUFFIX,tn2.shemalez.com,Proxy
 DOMAIN-SUFFIX,tn3.shemalez.com,Proxy
 DOMAIN-SUFFIX,static.shemalez.com,Proxy
+DOMAIN-SUFFIX,softsmirror.cf,Proxy
 DOMAIN-SUFFIX,sosreader.com,Proxy
 DOMAIN-SUFFIX,sspanel.net,Proxy
 DOMAIN-SUFFIX,sulian.me,Proxy
@@ -287,6 +296,7 @@ DOMAIN-SUFFIX,unseen.is,Proxy
 DOMAIN-SUFFIX,cn.uptodown.com,Proxy
 DOMAIN-SUFFIX,uraban.me,Proxy
 DOMAIN-SUFFIX,vrsmash.com,Proxy
+DOMAIN-SUFFIX,vultryhw.com,Proxy
 DOMAIN-SUFFIX,scache.vzw.com,Proxy
 DOMAIN-SUFFIX,scache1.vzw.com,Proxy
 DOMAIN-SUFFIX,scache2.vzw.com,Proxy
@@ -342,6 +352,7 @@ DOMAIN-SUFFIX,kspcoin.com,Proxy
 DOMAIN-SUFFIX,kucoin.com,Proxy
 DOMAIN-SUFFIX,lbank.info,Proxy
 DOMAIN-SUFFIX,livecoin.net,Proxy
+DOMAIN-SUFFIX,localbitcoins.com,Proxy
 DOMAIN-SUFFIX,oex.com,Proxy
 DOMAIN-SUFFIX,okex.com,Proxy
 DOMAIN-SUFFIX,otcbtc.com,Proxy
@@ -2005,6 +2016,7 @@ DOMAIN-SUFFIX,eu.org,Proxy
 DOMAIN-SUFFIX,eucasino.com,Proxy
 DOMAIN-SUFFIX,eulam.com,Proxy
 DOMAIN-SUFFIX,eurekavpt.com,Proxy
+DOMAIN-SUFFIX,euronews.com,Proxy
 DOMAIN-SUFFIX,eeas.europa.eu,Proxy
 DOMAIN-SUFFIX,evschool.net,Proxy
 DOMAIN-SUFFIX,exblog.jp,Proxy
@@ -2344,6 +2356,7 @@ DOMAIN-SUFFIX,haoel.github.io,Proxy
 DOMAIN-SUFFIX,sikaozhe1997.github.io,Proxy
 DOMAIN-SUFFIX,sodatea.github.io,Proxy
 DOMAIN-SUFFIX,terminus2049.github.io,Proxy
+DOMAIN-SUFFIX,toutyrater.github.io,Proxy
 DOMAIN-SUFFIX,wsgzao.github.io,Proxy
 DOMAIN-SUFFIX,gizlen.net,Proxy
 DOMAIN-SUFFIX,gjczz.com,Proxy
