@@ -1,0 +1,7 @@
+RULE-SET,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Surge3_RULESET/surge3_ruleset_appleService.list,AppleService
+RULE-SET,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Surge3_RULESET/surge3_ruleset_gfw.list,GFWList
+RULE-SET,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Surge3_RULESET/surge3_ruleset_cndomain.list,CNDomain
+RULE-SET,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Surge3_RULESET/surge3_ruleset_netflix.list,Netflix
+RULE-SET,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Surge3_RULESET/surge3_ruleset_telegram.list,Telegram
+#RULE-SET,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Surge3_RULESET/surge3_ruleset_cnip.list,CNIP
+

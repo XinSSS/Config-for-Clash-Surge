@@ -35,6 +35,12 @@ def getGfwList():
     gfwListTxt.write('# updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
     gfwListTxt.write('\n')
 
+    #add Surge RULESETFILE
+    gfwSurgeRULESETFile = codecs.open('./configFileHere/Surge3_RULESET/surge3_ruleset_gfw.list', 'w', 'utf-8')
+    gfwSurgeRULESETFile.write('# SS config file for surge with gfw list \n')
+    gfwSurgeRULESETFile.write('# updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
+    gfwSurgeRULESETFile.write('\n')
+
     try:
 
         data = getList(baseurl)
@@ -66,6 +72,7 @@ def getGfwList():
                 except ValueError:
                     domainList.append(domain[0])
                     gfwListTxt.write('DOMAIN-SUFFIX,%s,Proxy\n' % (domain[0]))
+                    gfwSurgeRULESETFile.write('DOMAIN-SUFFIX,%s\n' % (domain[0]))
             else:
                 continue
 
@@ -91,12 +98,19 @@ def getSurgeChinaIPList():
     ipListTxt = codecs.open('./list/suchinaIPlist.txt', 'w', 'utf-8')
     ipListTxt.write('# chinaIP list updated on ' + datetime.datetime.now().strftime(
         "%Y-%m-%d %H:%M:%S" + '\n'))
+
+    #add Surge RULESETFILE
+    ipsurgeRULESETFile = codecs.open('./configFileHere/Surge3_RULESET/surge3_ruleset_cnip.list', 'w', 'utf-8')
+    ipsurgeRULESETFile.write('# chinaIP list updated on ' + datetime.datetime.now().strftime(
+        "%Y-%m-%d %H:%M:%S" + '\n'))
+
     # Write list
     for line in ipList.readlines():
 
         ip = re.findall(r'\d+\.\d+\.\d+\.\d+/\d+', line)
         if len(ip) > 0:
             ipListTxt.write('IP-CIDR,%s,CNProxy\n' % (ip[0]))
+            ipsurgeRULESETFile.write('IP-CIDR,%s\n' % (ip[0]))
 
     ipListTxt.close()
     ipListTxt.close()
