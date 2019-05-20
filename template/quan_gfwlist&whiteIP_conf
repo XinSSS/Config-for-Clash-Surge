@@ -340,7 +340,6 @@ HOST-SUFFIX,nianticlabs.com,PROXY,resolve-on-proxy
 HOST-SUFFIX,pinimg.com,PROXY,resolve-on-proxy
 HOST-SUFFIX,pixiv.net,PROXY,resolve-on-proxy
 HOST-SUFFIX,pubnub.com,PROXY,resolve-on-proxy
-HOST-SUFFIX,scdn.co,PROXY,resolve-on-proxy
 HOST-SUFFIX,t.co,PROXY,resolve-on-proxy
 HOST-SUFFIX,telegram.me,PROXY,resolve-on-proxy
 HOST-SUFFIX,tensorflow.org,PROXY,resolve-on-proxy
