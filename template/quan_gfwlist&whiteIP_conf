@@ -369,6 +369,7 @@ HOST-SUFFIX,steamstatic.com,PROXY
 #SpeedTest
 USER-AGENT,Speedtest*,SpeedTest
 HOST-SUFFIX,speedtest.net,SpeedTest
+HOST-SUFFIX,ooklaserver.net,SpeedTest
 
 #Spotify
 HOST-SUFFIX,spotify.com,Spotify
