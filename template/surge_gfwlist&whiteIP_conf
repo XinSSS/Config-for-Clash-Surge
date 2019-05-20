@@ -32,8 +32,10 @@ Proxy = select, @Auto, 🇭🇰HK1
 # 本规则较全面, 国内白名单+国外网站黑名单基本上都全了, 所以提取出最后的Final规则, 供选择: 没有被屏蔽的国外网站想要走代理还是直连?默认代理
 FinalProxy = select, Proxy, DIRECT
 
-#补充NetflixGroup
+#补充Group
 Netflix = select, 🇭🇰HK1, Proxy
+Spotify = select, 🇭🇰HK1, Proxy
+Speedtest = select, 🇭🇰HK1, Proxy
 
 # Github: https://github.com/XinSSS/Conf-for-Surge-Shadowrocket
 
@@ -111,7 +113,6 @@ USER-AGENT,trustd*,AppleService
 USER-AGENT,Argo*,Proxy
 USER-AGENT,*Telegram*,Proxy,force-remote-dns
 USER-AGENT,Instagram*,Proxy,force-remote-dns
-#USER-AGENT,Speedtest*,Proxy
 USER-AGENT,WhatsApp*,Proxy,force-remote-dns
 USER-AGENT,YouTube*,Proxy,force-remote-dns
 USER-AGENT,%E5%8D%B3%E5%88%BB*,CNProxy
@@ -393,7 +394,6 @@ DOMAIN-SUFFIX,nianticlabs.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,pinimg.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,pixiv.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,pubnub.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,scdn.co,Proxy,force-remote-dns
 DOMAIN-SUFFIX,t.co,Proxy,force-remote-dns
 DOMAIN-SUFFIX,telegram.me,Proxy,force-remote-dns
 DOMAIN-SUFFIX,tensorflow.org,Proxy,force-remote-dns
@@ -417,6 +417,18 @@ DOMAIN-SUFFIX,steampowered.com,Proxy
 DOMAIN-SUFFIX,steamcommunity.com,Proxy
 DOMAIN-SUFFIX,steamstatic.com,Proxy
 DOMAIN-SUFFIX,akamaihd.net,Proxy
+
+#Spotify
+USER-AGENT,Spotify*,Spotify
+DOMAIN-SUFFIX,spotify.com,Spotify
+DOMAIN-SUFFIX,scdn.co,Spotify
+DOMAIN-SUFFIX,pscdn.co,Spotify
+DOMAIN-SUFFIX,spotify.com.edgesuite.net,Spotify
+
+#SpeedTest
+USER-AGENT,Speedtest*,Speedtest
+DOMAIN-SUFFIX,speedtest.net,Speedtest
+DOMAIN-SUFFIX,ooklaserver.net,Speedtest
 
 #others
 DOMAIN-SUFFIX,accountkit.com,Proxy

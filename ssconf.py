@@ -70,9 +70,12 @@ def getGfwList():
                 try:
                     found = domainList.index(domain[0])
                 except ValueError:
-                    domainList.append(domain[0])
-                    gfwListTxt.write('DOMAIN-SUFFIX,%s,Proxy\n' % (domain[0]))
-                    gfwSurgeRULESETFile.write('DOMAIN-SUFFIX,%s\n' % (domain[0]))
+                    if "spotify.com" in domain[0]:
+                        continue
+                    else:
+                        domainList.append(domain[0])
+                        gfwListTxt.write('DOMAIN-SUFFIX,%s,Proxy\n' % (domain[0]))
+                        gfwSurgeRULESETFile.write('DOMAIN-SUFFIX,%s\n' % (domain[0]))
             else:
                 continue
 

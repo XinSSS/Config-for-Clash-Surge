@@ -371,6 +371,13 @@ DOMAIN-SUFFIX,steamcommunity.com,PROXY
 DOMAIN-SUFFIX,akamaihd.net,PROXY
 DOMAIN-SUFFIX,steamstatic.com,PROXY
 
+#Spotify
+USER-AGENT,Spotify*,PROXY
+DOMAIN-SUFFIX,spotify.com,PROXY
+DOMAIN-SUFFIX,scdn.co,PROXY
+DOMAIN-SUFFIX,pscdn.co,PROXY
+DOMAIN-SUFFIX,spotify.com.edgesuite.net,PROXY
+
 #others
 DOMAIN-SUFFIX,accountkit.com,PROXY
 DOMAIN-SUFFIX,codeload.github.com,PROXY

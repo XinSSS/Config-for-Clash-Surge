@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2019-05-20 09:40:31
+# updated on 2019-05-20 10:31:36
 
 DOMAIN-SUFFIX,85.17.73.31,Proxy
 DOMAIN-SUFFIX,agnesb.fr,Proxy
@@ -171,7 +171,6 @@ DOMAIN-SUFFIX,shiksha.com,Proxy
 DOMAIN-SUFFIX,slacker.com,Proxy
 DOMAIN-SUFFIX,sm-miracle.com,Proxy
 DOMAIN-SUFFIX,soylentnews.org,Proxy
-DOMAIN-SUFFIX,spotify.com,Proxy
 DOMAIN-SUFFIX,spreadshirt.es,Proxy
 DOMAIN-SUFFIX,springboardplatform.com,Proxy
 DOMAIN-SUFFIX,sprite.org,Proxy

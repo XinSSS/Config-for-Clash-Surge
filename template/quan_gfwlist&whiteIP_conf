@@ -365,6 +365,7 @@ HOST-SUFFIX,akamaihd.net,PROXY
 HOST-SUFFIX,steamstatic.com,PROXY
 
 #Spotify
+USER-AGENT,Spotify*,Spotify
 HOST-SUFFIX,spotify.com,Spotify
 HOST-SUFFIX,scdn.co,Spotify
 HOST-SUFFIX,pscdn.co,Spotify

@@ -3,5 +3,7 @@ RULE-SET,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/ma
 RULE-SET,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Surge3_RULESET/surge3_ruleset_cndomain.list,CNDomain
 RULE-SET,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Surge3_RULESET/surge3_ruleset_netflix.list,Netflix
 RULE-SET,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Surge3_RULESET/surge3_ruleset_telegram.list,Telegram
+RULE-SET,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Surge3_RULESET/surge3_ruleset_spotify.list,Spotify
+RULE-SET,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Surge3_RULESET/surge3_ruleset_speedtest.list,SpeedTest
 #RULE-SET,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Surge3_RULESET/surge3_ruleset_cnip.list,CNIP
 RULE-SET,LAN,DIRECT
