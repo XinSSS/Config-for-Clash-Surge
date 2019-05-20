@@ -1,4 +1,4 @@
-# chinaIP list updated on 2019-05-20 09:36:43
+# chinaIP list updated on 2019-05-20 09:40:32
 IP-CIDR,1.0.1.0/24,国内
 IP-CIDR,1.0.2.0/23,国内
 IP-CIDR,1.0.8.0/21,国内

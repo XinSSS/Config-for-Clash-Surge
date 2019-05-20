@@ -53,13 +53,6 @@ USER-AGENT,passd*,Apple服务
 USER-AGENT,swcd*,Apple服务
 USER-AGENT,trustd*,Apple服务
 
-
-#Spotify
-HOST-SUFFIX,spotify.com,Spotify
-HOST-SUFFIX,scdn.co,Spotify
-HOST-SUFFIX,pscdn.co,Spotify
-HOST-SUFFIX,spotify.com.edgesuite.net,Spotify
-
 # direct
 # thx  https://github.com/lhie1/Surge
 # updated on 2017-10-24
@@ -371,6 +364,12 @@ HOST-SUFFIX,steampowered.com,PROXY
 HOST-SUFFIX,steamcommunity.com,PROXY
 HOST-SUFFIX,akamaihd.net,PROXY
 HOST-SUFFIX,steamstatic.com,PROXY
+
+#Spotify
+HOST-SUFFIX,spotify.com,Spotify
+HOST-SUFFIX,scdn.co,Spotify
+HOST-SUFFIX,pscdn.co,Spotify
+HOST-SUFFIX,spotify.com.edgesuite.net,Spotify
 
 #SpeedTest
 USER-AGENT,Speedtest*,SpeedTest
