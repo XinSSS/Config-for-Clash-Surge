@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: aIMZDWUSMjIl5HcTDT3VOg
+! Checksum: 1d1kaCFred9b5pcIKuWphQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Tue, 29 Jan 2019 08:22:38 -0500
+! Last Modified: Sun, 28 Apr 2019 22:36:52 -0400
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -114,8 +114,6 @@ share.dmhy.org
 |http://imgmega.com/*.jpg.html
 |http://imgmega.com/*.jpeg.html
 |http://imgmega.com/*.png.html
-|http://imgur.com/upload
-|https://imgur.com/upload
 ||imlive.com
 ||tw.iqiyi.com
 ||javhub.net
@@ -272,6 +270,7 @@ share.dmhy.org
 ||agro.hk
 ||apkmirror.com
 ||arte.tv
+||artstation.com
 ||bangdream.space
 ||behance.net
 ||bird.so
@@ -285,6 +284,7 @@ share.dmhy.org
 ||cmcn.org
 ||cmx.im
 ||dailyview.tw
+||daum.net
 ||depositphotos.com
 ||doubibackup.com
 ||doubmirror.cf
@@ -341,6 +341,7 @@ share.dmhy.org
 ||pincong.rocks
 ||pixiv.net
 ||premproxy.com
+||prism-break.org
 ||protonvpn.com
 ||api.pureapk.com
 ||quora.com
@@ -363,6 +364,7 @@ share.dmhy.org
 ||tn3.shemalez.com
 ||static.shemalez.com
 ||six-degrees.io
+||softfamous.com
 ||softsmirror.cf
 ||sosreader.com
 ||sspanel.net
@@ -384,11 +386,13 @@ share.dmhy.org
 ||scache2.vzw.com
 ||ss7.vzw.com
 ||ssr.tools
+||steemit.com
 ||taiwanjustice.net
 ||tinc-vpn.org
 ||wenzhao.ca
 ||whatsonweibo.com
 ||wire.com
+||blog.workflow.is
 ||xm.com
 ||xuehua.us
 ||yes-news.com
@@ -1220,6 +1224,7 @@ ftchinese.com/story/001071200
 ||1e100.net
 ||466453.com
 ||abc.xyz
+||about.google
 ||admob.com
 ||adsense.com
 ||agoogleaday.com
@@ -1268,6 +1273,7 @@ blogspot.com
 ||g.co
 ||gcr.io
 ||get.app
+||get.dev
 ||get.how
 ||get.page
 ||getmdl.io
@@ -1296,6 +1302,7 @@ blogspot.com
 .google.co.uk
 .google.com
 .google.de
+||google.dev
 .google.dj
 .google.dk
 .google.es
@@ -1408,6 +1415,7 @@ blogspot.com
 ||synergyse.com
 ||teachparentstech.org
 ||tensorflow.org
+||tfhub.dev
 ||thinkwithgoogle.com
 ||tiltbrush.com
 ||urchin.com
@@ -1966,6 +1974,8 @@ aniscartujo.com
 anonymise.us
 .anonymitynetwork.com
 .anonymizer.com
+.anonymouse.org
+||anonymouse.org
 anontext.com
 .anpopo.com
 .answering-islam.org
@@ -2118,6 +2128,7 @@ bannedbook.org
 |http://baramangaonline.com
 .barenakedislam.com
 ||barnabu.co.uk
+||barton.de
 bartvpn.com
 .bastillepost.com
 bayvoice.net
@@ -3282,7 +3293,6 @@ nytimes.map.fastly.net
 favstar.fm
 ||favstar.fm
 faydao.com/weblog
-||fbsbx.com
 .fc2.com
 .fc2china.com
 .fc2cn.com
@@ -3489,6 +3499,8 @@ fucd.com
 .fuckcnnic.net
 ||fuckcnnic.net
 fuckgfw.org
+.fulione.com
+|https://fulione.com
 ||fullerconsideration.com
 fulue.com
 .funf.tw
@@ -4372,6 +4384,8 @@ imageshack.us
 
 .img.ly
 ||img.ly
+.imgur.com
+||imgur.com
 .imkev.com
 ||imkev.com
 .imlive.com
@@ -4652,6 +4666,8 @@ kinghost.com
 !--.kingstone.com.tw/book/
 ||kingstone.com.tw
 .kink.com
+.kinokuniya.com
+||kinokuniya.com
 killwall.com
 ||killwall.com
 ||kinmen.travel
@@ -7468,20 +7484,23 @@ wikilivres.info/wiki/%E9%9B%B6%E5%85%AB%E5%AE%AA%E7%AB%A0
 !--||wikimediafoundation.org
 !--@@||m.wikimediafoundation.org
 !----Main-----
+!!--||en.wikipedia.org
 !--||wikipedia.org
 ||ja.wikipedia.org
-zh.wikipedia.org
+!!--zh.wikipedia.org
 !--||zh.wikipedia.org
-||ug.m.wikipedia.org
-zh.m.wikipedia.org
-|https://zh.m.wikipedia.org
+!!--||ug.m.wikipedia.org
+!!--zh.m.wikipedia.org
+!!--|https://zh.m.wikipedia.org
 !--@@||m.wikipedia.org
-|https://zh.wikipedia.org
+!!--|https://zh.wikipedia.org
 !--Other Languages of Wikipedia
-wuu.wikipedia.org
-|https://wuu.wikipedia.org
-zh-yue.wikipedia.org
-|https://zh-yue.wikipedia.org
+!!--wuu.wikipedia.org
+!!--|https://wuu.wikipedia.org
+!!--zh-yue.wikipedia.org
+!!--|https://zh-yue.wikipedia.org
+!!! Starting with !! are previous rules replaced by:
+||wikipedia.org
 
 ||wikiwiki.jp
 ||casino.williamhill.com

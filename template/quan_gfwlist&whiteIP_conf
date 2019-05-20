@@ -61,7 +61,6 @@ USER-AGENT,trustd*,Apple服务
 USER-AGENT,Argo*,PROXY
 USER-AGENT,*Telegram*,PROXY,resolve-on-proxy
 USER-AGENT,Instagram*,PROXY,resolve-on-proxy
-#USER-AGENT,Speedtest*,PROXY
 USER-AGENT,WhatsApp*,PROXY,resolve-on-proxy
 USER-AGENT,YouTube*,PROXY,resolve-on-proxy
 USER-AGENT,%E5%8D%B3%E5%88%BB*,国内
@@ -298,7 +297,6 @@ HOST-KEYWORD,appledaily,PROXY,resolve-on-proxy
 HOST-KEYWORD,blogspot,PROXY,resolve-on-proxy
 HOST-KEYWORD,dropbox,PROXY,resolve-on-proxy
 HOST-KEYWORD,google,PROXY,resolve-on-proxy
-HOST-KEYWORD,spotify,PROXY,resolve-on-proxy
 HOST-KEYWORD,telegram,PROXY,resolve-on-proxy
 HOST-KEYWORD,whatsapp,PROXY,resolve-on-proxy
 HOST-SUFFIX,1e100.net,PROXY,resolve-on-proxy
@@ -367,6 +365,17 @@ HOST-SUFFIX,steampowered.com,PROXY
 HOST-SUFFIX,steamcommunity.com,PROXY
 HOST-SUFFIX,akamaihd.net,PROXY
 HOST-SUFFIX,steamstatic.com,PROXY
+
+#SpeedTest
+USER-AGENT,Speedtest*,SpeedTest
+HOST-SUFFIX,speedtest.net,SpeedTest
+
+#Spotify
+HOST-SUFFIX,spotify.com,Spotify
+HOST-SUFFIX,scdn.co,Spotify
+HOST-SUFFIX,pscdn.co,Spotify
+HOST-SUFFIX,spotify.com.edgesuite.net,Spotify
+
 
 #others
 HOST-SUFFIX,accountkit.com,PROXY

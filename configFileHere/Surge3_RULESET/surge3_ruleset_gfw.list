@@ -1,5 +1,5 @@
 # SS config file for surge with gfw list 
-# updated on 2019-02-28 21:56:15
+# updated on 2019-05-20 09:29:46
 
 DOMAIN-SUFFIX,85.17.73.31
 DOMAIN-SUFFIX,agnesb.fr
@@ -89,7 +89,6 @@ DOMAIN-SUFFIX,hybrid-analysis.com
 DOMAIN-SUFFIX,i-scmp.com
 DOMAIN-SUFFIX,ilovelongtoes.com
 DOMAIN-SUFFIX,imgmega.com
-DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,imlive.com
 DOMAIN-SUFFIX,tw.iqiyi.com
 DOMAIN-SUFFIX,javhub.net
@@ -224,6 +223,7 @@ DOMAIN-SUFFIX,43110.cf
 DOMAIN-SUFFIX,agro.hk
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,arte.tv
+DOMAIN-SUFFIX,artstation.com
 DOMAIN-SUFFIX,bangdream.space
 DOMAIN-SUFFIX,behance.net
 DOMAIN-SUFFIX,bird.so
@@ -237,6 +237,7 @@ DOMAIN-SUFFIX,clyp.it
 DOMAIN-SUFFIX,cmcn.org
 DOMAIN-SUFFIX,cmx.im
 DOMAIN-SUFFIX,dailyview.tw
+DOMAIN-SUFFIX,daum.net
 DOMAIN-SUFFIX,depositphotos.com
 DOMAIN-SUFFIX,doubibackup.com
 DOMAIN-SUFFIX,doubmirror.cf
@@ -293,6 +294,7 @@ DOMAIN-SUFFIX,picacomic.com
 DOMAIN-SUFFIX,pincong.rocks
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,premproxy.com
+DOMAIN-SUFFIX,prism-break.org
 DOMAIN-SUFFIX,protonvpn.com
 DOMAIN-SUFFIX,api.pureapk.com
 DOMAIN-SUFFIX,quora.com
@@ -314,6 +316,7 @@ DOMAIN-SUFFIX,tn2.shemalez.com
 DOMAIN-SUFFIX,tn3.shemalez.com
 DOMAIN-SUFFIX,static.shemalez.com
 DOMAIN-SUFFIX,six-degrees.io
+DOMAIN-SUFFIX,softfamous.com
 DOMAIN-SUFFIX,softsmirror.cf
 DOMAIN-SUFFIX,sosreader.com
 DOMAIN-SUFFIX,sspanel.net
@@ -335,11 +338,13 @@ DOMAIN-SUFFIX,scache1.vzw.com
 DOMAIN-SUFFIX,scache2.vzw.com
 DOMAIN-SUFFIX,ss7.vzw.com
 DOMAIN-SUFFIX,ssr.tools
+DOMAIN-SUFFIX,steemit.com
 DOMAIN-SUFFIX,taiwanjustice.net
 DOMAIN-SUFFIX,tinc-vpn.org
 DOMAIN-SUFFIX,wenzhao.ca
 DOMAIN-SUFFIX,whatsonweibo.com
 DOMAIN-SUFFIX,wire.com
+DOMAIN-SUFFIX,blog.workflow.is
 DOMAIN-SUFFIX,xm.com
 DOMAIN-SUFFIX,xuehua.us
 DOMAIN-SUFFIX,yes-news.com
@@ -649,6 +654,7 @@ DOMAIN-SUFFIX,ftchinese.com
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,466453.com
 DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,about.google
 DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,adsense.com
 DOMAIN-SUFFIX,agoogleaday.com
@@ -692,6 +698,7 @@ DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,gcr.io
 DOMAIN-SUFFIX,get.app
+DOMAIN-SUFFIX,get.dev
 DOMAIN-SUFFIX,get.how
 DOMAIN-SUFFIX,get.page
 DOMAIN-SUFFIX,getmdl.io
@@ -720,6 +727,7 @@ DOMAIN-SUFFIX,google.co.ma
 DOMAIN-SUFFIX,google.co.uk
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,google.de
+DOMAIN-SUFFIX,google.dev
 DOMAIN-SUFFIX,google.dj
 DOMAIN-SUFFIX,google.dk
 DOMAIN-SUFFIX,google.es
@@ -822,6 +830,7 @@ DOMAIN-SUFFIX,sustainability.google
 DOMAIN-SUFFIX,synergyse.com
 DOMAIN-SUFFIX,teachparentstech.org
 DOMAIN-SUFFIX,tensorflow.org
+DOMAIN-SUFFIX,tfhub.dev
 DOMAIN-SUFFIX,thinkwithgoogle.com
 DOMAIN-SUFFIX,tiltbrush.com
 DOMAIN-SUFFIX,urchin.com
@@ -1169,6 +1178,7 @@ DOMAIN-SUFFIX,anobii.com
 DOMAIN-SUFFIX,anonymise.us
 DOMAIN-SUFFIX,anonymitynetwork.com
 DOMAIN-SUFFIX,anonymizer.com
+DOMAIN-SUFFIX,anonymouse.org
 DOMAIN-SUFFIX,anontext.com
 DOMAIN-SUFFIX,anpopo.com
 DOMAIN-SUFFIX,answering-islam.org
@@ -1282,6 +1292,7 @@ DOMAIN-SUFFIX,bannednews.org
 DOMAIN-SUFFIX,baramangaonline.com
 DOMAIN-SUFFIX,barenakedislam.com
 DOMAIN-SUFFIX,barnabu.co.uk
+DOMAIN-SUFFIX,barton.de
 DOMAIN-SUFFIX,bartvpn.com
 DOMAIN-SUFFIX,bastillepost.com
 DOMAIN-SUFFIX,bayvoice.net
@@ -2301,6 +2312,7 @@ DOMAIN-SUFFIX,ftv.com.tw
 DOMAIN-SUFFIX,fucd.com
 DOMAIN-SUFFIX,fuckcnnic.net
 DOMAIN-SUFFIX,fuckgfw.org
+DOMAIN-SUFFIX,fulione.com
 DOMAIN-SUFFIX,fullerconsideration.com
 DOMAIN-SUFFIX,fulue.com
 DOMAIN-SUFFIX,funf.tw
@@ -2818,6 +2830,7 @@ DOMAIN-SUFFIX,imb.org
 DOMAIN-SUFFIX,www.imdb.com
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,img.ly
+DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,imkev.com
 DOMAIN-SUFFIX,immoral.jp
 DOMAIN-SUFFIX,impact.org.au
@@ -3038,6 +3051,7 @@ DOMAIN-SUFFIX,kingdomsalvation.org
 DOMAIN-SUFFIX,kinghost.com
 DOMAIN-SUFFIX,kingstone.com.tw
 DOMAIN-SUFFIX,kink.com
+DOMAIN-SUFFIX,kinokuniya.com
 DOMAIN-SUFFIX,killwall.com
 DOMAIN-SUFFIX,kinmen.travel
 DOMAIN-SUFFIX,kir.jp
@@ -5174,11 +5188,7 @@ DOMAIN-SUFFIX,wikimapia.org
 DOMAIN-SUFFIX,zh.wikisource.org
 DOMAIN-SUFFIX,zh.wikinews.org
 DOMAIN-SUFFIX,ja.wikipedia.org
-DOMAIN-SUFFIX,zh.wikipedia.org
-DOMAIN-SUFFIX,ug.m.wikipedia.org
-DOMAIN-SUFFIX,zh.m.wikipedia.org
-DOMAIN-SUFFIX,wuu.wikipedia.org
-DOMAIN-SUFFIX,zh-yue.wikipedia.org
+DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikiwiki.jp
 DOMAIN-SUFFIX,casino.williamhill.com
 DOMAIN-SUFFIX,sports.williamhill.com
