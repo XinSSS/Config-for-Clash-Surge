@@ -1,6 +1,4 @@
-#Spotify
-USER-AGENT,Spotify*
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,spotify.com.edgesuite.net
+#SpeedTest
+USER-AGENT,Speedtest*
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,ooklaserver.net
