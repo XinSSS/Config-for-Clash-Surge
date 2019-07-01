@@ -442,7 +442,3 @@ IP-CIDR,103.246.56.0/22,代理,no-resolve
 IP-CIDR,103.27.148.0/22,代理,no-resolve
 IP-CIDR,110.76.140.0/22,代理,no-resolve
 IP-CIDR,113.61.104.0/22,代理,no-resolve
-
-
-# white ip list
-__CHINAIP__
