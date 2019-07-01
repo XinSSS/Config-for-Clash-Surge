@@ -203,9 +203,11 @@ def genShadowrocketGFWAndChinaIPConf():
 
 def genQuantumultGFWAndChinaIPConf():
     f = codecs.open('template/quan_gfwlist&whiteIP_conf', 'r', 'utf-8')
+    fx = codecs.open('template/quan_x_conf', 'r', 'utf-8')
     gfwlist = codecs.open('list/gfwlist.txt', 'r', 'utf-8')
     iplist = codecs.open('list/sqchinaIPlist.txt', 'r', 'utf-8')
     file_content = f.read()
+    fileX_content = fx.read()
     iplist_buffer = iplist.read()
     gfwlist_buffer = gfwlist.read()
     gfwlist.close()
@@ -219,6 +221,12 @@ def genQuantumultGFWAndChinaIPConf():
     confs = codecs.open('configFileHere/quan_gfwlist&GEOIP.conf', 'w', 'utf-8')
     confs.write(file_content)
     confs.close()
+
+    fileX_content = fileX_content.replace('__GFWLIST__',gfwlist_buffer.replace('DOMAIN-SUFFIX,', 'HOST-SUFFIX,')).replace('Proxy','PROXY')
+    fileX_content = fileX_content.replace('__CHINAIP__', GEOIPList)
+    confx = codecs.open('configFileHere/quan_x.conf', 'w', 'utf-8')
+    confx.write(fileX_content)
+    confx.close()
 
     file_content = file_content.replace(GEOIPList, iplist_buffer)
     confw = codecs.open('configFileHere/quan_gfwlist&whiteIP.conf', 'w', 'utf-8')
