@@ -368,9 +368,9 @@ HOST-SUFFIX,pscdn.co,Spotify
 HOST-SUFFIX,spotify.com.edgesuite.net,Spotify
 
 #SpeedTest
-USER-AGENT,Speedtest*,SpeedTest
-HOST-SUFFIX,speedtest.net,SpeedTest
-HOST-SUFFIX,ooklaserver.net,SpeedTest
+USER-AGENT,Speedtest*,Speedtest
+HOST-SUFFIX,speedtest.net,Speedtest
+HOST-SUFFIX,ooklaserver.net,Speedtest
 
 #others
 HOST-SUFFIX,accountkit.com,代理
