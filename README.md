@@ -10,6 +10,8 @@ Surge Shadowrocket Quantumult conf
 但是GEOIP的库是没有[IPIP的库](https://github.com/17mon/china_ip_list)做得好的, 再加上本人参考了[R0uter/ss.conf-for-surge](https://github.com/R0uter/ss.conf-for-surge) 和 [lhie1/Surge](https://github.com/lhie1/Surge) 这两个repo之后, 便完成了这个**万条规则让你爽到爆**的基于 黑名单 + 白名单模式 的配置文件, 完成了我长久以来的......
 
 
+**RuleList文件参考`configFileHere/Quantumult_RULELIST`和`configFileHere/Surge3_RULESET`目录中copy_content.txt中的文件内容**
+
 
 ------
 
