@@ -216,14 +216,13 @@ def genQuantumultGFWAndChinaIPConf():
 
     GEOIPList = 'GEOIP,CN,国内'
 
-    file_content = file_content.replace('__GFWLIST__', gfwlist_buffer.replace('DOMAIN-SUFFIX,', 'HOST-SUFFIX,')).replace('Proxy', 'PROXY')
+    file_content = file_content.replace('__GFWLIST__', gfwlist_buffer.replace('DOMAIN-SUFFIX,', 'HOST-SUFFIX,')).replace('Proxy', '代理')
     file_content = file_content.replace('__CHINAIP__', GEOIPList)
     confs = codecs.open('configFileHere/quan_gfwlist&GEOIP.conf', 'w', 'utf-8')
     confs.write(file_content)
     confs.close()
 
-    fileX_content = fileX_content.replace('__GFWLIST__',gfwlist_buffer.replace('DOMAIN-SUFFIX,', 'HOST-SUFFIX,')).replace('Proxy','PROXY')
-    fileX_content = fileX_content.replace('__CHINAIP__', GEOIPList)
+    fileX_content = fileX_content.replace('__GFWLIST__',gfwlist_buffer.replace('DOMAIN-SUFFIX,', 'HOST-SUFFIX,')).replace('Proxy','代理')
     confx = codecs.open('configFileHere/quan_x.conf', 'w', 'utf-8')
     confx.write(fileX_content)
     confx.close()

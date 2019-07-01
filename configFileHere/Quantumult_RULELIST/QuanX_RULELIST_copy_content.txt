@@ -6,4 +6,4 @@ https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/conf
 https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Quantumult_RULELIST/Telegram.list, tag=Telegram, enabled=true
 https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Quantumult_RULELIST/Netflix.list, tag=Netflix, enabled=true
 https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Quantumult_RULELIST/Spotify.list, tag=Spotify, enabled=true
-https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Quantumult_RULELIST/Speedtest.list, tag=Speedtest, enabled=true
+https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Quantumult_RULELIST/Speedtest.list, tag=SpeedTest, enabled=true
