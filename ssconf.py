@@ -31,14 +31,12 @@ def getGfwList():
     tmpfile = './list/tmp'
 
     gfwListTxt = codecs.open('./list/gfwlist.txt', 'w', 'utf-8')
-    gfwListTxt.write('# SS config file for surge with gfw list \n')
-    gfwListTxt.write('# updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
+    gfwListTxt.write('# gfw list updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
     gfwListTxt.write('\n')
 
     #add Surge RULESETFILE
-    gfwSurgeRULESETFile = codecs.open('./configFileHere/Surge3_RULESET/surge3_ruleset_gfw.list', 'w', 'utf-8')
-    gfwSurgeRULESETFile.write('# SS config file for surge with gfw list \n')
-    gfwSurgeRULESETFile.write('# updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
+    gfwSurgeRULESETFile = codecs.open('./configFileHere/Surge3_RULESET/GFW.list', 'w', 'utf-8')
+    gfwSurgeRULESETFile.write('# gfw list updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
     gfwSurgeRULESETFile.write('\n')
 
     try:
@@ -101,11 +99,13 @@ def getSurgeChinaIPList():
     ipListTxt = codecs.open('./list/suchinaIPlist.txt', 'w', 'utf-8')
     ipListTxt.write('# chinaIP list updated on ' + datetime.datetime.now().strftime(
         "%Y-%m-%d %H:%M:%S" + '\n'))
+    ipListTxt.write('\n')
 
     #add Surge RULESETFILE
-    ipsurgeRULESETFile = codecs.open('./configFileHere/Surge3_RULESET/surge3_ruleset_cnip.list', 'w', 'utf-8')
+    ipsurgeRULESETFile = codecs.open('./configFileHere/Surge3_RULESET/CNIP.list', 'w', 'utf-8')
     ipsurgeRULESETFile.write('# chinaIP list updated on ' + datetime.datetime.now().strftime(
         "%Y-%m-%d %H:%M:%S" + '\n'))
+    ipsurgeRULESETFile.write('\n')
 
     # Write list
     for line in ipList.readlines():
@@ -224,6 +224,15 @@ def genQuantumultGFWAndChinaIPConf():
     confw = codecs.open('configFileHere/quan_gfwlist&whiteIP.conf', 'w', 'utf-8')
     confw.write(file_content)
     confw.close()
+
+    confiplist = codecs.open('configFileHere/Quantumult_RULELIST/CNIP.list', 'w', 'utf-8')
+    confiplist.write(iplist_buffer)
+    confiplist.close()
+
+    confgfwlist = codecs.open('configFileHere/Quantumult_RULELIST/GFW.list', 'w', 'utf-8')
+    confgfwlist.write(gfwlist_buffer.replace('DOMAIN-SUFFIX,', 'HOST-SUFFIX,').replace(',Proxy', ',代理'))
+    confgfwlist.close()
+
 
 def main():
     print('Getting GFW list...')

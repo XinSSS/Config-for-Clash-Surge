@@ -1,5 +1,4 @@
-# SS config file for surge with gfw list 
-# updated on 2019-05-20 10:31:36
+# gfw list updated on 2019-07-01 12:19:56
 
 DOMAIN-SUFFIX,85.17.73.31
 DOMAIN-SUFFIX,agnesb.fr
@@ -209,7 +208,6 @@ DOMAIN-SUFFIX,ytn.co.kr
 DOMAIN-SUFFIX,zattoo.com
 DOMAIN-SUFFIX,zim.vn
 DOMAIN-SUFFIX,zozotown.com
-DOMAIN-SUFFIX,1.1.1.1
 DOMAIN-SUFFIX,xn--4gq171p.com
 DOMAIN-SUFFIX,xn--czq75pvv1aj5c.org
 DOMAIN-SUFFIX,xn--i2ru8q2qg.com
@@ -219,7 +217,9 @@ DOMAIN-SUFFIX,abebooks.com
 DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,s3-ap-southeast-2.amazonaws.com
 DOMAIN-SUFFIX,43110.cf
+DOMAIN-SUFFIX,9gag.com
 DOMAIN-SUFFIX,agro.hk
+DOMAIN-SUFFIX,share.america.gov
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,arte.tv
 DOMAIN-SUFFIX,artstation.com
@@ -262,6 +262,7 @@ DOMAIN-SUFFIX,jintian.net
 DOMAIN-SUFFIX,jinx.com
 DOMAIN-SUFFIX,joinmastodon.org
 DOMAIN-SUFFIX,liangzhichuanmei.com
+DOMAIN-SUFFIX,lighti.me
 DOMAIN-SUFFIX,lihkg.com
 DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,i.lithium.com
@@ -292,6 +293,7 @@ DOMAIN-SUFFIX,my.pcloud.com
 DOMAIN-SUFFIX,picacomic.com
 DOMAIN-SUFFIX,pincong.rocks
 DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,potato.im
 DOMAIN-SUFFIX,premproxy.com
 DOMAIN-SUFFIX,prism-break.org
 DOMAIN-SUFFIX,protonvpn.com
@@ -810,6 +812,7 @@ DOMAIN-SUFFIX,on2.com
 DOMAIN-SUFFIX,panoramio.com
 DOMAIN-SUFFIX,picasaweb.com
 DOMAIN-SUFFIX,pki.goog
+DOMAIN-SUFFIX,plus.codes
 DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,pride.google
 DOMAIN-SUFFIX,questvisual.com
@@ -1621,6 +1624,7 @@ DOMAIN-SUFFIX,chinaxchina.com
 DOMAIN-SUFFIX,chinalawandpolicy.com
 DOMAIN-SUFFIX,chinamule.com
 DOMAIN-SUFFIX,chinamz.org
+DOMAIN-SUFFIX,chinanewscenter.com
 DOMAIN-SUFFIX,chinapress.com.my
 DOMAIN-SUFFIX,china-review.com.ua
 DOMAIN-SUFFIX,chinarightsia.org
@@ -2988,6 +2992,7 @@ DOMAIN-SUFFIX,journalofdemocracy.org
 DOMAIN-SUFFIX,joymiihub.com
 DOMAIN-SUFFIX,joyourself.com
 DOMAIN-SUFFIX,jpopforum.net
+DOMAIN-SUFFIX,fiddle.jshell.net
 DOMAIN-SUFFIX,jubushoushen.com
 DOMAIN-SUFFIX,juhuaren.com
 DOMAIN-SUFFIX,juliereyc.com
@@ -3781,6 +3786,7 @@ DOMAIN-SUFFIX,pinimg.com
 DOMAIN-SUFFIX,pinkrod.com
 DOMAIN-SUFFIX,pinoy-n.com
 DOMAIN-SUFFIX,pinterest.at
+DOMAIN-SUFFIX,pinterest.ca
 DOMAIN-SUFFIX,pinterest.co.kr
 DOMAIN-SUFFIX,pinterest.co.uk
 DOMAIN-SUFFIX,pinterest.com
@@ -4714,7 +4720,6 @@ DOMAIN-SUFFIX,tsemtulku.com
 DOMAIN-SUFFIX,tsquare.tv
 DOMAIN-SUFFIX,tsu.org.tw
 DOMAIN-SUFFIX,tsunagarumon.com
-DOMAIN-SUFFIX,tt-rss.org
 DOMAIN-SUFFIX,tt1069.com
 DOMAIN-SUFFIX,tttan.com
 DOMAIN-SUFFIX,bb.ttv.com.tw

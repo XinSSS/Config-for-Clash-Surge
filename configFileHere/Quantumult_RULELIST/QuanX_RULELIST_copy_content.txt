@@ -1,0 +1,8 @@
+[filter_remote]
+https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Quantumult_RULELIST/master/AppleService.list, tag=AppleService, enabled=true
+https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Quantumult_RULELIST/master/CNDomain.list, tag=直连, enabled=true
+https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Quantumult_RULELIST/master/CNIP.list, tag=直连, enabled=false
+https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Quantumult_RULELIST/master/GFW.list, tag=代理, enabled=true
+https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Quantumult_RULELIST/master/Netflix.list, tag=Netflix, enabled=true
+https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Quantumult_RULELIST/master/Spotify.list, tag=Spotify, enabled=true
+https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/Quantumult_RULELIST/master/Speedtest.list, tag=Speedtest, enabled=true
