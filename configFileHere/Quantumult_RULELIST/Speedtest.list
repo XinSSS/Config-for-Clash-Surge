@@ -1,4 +1,4 @@
 #SpeedTest
-USER-AGENT,Speedtest*,SpeedTest
-HOST-SUFFIX,speedtest.net,SpeedTest
-HOST-SUFFIX,ooklaserver.net,SpeedTest
+USER-AGENT,Speedtest*,Speedtest
+HOST-SUFFIX,speedtest.net,Speedtest
+HOST-SUFFIX,ooklaserver.net,Speedtest

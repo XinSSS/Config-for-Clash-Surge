@@ -1,10 +1,10 @@
 #Telegram
 USER-AGENT,*Telegram*,代理,resolve-on-proxy
-HOST--SUFFIX,telegram.me,代理
-HOST--SUFFIX,telegram.dog,代理
-HOST--SUFFIX,telegram.me,代理
-HOST--SUFFIX,telegram.org,代理
-HOST--SUFFIX,telegra.ph,代理
+HOST-SUFFIX,telegram.me,代理
+HOST-SUFFIX,telegram.dog,代理
+HOST-SUFFIX,telegram.me,代理
+HOST-SUFFIX,telegram.org,代理
+HOST-SUFFIX,telegra.ph,代理
 IP-CIDR,67.198.55.0/24,代理,no-resolve
 IP-CIDR,91.108.4.0/22,代理,no-resolve
 IP-CIDR,91.108.8.0/22,代理,no-resolve
