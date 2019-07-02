@@ -240,6 +240,19 @@ def genQuantumultGFWAndChinaIPConf():
     confgfwlist.write(gfwlist_buffer.replace('DOMAIN-SUFFIX,', 'HOST-SUFFIX,').replace(',Proxy', ',代理'))
     confgfwlist.close()
 
+def genClashConf():
+    f = codecs.open('template/clash_conf', 'r', 'utf-8')
+    file_content = f.read()
+    gfwlist = codecs.open('list/gfwlist.txt', 'r', 'utf-8')
+    gfwlist_buffer = gfwlist.read()
+    gfwlist.close()
+    f.close()
+
+    file_content = file_content.replace('__GFWLIST__',gfwlist_buffer.replace('DOMAIN-SUFFIX,', '- DOMAIN-SUFFIX,'))
+    confs = codecs.open('configFileHere/clash.conf', 'w', 'utf-8')
+    confs.write(file_content)
+    confs.close()
+
 
 def main():
     print('Getting GFW list...')
@@ -249,10 +262,11 @@ def main():
     getShadowrocketChinaIPList()
     getQuanChinaIPList()
 
-    print('Generate config file:surge shadowrocket quantumult conf files success')
+    print('Generate config file:surge shadowrocket quantumult clash conf files success')
     genSurgeGFWAndChinaIPConf()
     genShadowrocketGFWAndChinaIPConf()
     genQuantumultGFWAndChinaIPConf()
+    genClashConf()
 
     print('All done!')
     print('Now you need edit config file to add your server infomation.')
