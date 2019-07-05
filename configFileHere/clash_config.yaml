@@ -1,4 +1,4 @@
-# 放入clash的配置文件家目录中， 修改好Proxy和相应Group后， 修改文件名为config.yml使用
+# 放入clash的配置文件家目录中， 修改好Proxy和相应Group后， 修改文件名为config.yaml使用
 
 # HTTP 代理端口
 port: 7890
