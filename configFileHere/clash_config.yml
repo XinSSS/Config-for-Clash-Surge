@@ -1,3 +1,5 @@
+# 放入clash的配置文件家目录中， 修改好Proxy和相应Group后， 修改文件名为config.yml使用
+
 # HTTP 代理端口
 port: 7890
 
@@ -465,7 +467,7 @@ Rule:
 - DOMAIN-SUFFIX,nflxvideo.net,Netflix
 
 # proxy list from gfwlist!
-# gfw list updated on 2019-07-02 11:19:17
+# gfw list updated on 2019-07-05 10:34:44
 
 - DOMAIN-SUFFIX,85.17.73.31,Proxy
 - DOMAIN-SUFFIX,agnesb.fr,Proxy

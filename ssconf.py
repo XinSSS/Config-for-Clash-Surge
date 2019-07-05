@@ -249,7 +249,7 @@ def genClashConf():
     f.close()
 
     file_content = file_content.replace('__GFWLIST__',gfwlist_buffer.replace('DOMAIN-SUFFIX,', '- DOMAIN-SUFFIX,'))
-    confs = codecs.open('configFileHere/clash.conf', 'w', 'utf-8')
+    confs = codecs.open('configFileHere/clash_config.yml', 'w', 'utf-8')
     confs.write(file_content)
     confs.close()
 
