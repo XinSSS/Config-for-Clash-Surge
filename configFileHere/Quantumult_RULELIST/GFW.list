@@ -1,4 +1,4 @@
-# gfw list updated on 2019-07-01 15:42:19
+# gfw list updated on 2019-08-21 09:21:27
 
 HOST-SUFFIX,85.17.73.31,代理
 HOST-SUFFIX,agnesb.fr,代理
@@ -232,14 +232,17 @@ HOST-SUFFIX,businessinsider.com,代理
 HOST-SUFFIX,boomssr.com,代理
 HOST-SUFFIX,bwgyhw.com,代理
 HOST-SUFFIX,castbox.fm,代理
+HOST-SUFFIX,chinatimes.com,代理
 HOST-SUFFIX,clyp.it,代理
 HOST-SUFFIX,cmcn.org,代理
 HOST-SUFFIX,cmx.im,代理
 HOST-SUFFIX,dailyview.tw,代理
 HOST-SUFFIX,daum.net,代理
 HOST-SUFFIX,depositphotos.com,代理
+HOST-SUFFIX,disconnect.me,代理
 HOST-SUFFIX,doubibackup.com,代理
 HOST-SUFFIX,doubmirror.cf,代理
+HOST-SUFFIX,encyclopedia.com,代理
 HOST-SUFFIX,fangeqiang.com,代理
 HOST-SUFFIX,cloud.feedly.com,代理
 HOST-SUFFIX,flyzy2005.com,代理
@@ -650,7 +653,6 @@ HOST-SUFFIX,rocksdb.org,代理
 HOST-SUFFIX,thefacebook.com,代理
 HOST-SUFFIX,whatsapp.com,代理
 HOST-SUFFIX,whatsapp.net,代理
-HOST-SUFFIX,www.ftchinese.com,代理
 HOST-SUFFIX,ftchinese.com,代理
 HOST-SUFFIX,1e100.net,代理
 HOST-SUFFIX,466453.com,代理
@@ -691,6 +693,7 @@ HOST-SUFFIX,deepmind.com,代理
 HOST-SUFFIX,deja.com,代理
 HOST-SUFFIX,design.google,代理
 HOST-SUFFIX,digisfera.com,代理
+HOST-SUFFIX,dns.google,代理
 HOST-SUFFIX,domains.google,代理
 HOST-SUFFIX,duck.com,代理
 HOST-SUFFIX,environment.google,代理
@@ -1467,6 +1470,7 @@ HOST-SUFFIX,bullogger.com,代理
 HOST-SUFFIX,bunbunhk.com,代理
 HOST-SUFFIX,busayari.com,代理
 HOST-SUFFIX,www.businessinsider.com.au,代理
+HOST-SUFFIX,businesstoday.com.tw,代理
 HOST-SUFFIX,businessweek.com,代理
 HOST-SUFFIX,busu.org,代理
 HOST-SUFFIX,busytrade.com,代理
@@ -1632,7 +1636,6 @@ HOST-SUFFIX,chinasmile.net,代理
 HOST-SUFFIX,chinasocialdemocraticparty.com,代理
 HOST-SUFFIX,chinasoul.org,代理
 HOST-SUFFIX,chinasucks.net,代理
-HOST-SUFFIX,chinatimes.com,代理
 HOST-SUFFIX,chinatopsex.com,代理
 HOST-SUFFIX,chinatown.com.au,代理
 HOST-SUFFIX,chinatweeps.com,代理
@@ -1877,7 +1880,6 @@ HOST-SUFFIX,dilber.se,代理
 HOST-SUFFIX,furl.net,代理
 HOST-SUFFIX,dipity.com,代理
 HOST-SUFFIX,directcreative.com,代理
-HOST-SUFFIX,search.disconnect.me,代理
 HOST-SUFFIX,discuss.com.hk,代理
 HOST-SUFFIX,discuss4u.com,代理
 HOST-SUFFIX,disp.cc,代理

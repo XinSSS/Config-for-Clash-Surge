@@ -1,4 +1,4 @@
-# gfw list updated on 2019-07-01 15:42:19
+# gfw list updated on 2019-08-21 09:21:27
 
 DOMAIN-SUFFIX,85.17.73.31
 DOMAIN-SUFFIX,agnesb.fr
@@ -232,14 +232,17 @@ DOMAIN-SUFFIX,businessinsider.com
 DOMAIN-SUFFIX,boomssr.com
 DOMAIN-SUFFIX,bwgyhw.com
 DOMAIN-SUFFIX,castbox.fm
+DOMAIN-SUFFIX,chinatimes.com
 DOMAIN-SUFFIX,clyp.it
 DOMAIN-SUFFIX,cmcn.org
 DOMAIN-SUFFIX,cmx.im
 DOMAIN-SUFFIX,dailyview.tw
 DOMAIN-SUFFIX,daum.net
 DOMAIN-SUFFIX,depositphotos.com
+DOMAIN-SUFFIX,disconnect.me
 DOMAIN-SUFFIX,doubibackup.com
 DOMAIN-SUFFIX,doubmirror.cf
+DOMAIN-SUFFIX,encyclopedia.com
 DOMAIN-SUFFIX,fangeqiang.com
 DOMAIN-SUFFIX,cloud.feedly.com
 DOMAIN-SUFFIX,flyzy2005.com
@@ -650,7 +653,6 @@ DOMAIN-SUFFIX,rocksdb.org
 DOMAIN-SUFFIX,thefacebook.com
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
-DOMAIN-SUFFIX,www.ftchinese.com
 DOMAIN-SUFFIX,ftchinese.com
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,466453.com
@@ -691,6 +693,7 @@ DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deja.com
 DOMAIN-SUFFIX,design.google
 DOMAIN-SUFFIX,digisfera.com
+DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,domains.google
 DOMAIN-SUFFIX,duck.com
 DOMAIN-SUFFIX,environment.google
@@ -1467,6 +1470,7 @@ DOMAIN-SUFFIX,bullogger.com
 DOMAIN-SUFFIX,bunbunhk.com
 DOMAIN-SUFFIX,busayari.com
 DOMAIN-SUFFIX,www.businessinsider.com.au
+DOMAIN-SUFFIX,businesstoday.com.tw
 DOMAIN-SUFFIX,businessweek.com
 DOMAIN-SUFFIX,busu.org
 DOMAIN-SUFFIX,busytrade.com
@@ -1632,7 +1636,6 @@ DOMAIN-SUFFIX,chinasmile.net
 DOMAIN-SUFFIX,chinasocialdemocraticparty.com
 DOMAIN-SUFFIX,chinasoul.org
 DOMAIN-SUFFIX,chinasucks.net
-DOMAIN-SUFFIX,chinatimes.com
 DOMAIN-SUFFIX,chinatopsex.com
 DOMAIN-SUFFIX,chinatown.com.au
 DOMAIN-SUFFIX,chinatweeps.com
@@ -1877,7 +1880,6 @@ DOMAIN-SUFFIX,dilber.se
 DOMAIN-SUFFIX,furl.net
 DOMAIN-SUFFIX,dipity.com
 DOMAIN-SUFFIX,directcreative.com
-DOMAIN-SUFFIX,search.disconnect.me
 DOMAIN-SUFFIX,discuss.com.hk
 DOMAIN-SUFFIX,discuss4u.com
 DOMAIN-SUFFIX,disp.cc
