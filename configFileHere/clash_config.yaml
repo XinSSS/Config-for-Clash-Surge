@@ -464,7 +464,7 @@ Rule:
 - DOMAIN-SUFFIX,nflxvideo.net,Netflix
 
 # proxy list from gfwlist!
-# gfw list updated on 2019-09-25 10:59:10
+# gfw list updated on 2019-12-12 10:52:24
 
 - DOMAIN-SUFFIX,85.17.73.31,Proxy
 - DOMAIN-SUFFIX,agnesb.fr,Proxy
@@ -510,6 +510,7 @@ Rule:
 - DOMAIN-SUFFIX,img.dlsite.jp,Proxy
 - DOMAIN-SUFFIX,dm530.net,Proxy
 - DOMAIN-SUFFIX,share.dmhy.org,Proxy
+- DOMAIN-SUFFIX,dmhy.org,Proxy
 - DOMAIN-SUFFIX,dmm.co.jp,Proxy
 - DOMAIN-SUFFIX,www.dmm.com,Proxy
 - DOMAIN-SUFFIX,dnvod.tv,Proxy
@@ -706,19 +707,25 @@ Rule:
 - DOMAIN-SUFFIX,daum.net,Proxy
 - DOMAIN-SUFFIX,depositphotos.com,Proxy
 - DOMAIN-SUFFIX,disconnect.me,Proxy
+- DOMAIN-SUFFIX,documentingreality.com,Proxy
 - DOMAIN-SUFFIX,doubibackup.com,Proxy
 - DOMAIN-SUFFIX,doubmirror.cf,Proxy
 - DOMAIN-SUFFIX,encyclopedia.com,Proxy
 - DOMAIN-SUFFIX,fangeqiang.com,Proxy
+- DOMAIN-SUFFIX,fanqiangdang.com,Proxy
 - DOMAIN-SUFFIX,cloud.feedly.com,Proxy
+- DOMAIN-SUFFIX,feedx.net,Proxy
 - DOMAIN-SUFFIX,flyzy2005.com,Proxy
 - DOMAIN-SUFFIX,foreignpolicy.com,Proxy
 - DOMAIN-SUFFIX,free-ss.site,Proxy
+- DOMAIN-SUFFIX,freehongkong.org,Proxy
 - DOMAIN-SUFFIX,blog.fuckgfw233.org,Proxy
 - DOMAIN-SUFFIX,g0v.social,Proxy
 - DOMAIN-SUFFIX,globalvoices.org,Proxy
 - DOMAIN-SUFFIX,glorystar.me,Proxy
 - DOMAIN-SUFFIX,goregrish.com,Proxy
+- DOMAIN-SUFFIX,guangnianvpn.com,Proxy
+- DOMAIN-SUFFIX,hanime.tv,Proxy
 - DOMAIN-SUFFIX,hbo.com,Proxy
 - DOMAIN-SUFFIX,spaces.hightail.com,Proxy
 - DOMAIN-SUFFIX,hkgalden.com,Proxy
@@ -732,6 +739,7 @@ Rule:
 - DOMAIN-SUFFIX,joinmastodon.org,Proxy
 - DOMAIN-SUFFIX,liangzhichuanmei.com,Proxy
 - DOMAIN-SUFFIX,lighti.me,Proxy
+- DOMAIN-SUFFIX,lightyearvpn.com,Proxy
 - DOMAIN-SUFFIX,lihkg.com,Proxy
 - DOMAIN-SUFFIX,line-scdn.net,Proxy
 - DOMAIN-SUFFIX,i.lithium.com,Proxy
@@ -769,6 +777,7 @@ Rule:
 - DOMAIN-SUFFIX,api.pureapk.com,Proxy
 - DOMAIN-SUFFIX,quora.com,Proxy
 - DOMAIN-SUFFIX,quoracdn.net,Proxy
+- DOMAIN-SUFFIX,qz.com,Proxy
 - DOMAIN-SUFFIX,cdn.seatguru.com,Proxy
 - DOMAIN-SUFFIX,secure.raxcdn.com,Proxy
 - DOMAIN-SUFFIX,redd.it,Proxy
@@ -811,6 +820,8 @@ Rule:
 - DOMAIN-SUFFIX,steemit.com,Proxy
 - DOMAIN-SUFFIX,taiwanjustice.net,Proxy
 - DOMAIN-SUFFIX,tinc-vpn.org,Proxy
+- DOMAIN-SUFFIX,u15.info,Proxy
+- DOMAIN-SUFFIX,washingtonpost.com,Proxy
 - DOMAIN-SUFFIX,wenzhao.ca,Proxy
 - DOMAIN-SUFFIX,whatsonweibo.com,Proxy
 - DOMAIN-SUFFIX,wire.com,Proxy
@@ -818,6 +829,7 @@ Rule:
 - DOMAIN-SUFFIX,xm.com,Proxy
 - DOMAIN-SUFFIX,xuehua.us,Proxy
 - DOMAIN-SUFFIX,yes-news.com,Proxy
+- DOMAIN-SUFFIX,yigeni.com,Proxy
 - DOMAIN-SUFFIX,you-get.org,Proxy
 - DOMAIN-SUFFIX,zzcloud.me,Proxy
 - DOMAIN-SUFFIX,aex.com,Proxy
@@ -1464,6 +1476,7 @@ Rule:
 - DOMAIN-SUFFIX,2008xianzhang.info,Proxy
 - DOMAIN-SUFFIX,2017.hk,Proxy
 - DOMAIN-SUFFIX,21andy.com,Proxy
+- DOMAIN-SUFFIX,21join.com,Proxy
 - DOMAIN-SUFFIX,21pron.com,Proxy
 - DOMAIN-SUFFIX,21sextury.com,Proxy
 - DOMAIN-SUFFIX,228.net.tw,Proxy
@@ -1505,6 +1518,7 @@ Rule:
 - DOMAIN-SUFFIX,666kb.com,Proxy
 - DOMAIN-SUFFIX,6park.com,Proxy
 - DOMAIN-SUFFIX,6parker.com,Proxy
+- DOMAIN-SUFFIX,6parknews.com,Proxy
 - DOMAIN-SUFFIX,7capture.com,Proxy
 - DOMAIN-SUFFIX,7cow.com,Proxy
 - DOMAIN-SUFFIX,8-d.com,Proxy
@@ -1730,6 +1744,7 @@ Rule:
 - DOMAIN-SUFFIX,avdb.in,Proxy
 - DOMAIN-SUFFIX,avdb.tv,Proxy
 - DOMAIN-SUFFIX,avfantasy.com,Proxy
+- DOMAIN-SUFFIX,avg.com,Proxy
 - DOMAIN-SUFFIX,avgle.com,Proxy
 - DOMAIN-SUFFIX,avidemux.org,Proxy
 - DOMAIN-SUFFIX,avoision.com,Proxy
@@ -2327,6 +2342,7 @@ Rule:
 - DOMAIN-SUFFIX,delcamp.net,Proxy
 - DOMAIN-SUFFIX,delicious.com,Proxy
 - DOMAIN-SUFFIX,democrats.org,Proxy
+- DOMAIN-SUFFIX,demosisto.hk,Proxy
 - DOMAIN-SUFFIX,desc.se,Proxy
 - DOMAIN-SUFFIX,dessci.com,Proxy
 - DOMAIN-SUFFIX,destroy-china.jp,Proxy
@@ -4071,6 +4087,7 @@ Rule:
 - DOMAIN-SUFFIX,nvtongzhisheng.org,Proxy
 - DOMAIN-SUFFIX,nwtca.org,Proxy
 - DOMAIN-SUFFIX,nyaa.eu,Proxy
+- DOMAIN-SUFFIX,nyaa.si,Proxy
 - DOMAIN-SUFFIX,nydus.ca,Proxy
 - DOMAIN-SUFFIX,nylon-angel.com,Proxy
 - DOMAIN-SUFFIX,nylonstockingsonline.com,Proxy
@@ -4455,6 +4472,7 @@ Rule:
 - DOMAIN-SUFFIX,rapidgator.net,Proxy
 - DOMAIN-SUFFIX,rapidmoviez.com,Proxy
 - DOMAIN-SUFFIX,rapidvpn.com,Proxy
+- DOMAIN-SUFFIX,rarbgprx.org,Proxy
 - DOMAIN-SUFFIX,raremovie.cc,Proxy
 - DOMAIN-SUFFIX,raremovie.net,Proxy
 - DOMAIN-SUFFIX,rawgit.com,Proxy
