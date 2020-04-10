@@ -1,7 +1,6 @@
-PROCESS-NAME,Telegram,force-remote-dns
-PROCESS-NAME,Telegram Desktop,force-remote-dns
-USER-AGENT,*Telegram*,force-remote-dns
-DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,telegram.dog
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
