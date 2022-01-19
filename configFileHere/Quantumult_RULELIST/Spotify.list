@@ -1,6 +1,0 @@
-#Spotify
-USER-AGENT,Spotify*,Spotify
-HOST-SUFFIX,spotify.com,Spotify
-HOST-SUFFIX,scdn.co,Spotify
-HOST-SUFFIX,pscdn.co,Spotify
-HOST-SUFFIX,spotify.com.edgesuite.net,Spotify
