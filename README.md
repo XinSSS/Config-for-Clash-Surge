@@ -1,13 +1,13 @@
 # Conf-for-Surge-Shadowrocket
 Surge Shadowrocket Quantumult conf
 
-使用[Subconvert](https://github.com/tindy2013/subconverter)生成各种很方便的配置文件
+使用[Subconvert](https://github.com/tindy2013/subconverter)生成各种很方便的配置文件, 具体使用请查看[Subconvert文档](https://github.com/tindy2013/subconverter/blob/master/README-cn.md), 这里仅提供配置文件参考
 
-```
+```ini
 [custom]
 enable_rule_generator=true
 overwrite_original_rules=true
-clash_rule_base=https://gist.githubusercontent.com/XinSSS/31230235aa1e610a023e63404b120834/raw/clash_base.yaml
+clash_rule_base=https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/Telegram.list
 ;设置规则标志位
 ruleset=Steam,rules/DivineEngine/Surge/Ruleset/Extra/Game/Steam.list
 ruleset=Xbox,rules/DivineEngine/Surge/Ruleset/Extra/Game/Xbox.list
@@ -16,7 +16,7 @@ ruleset=PayPal,rules/DivineEngine/Surge/Ruleset/Extra/PayPal.list
 ruleset=Apple,rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list
 ruleset=StreamingSE,rules/DivineEngine/Surge/Ruleset/StreamingMedia/StreamingSE.list
 ruleset=Streaming,rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list
-ruleset=Telegram,rules/Telegram.list
+ruleset=Telegram,https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/Telegram.list
 ruleset=Proxies,rules/DivineEngine/Surge/Ruleset/Global.list
 ruleset=China,rules/DivineEngine/Surge/Ruleset/China.list
 ruleset=DIRECT,rules/LocalAreaNetwork.list
