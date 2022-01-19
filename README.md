@@ -1,72 +1,46 @@
 # Conf-for-Surge-Shadowrocket
 Surge Shadowrocket Quantumult conf
 
-## **万条规则让你爽到爆**
+使用[Subconvert](https://github.com/tindy2013/subconverter)生成各种很方便的配置文件
 
-> 安卓有的iOS怎么能没有? 
-
-安卓SS客户端中的绕过局域网和大陆, 其中所用到的配置文件其实是ChinaIP白名单 + GFWList黑名单, 但是一方面iOS几乎很少有人导入过完整的gfwlist, 另一方面现在的SS端中, 一般用的都是GEOIP库来判断IP是不是属于中国.
-
-但是GEOIP的库是没有[IPIP的库](https://github.com/17mon/china_ip_list)做得好的, 再加上本人参考了[R0uter/ss.conf-for-surge](https://github.com/R0uter/ss.conf-for-surge) 和 [lhie1/Surge](https://github.com/lhie1/Surge) 这两个repo之后, 便完成了这个**万条规则让你爽到爆**的基于 黑名单 + 白名单模式 的配置文件, 完成了我长久以来的......
-
-
-**RuleList文件参考`configFileHere/Quantumult_RULELIST`和`configFileHere/Surge3_RULESET`目录中copy_content.txt中的文件内容**
-
-
-------
-
-
-
-### 使用之前你需要更改哪些文件:
-
-##### 使用ShadowRocket的情况的下, 则可以不需要修改任何文件直接导入即可使用
----
-
-使用Surge的情况的下, 需要在 `surge_gfwlist&whiteIP.conf` 添加你的Proxy和配置ProxyGroup.
-
-##### 请注意 !!! 修改Surge的ProxyGroup时, 请仔细阅读注释, 勿删除已经和规则相关联的ProxyGroup: `AppleService` `Proxy` `CNProxy` `FinalProxy` , 解释下同Quantumult
-
-##### 使用Quantumult的情况的下, 请在Favorite中添加TCP FILTER, Replace后请注意, `Apple服务` 为苹果服务器的连接规则, `Proxy`为一般情况下的代理规则, `国内`为直连规则, `FinalProxy` 则请看如下提示.
-
-> 由于已经导入了比较全面的CN IP白名单 + GFWList黑名单, 所以你最后可以根据自己的情况去设置FINAL规则究竟是PROXY还是DIRECT, 就是说, 当你访问没有被墙的国外域名时, 你是想直连呢还是想走代理?
-
-------
-
-
-
-### 如何使用&更新&生成配置文件:
-
-你可以直接复制配置文件URL:
-
-Surge: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/surge_gfwlist%26whiteIP.conf
-
-Shadowrocket: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/shadowrocket_gfwlist%26whiteIP.conf
-
-Quantumult: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/quan_gfwlist%26whiteIP.conf
-
-**使用GEOIP的配置文件URL如下(简化为五千条规则配置, 🙁):**
-
-Surge: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/surge_gfwlist%26GEOIP.conf
-
-Shadowrocket: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/shadowrocket_gfwlist%26GEOIP.conf
-
-Quantumult: https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/configFileHere/quan_gfwlist%26GEOIP.conf
-
-
-
-也可以自行通过python脚本自动根据GFWList和china_ip_list的github生成最新的配置文件, **Surge请注意**:生成文件之前可以先行修改`template`目录中的`surge_gfwlist&whiteIP_conf`配置你的服务器.
-
-```python
-#在此过程中, 你可能需要用到 pip install ....
-python3 ssconf.py
 ```
+[custom]
+enable_rule_generator=true
+overwrite_original_rules=true
+clash_rule_base=https://gist.githubusercontent.com/XinSSS/31230235aa1e610a023e63404b120834/raw/clash_base.yaml
+;设置规则标志位
+ruleset=Steam,rules/DivineEngine/Surge/Ruleset/Extra/Game/Steam.list
+ruleset=Xbox,rules/DivineEngine/Surge/Ruleset/Extra/Game/Xbox.list
+ruleset=OneDrive,rules/DivineEngine/Surge/Ruleset/Extra/Microsoft/OneDrive.list
+ruleset=PayPal,rules/DivineEngine/Surge/Ruleset/Extra/PayPal.list
+ruleset=Apple,rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list
+ruleset=StreamingSE,rules/DivineEngine/Surge/Ruleset/StreamingMedia/StreamingSE.list
+ruleset=Streaming,rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list
+ruleset=Telegram,rules/Telegram.list
+ruleset=Proxies,rules/DivineEngine/Surge/Ruleset/Global.list
+ruleset=China,rules/DivineEngine/Surge/Ruleset/China.list
+ruleset=DIRECT,rules/LocalAreaNetwork.list
+ruleset=China,[]GEOIP,CN
+ruleset=Final,[]MATCH
+;设置规则标志位
 
-等待命令执行完即可, 至此大功告成, configFileHere目录中将会生成相应客户端对应的配置文件
-
-
-
-> PS: 
->
-> 1. 由于引用的大部分规则是[gfwlist](https://github.com/gfwlist/gfwlist)和[china_ip_list](https://github.com/17mon/china_ip_list) , 所以在以后的过程中使用有问题的话, 除非是template中的模板文件, 否则还请大家多多提交pull request至这两个repo, 以维护爱国圈的健康成长
-> 2. 为什么没有加广告过滤: 广告过滤规则大多比较繁琐并且有时效性, 也不怎么稳定, 所以我是不加REJECT规则的, 实在想要的话, 可以去参考[ss.conf-for-surge](https://github.com/R0uter/ss.conf-for-surge)这个项目的代码修改下即可
-> 3. 不想要万条规则, 觉得太多了怎么办?  使用GEOIP的版本即可
+;设置分组标志位
+custom_proxy_group=Steam`select`[]China`[]Proxies`[]HK`[]SG`[]JP`[]TW`[]DIRECT
+custom_proxy_group=Xbox`select`[]China`[]Proxies`[]HK`[]SG`[]JP`[]TW`[]DIRECT
+custom_proxy_group=OneDrive`select`[]Proxies`[]China`[]HK`[]SG`[]JP`[]TW`[]DIRECT
+custom_proxy_group=PayPal`select`[]China`[]Proxies`[]HK`[]SG`[]JP`[]TW`[]DIRECT
+custom_proxy_group=Apple`select`[]China`[]Proxies`[]HK`[]SG`[]JP`[]TW`[]DIRECT
+custom_proxy_group=StreamingSE`select`[]China`[]Proxies`[]HK`[]SG`[]JP`[]TW`[]US`[]DIRECT
+custom_proxy_group=Streaming`select`[]Proxies`[]HK`[]SG`[]JP`[]TW`[]US
+custom_proxy_group=Telegram`select`[]Proxies`[]HK`[]SG`[]JP`[]TW`[]US
+custom_proxy_group=Proxies`select`[]HK`[]SG`[]JP`[]TW`[]US`.*`[]DIRECT
+custom_proxy_group=China`select`[]DIRECT`?i:CN|China|回国|中国|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|宁波|镇江|back`[]Proxies
+custom_proxy_group=Final`select`[]Proxies`[]China`[]DIRECT
+custom_proxy_group=HK`select`港|HK
+custom_proxy_group=SG`select`新加坡|狮城|新|SG
+custom_proxy_group=TW`select`台|新北|彰化|TW
+custom_proxy_group=JP`select`日((?!用).)+|东京|大阪|埼玉|JP
+custom_proxy_group=US`select`美|洛杉矶|硅谷|达拉斯|费利蒙|凤凰城|芝加哥|圣何塞|西雅图|圣克拉拉|US
+;custom_proxy_group=HK`fallback`港`http://www.gstatic.com/generate_204`300
+;设置分组标志位
+```
