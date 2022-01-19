@@ -7,7 +7,7 @@ Surge Shadowrocket Quantumult conf
 [custom]
 enable_rule_generator=true
 overwrite_original_rules=true
-clash_rule_base=https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/Telegram.list
+clash_rule_base=https://raw.githubusercontent.com/XinSSS/Conf-for-Surge-Shadowrocket/master/clash_base.yaml
 ;设置规则标志位
 ruleset=Steam,rules/DivineEngine/Surge/Ruleset/Extra/Game/Steam.list
 ruleset=Xbox,rules/DivineEngine/Surge/Ruleset/Extra/Game/Xbox.list
